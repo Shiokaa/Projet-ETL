@@ -1,3 +1,3 @@
-from scripts.extract.extract import test
+from scripts.extract.extract import extract
 
-test()
+extract()

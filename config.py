@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 
 ROOT_DIR = Path(__file__).resolve().parent
 RAW_DIR = ROOT_DIR / "data" / "raw"
+PROCESSED_DIR = ROOT_DIR / "data" / "processed"
 
 load_dotenv(ROOT_DIR / ".env")
 

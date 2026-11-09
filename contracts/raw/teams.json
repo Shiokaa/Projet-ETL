@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:projet-etl:raw:teams:v1",
+  "title": "Équipe PandaScore (données brutes)",
+  "description": "Une équipe professionnelle.",
+  "x-version": "1.0.0",
+  "x-producer": "API PandaScore, endpoint /lol/teams",
+  "x-consumer": "scripts/transform/transform.py",
+  "x-owner": "Tom",
+  "x-freshness": "Réextraite à chaque exécution du pipeline après suppression du fichier brut",
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer", "minimum": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "acronym": { "type": ["string", "null"] },
+    "location": { "type": ["string", "null"] },
+    "slug": { "type": "string", "minLength": 1 },
+    "modified_at": { "$ref": "#/$defs/date" }
+  },
+  "required": ["id", "name", "acronym", "location", "slug", "modified_at"],
+  "$defs": {
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$" }
+  }
+}

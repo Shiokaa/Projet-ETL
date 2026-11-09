@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:projet-etl:raw:tournaments:v1",
+  "title": "Tournoi PandaScore (données brutes)",
+  "description": "Une phase d'une saison (saison régulière, playoffs…). Aussi utilisé pour la copie imbriquée dans chaque match.",
+  "x-version": "1.0.0",
+  "x-producer": "API PandaScore, endpoint /lol/tournaments",
+  "x-consumer": "scripts/transform/transform.py",
+  "x-owner": "Tom",
+  "x-freshness": "Réextraite à chaque exécution du pipeline après suppression du fichier brut",
+  "type": "object",
+  "properties": {
+    "id": { "type": "integer", "minimum": 1 },
+    "serie_id": { "type": "integer", "minimum": 1 },
+    "league_id": { "type": "integer", "minimum": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "type": { "enum": ["online", "offline", "online/offline", null] },
+    "country": { "type": ["string", "null"] },
+    "region": { "enum": ["ASIA", "EEU", "ME", "NA", "OCE", "SA", "WEU", null] },
+    "tier": { "enum": ["s", "a", "b", "c", "d", "unranked", null] },
+    "prizepool": {
+      "description": "Montant et devise en toutes lettres. La devise doit être connue de CURRENCIES dans transform.py.",
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[0-9,]+ (Euro|United States Dollar|Chinese Yuan|Brazilian Real|South Korean Won|Polish Zloty|Vietnamese Dong|Japanese Yen|Swedish Krona|Russian Ruble|Mexican Peso|Argentine Peso|Australian Dollar)$"
+        },
+        { "type": "null" }
+      ]
+    },
+    "has_bracket": { "type": "boolean" },
+    "begin_at": { "$ref": "#/$defs/date" },
+    "end_at": { "anyOf": [{ "$ref": "#/$defs/date" }, { "type": "null" }] },
+    "winner_id": { "type": ["integer", "null"] },
+    "slug": { "type": "string", "minLength": 1 },
+    "modified_at": { "$ref": "#/$defs/date" }
+  },
+  "required": ["id", "serie_id", "league_id", "name", "type", "country", "region", "tier", "prizepool", "has_bracket", "begin_at", "end_at", "winner_id", "slug", "modified_at"],
+  "$defs": {
+    "date": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$" }
+  }
+}

@@ -59,7 +59,8 @@ Chaque table a un identifiant `id` unique. Les liens vers une autre table s'appe
 - **Doublons** : une seule ligne par `id`.
 - **Valeurs manquantes** : textes vides remplacés par une valeur vide. Les informations inconnues restent vides (ex. 1 449 joueurs sans nationalité, 259 sans rôle). Les 33 matchs « TBD vs TBD » sans équipes sont supprimés.
 - **Formats** : dates converties en UTC, `tier` en minuscules (`unranked` remplacé par vide), identifiants en entiers.
-- **Unités** : durée des parties passée de secondes en minutes (`length_minutes`). Sont mises à vide : les 95 parties terminées avec une durée de 0, et les 9 parties de plus de 95 minutes. Le record professionnel est de 94 min 37 s ([Guinness](https://www.guinnessworldrecords.com/world-records/117985-longest-professional-league-of-legends-game)). Au-delà, PandaScore compte les pauses ou se contredit : par exemple SDX vs IGY (LDL, 2021) annonce 140,8 minutes alors que son début et sa fin ne sont séparés que de 41 minutes. Le prize pool `"9,000 Euro"` est séparé en `prizepool_amount = 9000` et `prizepool_currency = EUR` (code ISO). Les devises ne sont pas converties, faute de taux de change historiques.
+- **Dates incohérentes** : quand la fin est avant le début, la fin est mise à vide (1 série, 3 matchs, 1 partie). Exemple : la série 7032 commence le 16/09/2023 et finit le 17/01/2023.
+- **Unités** : durée des parties passée de secondes en minutes (`length_minutes`). Sont mises à vide : les 95 parties terminées avec une durée de 0, les 16 parties de moins d'une minute (surtout des forfaits enregistrés en quelques secondes), et les 9 parties de plus de 95 minutes. Le record professionnel est de 94 min 37 s ([Guinness](https://www.guinnessworldrecords.com/world-records/117985-longest-professional-league-of-legends-game)). Au-delà, PandaScore compte les pauses ou se contredit : par exemple SDX vs IGY (LDL, 2021) annonce 140,8 minutes alors que son début et sa fin ne sont séparés que de 41 minutes. Le prize pool `"9,000 Euro"` est séparé en `prizepool_amount = 9000` et `prizepool_currency = EUR` (code ISO). Les devises ne sont pas converties, faute de taux de change historiques.
 - **Récupération des séries et tournois manquants** : le filtre « depuis 2020 » de l'extraction écarte les saisons commencées fin 2019 dont les matchs ont lieu en 2020 (ex. LCK Spring 2020, commencée le 8 septembre 2019). Sans correction, 143 matchs pointaient vers un tournoi absent et 4 tournois vers une série absente. Ces lignes sont reconstruites depuis leurs copies imbriquées dans les matchs et tournois.
 - **Enrichissement** : `year` et `duration_minutes` (somme des parties, vide si l'une d'elles a une durée inconnue) dans `matches`, `is_winner` dans `match_teams` (vide pour les égalités et les matchs non joués).
 
@@ -68,6 +69,28 @@ Chaque table a un identifiant `id` unique. Les liens vers une autre table s'appe
 À la fin, le script contrôle chaque lien entre tables :
 - lien obligatoire (ex. le tournoi d'un match) absent : le script s'arrête avec une erreur ;
 - lien facultatif (gagnant, équipe actuelle d'un joueur) absent : il est mis à vide et signalé. Seul cas actuel : 1 joueur dont l'équipe actuelle n'existe pas dans `teams`.
+
+### Contrats de données
+
+Un contrat décrit ce que chaque table doit respecter : colonnes, types, valeurs autorisées, valeurs vides permises. Il est vérifié à chaque exécution, à deux endroits.
+
+| | Contrat d'entrée | Contrat de sortie |
+|---|---|---|
+| Fichiers | `contracts/raw/<source>.json` (JSON Schema, un par source de l'API) | `contracts/processed.py` (pandera, un schéma par table CSV) |
+| Vérifie | les données brutes de PandaScore, avant la transformation | les 8 tables, avant l'écriture des CSV |
+| Protège contre | un changement de format de l'API | une erreur dans `transform.py` |
+| Si une ligne est fausse | elle est écartée dans `data/quarantine/<source>.jsonl`, avec la date et le motif. Le pipeline continue. | le pipeline s'arrête. Le détail est écrit dans `data/quarantine/<table>_violations.csv`. |
+| Arrêt | si plus de 5 % des lignes d'une source sont écartées (`MAX_REJECT_RATE` dans `config.py`) | dès la première violation |
+
+Le contrat d'entrée ne décrit que les champs lus par la transformation : l'API en envoie beaucoup d'autres, qui sont acceptés. Une ligne écartée dont d'autres lignes dépendent (ex. une équipe présente dans des matchs) arrête quand même le pipeline à la vérification des liens.
+
+Exemple de ligne en quarantaine, si l'API renvoyait un rôle inconnu :
+
+```json
+{"quarantined_at": "2026-10-23T14:02:11+00:00", "errors": ["$.role : 'coach' is not one of ['top', 'jun', 'mid', 'adc', 'sup', None]"], "row": {"id": 1, "role": "coach", "...": "..."}}
+```
+
+Chaque contrat porte une version (`x-version` en JSON, `VERSION` en Python), suivant MAJEUR.MINEUR.CORRECTIF : ajouter un champ facultatif augmente le MINEUR, supprimer un champ ou changer son type augmente le MAJEUR.
 
 ### Matchs nuls
 

@@ -95,3 +95,22 @@ Chaque contrat porte une version (`x-version` en JSON, `VERSION` en Python), sui
 ### Matchs nuls
 
 307 matchs terminés n'ont pas de gagnant (`draw = True`). Ce n'est pas une erreur : une partie ne peut pas finir sur un nul, mais un match en BO2 (deux parties) peut finir à 1-1. Les 307 nuls sont tous des BO2 à 1-1, surtout en LCS Academy, NACL et European Pro League, qui utilisaient ce format en saison régulière ([NACL 2023](https://lolesports.com/news/2023-nacl-summer-split-primer)).
+
+## Étape 3 – Chargement
+
+Lancement : `python main.py`, après la transformation (scripts : `scripts/load/`). Les 8 CSV de `data/processed/` sont chargés dans la base SQLite `database/lol.db` (non versionnée : elle se régénère).
+
+| Fichier | Rôle |
+|---|---|
+| `schema.sql` | tables, clés primaires, liens entre tables, index. Peut être relancé sans effet (`IF NOT EXISTS`) |
+| `db.py` | `get_connection()` : ouvre la base, active les liens entre tables, valide si tout va bien, annule en cas d'erreur, ferme toujours |
+| `load.py` | lit les CSV et les écrit table par table |
+
+### Fonctionnement
+
+- **Upsert** : chaque ligne est insérée, ou mise à jour si son `id` existe déjà (`INSERT ... ON CONFLICT DO UPDATE`). Clé de `match_teams` : `(match_id, team_id)`. Relancer le chargement ne crée donc aucun doublon : deux exécutions de suite donnent 108 ligues, 35 619 matchs, etc.
+- **Une seule transaction** : les 8 tables sont validées ensemble ou pas du tout. Si `games` échoue, `matches` n'est pas écrit non plus.
+- **Ordre** : ligues, équipes, séries, tournois, joueurs, matchs, `match_teams`, parties. Un parent est chargé avant ses enfants.
+- **Contrôles avant validation** : nombre de lignes en base égal à celui du CSV, et `PRAGMA foreign_key_check` sans lien cassé. Sinon le chargement est annulé et le pipeline s'arrête.
+- **Types** : les vides deviennent `NULL`, les booléens `0`/`1`, les dates du texte UTC (`2020-01-03 08:20:06+00:00`).
+- **Limite** : une ligne supprimée du CSV n'est pas supprimée de la base par l'upsert. Le contrôle du nombre de lignes le signale ; supprimer `database/lol.db` règle le cas.

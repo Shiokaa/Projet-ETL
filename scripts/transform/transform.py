@@ -5,6 +5,7 @@ import json
 import pandas as pd
 
 from config import PROCESSED_DIR, RAW_DIR
+from scripts.validate.validate import validate_raw, validate_table
 
 CURRENCIES = {
     "Euro": "EUR",
@@ -108,6 +109,7 @@ COLUMNS = {
 }
 
 DATE_COLUMNS = ["begin_at", "end_at", "scheduled_at", "modified_at"]
+MIN_GAME_SECONDS = 60
 MAX_GAME_SECONDS = 95 * 60
 
 
@@ -128,6 +130,9 @@ def clean(rows, table):
         # Sans ça, un identifiant avec des vides devient un décimal (75013.0).
         if col == "id" or col.endswith("_id"):
             df[col] = df[col].astype("Int64")
+    if {"begin_at", "end_at"} <= set(df.columns):
+        # Fin avant le début (ex. série 7032) : une des deux est fausse, on garde le début.
+        df.loc[df["end_at"] < df["begin_at"], "end_at"] = pd.NaT
     return df
 
 
@@ -141,7 +146,11 @@ def check_link(child, column, parent, required):
 
 
 def transform():
-    raw = {name: load(name) for name in ["leagues", "series", "tournaments", "matches", "teams", "players"]}
+    print("Contrats d'entrée :")
+    raw = {
+        name: validate_raw(name, load(name))
+        for name in ["leagues", "series", "tournaments", "matches", "teams", "players"]
+    }
     # Matchs « TBD vs TBD » sans équipes : inexploitables.
     matches_raw = [m for m in raw["matches"] if m["opponents"]]
 
@@ -163,9 +172,12 @@ def transform():
     games = clean(
         [{**g, "winner_team_id": g["winner"]["id"]} for m in matches_raw for g in m["games"]], "games"
     )
-    # 0 = durée manquante ; au-delà du record pro (94 min 37 s), PandaScore compte les pauses.
+    # 0 = durée manquante ; une partie ne finit pas en moins d'une minute ;
+    # au-delà du record pro (94 min 37 s), PandaScore compte les pauses.
     length = games.pop("length")
-    games["length_minutes"] = (length.where((length > 0) & (length <= MAX_GAME_SECONDS)) / 60).round(1)
+    games["length_minutes"] = (
+        length.where((length >= MIN_GAME_SECONDS) & (length <= MAX_GAME_SECONDS)) / 60
+    ).round(1)
 
     match_teams = pd.DataFrame(
         [{"match_id": m["id"], "team_id": r["team_id"], "score": r["score"]} for m in matches_raw for r in m["results"]]
@@ -208,6 +220,8 @@ def transform():
         "match_teams": match_teams,
         "games": games,
     }
+    print("Contrats de sortie :")
+    tables = {name: validate_table(name, df) for name, df in tables.items()}
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
     for name, df in tables.items():
         df.to_csv(PROCESSED_DIR / f"{name}.csv", index=False)

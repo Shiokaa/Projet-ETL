@@ -1,4 +1,5 @@
 # Validation des contrats : quarantaine des données brutes non conformes, arrêt si une table de sortie ne l'est pas.
+import gzip
 import json
 from datetime import datetime, timezone
 
@@ -7,7 +8,7 @@ from jsonschema import Draft202012Validator
 from referencing import Registry, Resource
 
 from etl.config import MAX_REJECT_RATE
-from settings import CONTRACTS_DIR, QUARANTINE_DIR
+from settings import CONTRACTS_DIR, QUARANTINE_DIR, RAW_DIR, VALIDATED_DIR
 from etl.contracts.processed import SCHEMAS
 
 RAW_SCHEMAS = {
@@ -41,6 +42,16 @@ def validate_raw(name, rows):
     if rate > MAX_REJECT_RATE:
         raise ValueError(f"{name} : {rate:.1%} de lignes rejetées, au-delà du seuil de {MAX_REJECT_RATE:.0%}")
     return valid
+
+
+def validate_source(name):
+    """Contrat d'entrée d'une source : écrit les lignes conformes dans data/validated/."""
+    with gzip.open(RAW_DIR / f"{name}.json.gz", "rt", encoding="utf-8") as f:
+        valid = validate_raw(name, json.load(f))
+    VALIDATED_DIR.mkdir(parents=True, exist_ok=True)
+    with gzip.open(VALIDATED_DIR / f"{name}.json.gz", "wt", encoding="utf-8") as f:
+        json.dump(valid, f, ensure_ascii=False)
+    print(f"{name} : {len(valid)} lignes conformes -> validated/{name}.json.gz")
 
 
 def validate_table(name, df):

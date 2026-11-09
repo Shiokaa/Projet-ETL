@@ -51,16 +51,20 @@ def fetch_all(endpoint, filters):
         page += 1
 
 
-def extract():
+def extract_endpoint(endpoint, force=False):
     RAW_DIR.mkdir(parents=True, exist_ok=True)
-    for endpoint, filters in ENDPOINTS.items():
-        # Compressé : matches.json dépasse la limite de 100 Mo par fichier de GitHub.
-        path = RAW_DIR / f"{endpoint}.json.gz"
-        if path.exists():
-            print(f"{endpoint} : déjà présent, ignoré")
-            continue
+    # Compressé : matches.json dépasse la limite de 100 Mo par fichier de GitHub.
+    path = RAW_DIR / f"{endpoint}.json.gz"
+    if path.exists() and not force:
+        print(f"{endpoint} : déjà présent, ignoré")
+        return
 
-        rows = fetch_all(endpoint, filters)
-        with gzip.open(path, "wt", encoding="utf-8") as f:
-            json.dump(rows, f, ensure_ascii=False)
-        print(f"{endpoint} : {len(rows)} lignes -> {path.name}")
+    rows = fetch_all(endpoint, ENDPOINTS[endpoint])
+    with gzip.open(path, "wt", encoding="utf-8") as f:
+        json.dump(rows, f, ensure_ascii=False)
+    print(f"{endpoint} : {len(rows)} lignes -> {path.name}")
+
+
+def extract():
+    for endpoint in ENDPOINTS:
+        extract_endpoint(endpoint)

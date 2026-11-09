@@ -4,8 +4,8 @@ import json
 
 import pandas as pd
 
-from settings import PROCESSED_DIR, RAW_DIR
-from etl.validate.validate import validate_raw, validate_table
+from settings import PROCESSED_DIR, VALIDATED_DIR
+from etl.validate.validate import validate_table
 
 CURRENCIES = {
     "Euro": "EUR",
@@ -114,7 +114,7 @@ MAX_GAME_SECONDS = 95 * 60
 
 
 def load(name):
-    with gzip.open(RAW_DIR / f"{name}.json.gz", "rt", encoding="utf-8") as f:
+    with gzip.open(VALIDATED_DIR / f"{name}.json.gz", "rt", encoding="utf-8") as f:
         return json.load(f)
 
 
@@ -146,13 +146,12 @@ def check_link(child, column, parent, required):
 
 
 def transform():
-    print("Contrats d'entrée :")
     raw = {
-        name: validate_raw(name, load(name))
+        name: load(name)
         for name in ["leagues", "series", "tournaments", "matches", "teams", "players"]
     }
-    # Matchs « TBD vs TBD » sans équipes : inexploitables.
-    matches_raw = [m for m in raw["matches"] if m["opponents"]]
+    # Matchs dont une équipe (« DFM vs TBD ») ou les deux (« TBD vs TBD ») ne sont pas encore connues : inexploitables.
+    matches_raw = [m for m in raw["matches"] if len(m["opponents"]) == 2]
 
     # Le filtre de date de l'extraction écarte les séries et tournois commencés fin 2019
     # alors que leurs matchs datent de 2020 : on les récupère depuis leurs copies imbriquées.

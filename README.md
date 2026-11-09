@@ -35,7 +35,7 @@ Lancement : `python -m etl.run` (script : `etl/extract/extract.py`).
 
 ## Étape 2 – Transformation
 
-Lancement : `python -m etl.run`, juste après l'extraction (script : `etl/transform/transform.py`). Les fichiers bruts ne sont jamais modifiés.
+Lancement : `python -m etl.run`, juste après la validation des contrats d'entrée (script : `etl/transform/transform.py`). Les fichiers bruts ne sont jamais modifiés.
 
 ### Tables produites (`data/processed/`, CSV)
 
@@ -140,14 +140,45 @@ Filtres (barre latérale) : période et ligues. Ils s'appliquent à tout le tabl
 | `web/components.py` | graphiques et cartes communs : même couleur, mêmes marges partout |
 | `.streamlit/config.toml` | thème clair et sombre (couleurs identiques à celles des graphiques) |
 
+## Étape 5 – Orchestration avec Airflow
+
+Le pipeline tourne aussi comme un workflow [Airflow](https://airflow.apache.org/) (DAG `lol_etl`, fichier `dags/lol_etl.py`), dans Docker :
+
+```bash
+docker compose up -d --build
+```
+
+L'interface est sur http://localhost:8080 (pas de connexion en local). Le DAG est en pause à la création : l'activer dans l'interface ou cliquer sur « Trigger » pour un lancement manuel. `docker compose down` arrête tout.
+
+```
+extract_<source> → validate_<source> ─┐   (6 sources en parallèle, sauf les extractions)
+                                      ├→ transform → load
+```
+
+| Tâche | Rôle |
+|---|---|
+| `extract_<source>` | télécharge un endpoint de l'API vers `data/raw/`. Une seule extraction à la fois (quota partagé) |
+| `validate_<source>` | contrat d'entrée : les lignes conformes vont dans `data/validated/`, les autres en quarantaine. Échec au-delà de 5 % |
+| `transform` | nettoyage, contrat de sortie, écriture des CSV de `data/processed/` |
+| `load` | upsert dans SQLite, contrôles avant validation de la transaction |
+
+- **Rejouable** : l'extraction remplace les fichiers bruts à chaque exécution (`extract_endpoint(..., force=True)`), la validation et la transformation réécrivent leurs fichiers, le chargement est un upsert. Relancer un jour ou une tâche ne crée aucun doublon.
+- **Reprise ciblée** : si `extract_matches` échoue, seule cette tâche est relancée, pas les 5 autres. 2 nouvelles tentatives, 10 minutes d'écart. Le quota de l'API (1 000 requêtes par heure) peut en être la cause.
+- **Une exécution à la fois** (`max_active_runs=1`). Une exécution complète dure environ 9 minutes, dont 8 pour les matchs.
+- **Aucune logique dans le DAG** : il appelle les fonctions de `etl/`. `python -m etl.run` reste possible sans Airflow.
+- Le projet est monté dans le conteneur : Airflow écrit dans les mêmes `data/` et `database/lol.db` que l'interface web, qui voit donc les nouvelles données.
+- Fichiers : `docker-compose.yml` (Airflow + PostgreSQL pour ses métadonnées), `docker/Dockerfile` (image + dépendances de `requirements-etl.txt`). Le mode `standalone` est réservé au développement local.
+
 ## Organisation du dépôt
 
 ```
-settings.py   chemins partagés (aucun secret), importé par etl/ et web/
-etl/          pipeline : extract/, transform/, validate/, load/, contracts/, config.py (token API), run.py
-web/          interface Streamlit
-data/         raw/, processed/, quarantine/
-database/     lol.db (non versionnée)
+settings.py          chemins partagés (aucun secret), importé par etl/ et web/
+etl/                 pipeline : extract/, validate/, transform/, load/, contracts/, config.py (token API), run.py
+dags/                DAG Airflow (appelle etl/)
+web/                 interface Streamlit
+docker/ docker-compose.yml   Airflow en local
+data/                raw/, validated/, processed/, quarantine/
+database/            lol.db (non versionnée)
 ```
 
 `web/` n'importe jamais `etl/` : l'interface fonctionne sans le fichier `.env` et sans le token de l'API.

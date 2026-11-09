@@ -1,8 +1,4 @@
-requests==2.34.2
-python-dotenv==1.2.4
-pandas==3.0.6
+-r requirements-etl.txt
 pandas-stubs==3.0.5.260914
-jsonschema==4.26.0
-pandera==0.34.1
 streamlit==1.67.0
 plotly==7.1.0

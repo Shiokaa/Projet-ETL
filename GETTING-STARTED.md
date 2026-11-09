@@ -24,3 +24,8 @@ pip install -r requirements.txt
 python -m etl.run
 python -m streamlit run web/app.py
 ```
+
+6. Lancer Airflow (optionnel, nécessite Docker)
+```bash
+docker compose up -d --build
+```

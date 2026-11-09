@@ -1,4 +1,4 @@
-Pour commencer à travailler sur le projet : [GETTING-STARTED](GETTING-STARTED.md)
+Pour aller plus vite : [GETTING-STARTED](GETTING-STARTED.md)
 
 ## Étape 1 – Extraction
 

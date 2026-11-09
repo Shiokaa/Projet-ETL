@@ -3,8 +3,8 @@ from pathlib import Path
 
 import pandas as pd
 
-from config import DB_PATH, PROCESSED_DIR
-from scripts.load.db import get_connection
+from settings import DB_PATH, PROCESSED_DIR
+from etl.load.db import get_connection
 
 SCHEMA_FILE = Path(__file__).with_name("schema.sql")
 

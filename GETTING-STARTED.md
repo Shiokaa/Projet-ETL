@@ -12,3 +12,15 @@ PANDASCORE_TOKEN = TON_TOKEN
 ```bash
 python -m venv .venv
 ```
+
+4. Installer les dépendances
+```bash
+.venv/Scripts/activate
+pip install -r requirements.txt
+```
+
+5. Lancer le pipeline, puis l'interface
+```bash
+python -m etl.run
+python -m streamlit run web/app.py
+```

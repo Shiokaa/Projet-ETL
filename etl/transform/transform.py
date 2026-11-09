@@ -4,8 +4,8 @@ import json
 
 import pandas as pd
 
-from config import PROCESSED_DIR, RAW_DIR
-from scripts.validate.validate import validate_raw, validate_table
+from settings import PROCESSED_DIR, RAW_DIR
+from etl.validate.validate import validate_raw, validate_table
 
 CURRENCIES = {
     "Euro": "EUR",

@@ -6,8 +6,9 @@ import pandera.pandas as pa
 from jsonschema import Draft202012Validator
 from referencing import Registry, Resource
 
-from config import CONTRACTS_DIR, MAX_REJECT_RATE, QUARANTINE_DIR
-from contracts.processed import SCHEMAS
+from etl.config import MAX_REJECT_RATE
+from settings import CONTRACTS_DIR, QUARANTINE_DIR
+from etl.contracts.processed import SCHEMAS
 
 RAW_SCHEMAS = {
     path.stem: json.loads(path.read_text(encoding="utf-8")) for path in (CONTRACTS_DIR / "raw").glob("*.json")

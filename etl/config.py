@@ -1,14 +1,8 @@
 import os
-from pathlib import Path
 
 from dotenv import load_dotenv
 
-ROOT_DIR = Path(__file__).resolve().parent
-RAW_DIR = ROOT_DIR / "data" / "raw"
-PROCESSED_DIR = ROOT_DIR / "data" / "processed"
-QUARANTINE_DIR = ROOT_DIR / "data" / "quarantine"
-CONTRACTS_DIR = ROOT_DIR / "contracts"
-DB_PATH = ROOT_DIR / "database" / "lol.db"
+from settings import ROOT_DIR
 
 # Au-delà de cette part de lignes brutes rejetées par leur contrat, le pipeline s'arrête.
 MAX_REJECT_RATE = 0.05

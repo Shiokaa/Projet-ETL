@@ -26,7 +26,7 @@ Choisie car elle couvre toutes les compétitions professionnelles (LEC, LCK, LFL
 
 ### Fonctionnement
 
-Lancement : `python main.py` (script : `scripts/extract/extract.py`).
+Lancement : `python -m etl.run` (script : `etl/extract/extract.py`).
 
 - Chaque endpoint est parcouru page par page (100 lignes par requête), trié par `id`.
 - Les réponses sont enregistrées telles quelles, en JSON compressé gzip (`matches` dépasse 100 Mo non compressé, limite de GitHub).
@@ -35,7 +35,7 @@ Lancement : `python main.py` (script : `scripts/extract/extract.py`).
 
 ## Étape 2 – Transformation
 
-Lancement : `python main.py`, juste après l'extraction (script : `scripts/transform/transform.py`). Les fichiers bruts ne sont jamais modifiés.
+Lancement : `python -m etl.run`, juste après l'extraction (script : `etl/transform/transform.py`). Les fichiers bruts ne sont jamais modifiés.
 
 ### Tables produites (`data/processed/`, CSV)
 
@@ -76,11 +76,11 @@ Un contrat décrit ce que chaque table doit respecter : colonnes, types, valeurs
 
 | | Contrat d'entrée | Contrat de sortie |
 |---|---|---|
-| Fichiers | `contracts/raw/<source>.json` (JSON Schema, un par source de l'API) | `contracts/processed.py` (pandera, un schéma par table CSV) |
+| Fichiers | `etl/contracts/raw/<source>.json` (JSON Schema, un par source de l'API) | `etl/contracts/processed.py` (pandera, un schéma par table CSV) |
 | Vérifie | les données brutes de PandaScore, avant la transformation | les 8 tables, avant l'écriture des CSV |
 | Protège contre | un changement de format de l'API | une erreur dans `transform.py` |
 | Si une ligne est fausse | elle est écartée dans `data/quarantine/<source>.jsonl`, avec la date et le motif. Le pipeline continue. | le pipeline s'arrête. Le détail est écrit dans `data/quarantine/<table>_violations.csv`. |
-| Arrêt | si plus de 5 % des lignes d'une source sont écartées (`MAX_REJECT_RATE` dans `config.py`) | dès la première violation |
+| Arrêt | si plus de 5 % des lignes d'une source sont écartées (`MAX_REJECT_RATE` dans `etl/config.py`) | dès la première violation |
 
 Le contrat d'entrée ne décrit que les champs lus par la transformation : l'API en envoie beaucoup d'autres, qui sont acceptés. Une ligne écartée dont d'autres lignes dépendent (ex. une équipe présente dans des matchs) arrête quand même le pipeline à la vérification des liens.
 
@@ -98,7 +98,7 @@ Chaque contrat porte une version (`x-version` en JSON, `VERSION` en Python), sui
 
 ## Étape 3 – Chargement
 
-Lancement : `python main.py`, après la transformation (scripts : `scripts/load/`). Les 8 CSV de `data/processed/` sont chargés dans la base SQLite `database/lol.db` (non versionnée : elle se régénère).
+Lancement : `python -m etl.run`, après la transformation (scripts : `etl/load/`). Les 8 CSV de `data/processed/` sont chargés dans la base SQLite `database/lol.db` (non versionnée : elle se régénère).
 
 | Fichier | Rôle |
 |---|---|
@@ -114,3 +114,40 @@ Lancement : `python main.py`, après la transformation (scripts : `scripts/load/
 - **Contrôles avant validation** : nombre de lignes en base égal à celui du CSV, et `PRAGMA foreign_key_check` sans lien cassé. Sinon le chargement est annulé et le pipeline s'arrête.
 - **Types** : les vides deviennent `NULL`, les booléens `0`/`1`, les dates du texte UTC (`2020-01-03 08:20:06+00:00`).
 - **Limite** : une ligne supprimée du CSV n'est pas supprimée de la base par l'upsert. Le contrôle du nombre de lignes le signale ; supprimer `database/lol.db` règle le cas.
+
+## Étape 4 – Interface web
+
+Lancement (depuis la racine du projet, après le chargement) :
+
+```bash
+python -m streamlit run web/app.py
+```
+
+L'interface ([Streamlit](https://streamlit.io/) et [Plotly](https://plotly.com/python/)) est un tableau de bord : elle lit `database/lol.db` en lecture seule et ne peut rien modifier.
+
+Filtres (barre latérale) : période et ligues. Ils s'appliquent à tout le tableau de bord, sauf au nombre de joueurs actifs. Les statistiques portent sur les matchs terminés.
+
+| Zone | Contenu |
+|---|---|
+| Chiffres clés | matchs, ligues, équipes, durée moyenne d'une partie, joueurs actifs |
+| Graphiques | matchs par année, ligues les plus actives, équipes les plus victorieuses, durée des parties |
+| Tableau | les 10 derniers matchs terminés |
+
+| Fichier | Rôle |
+|---|---|
+| `web/app.py` | mise en page du tableau de bord |
+| `web/queries.py` | requêtes SQL et connexion en lecture seule |
+| `web/components.py` | graphiques et cartes communs : même couleur, mêmes marges partout |
+| `.streamlit/config.toml` | thème clair et sombre (couleurs identiques à celles des graphiques) |
+
+## Organisation du dépôt
+
+```
+settings.py   chemins partagés (aucun secret), importé par etl/ et web/
+etl/          pipeline : extract/, transform/, validate/, load/, contracts/, config.py (token API), run.py
+web/          interface Streamlit
+data/         raw/, processed/, quarantine/
+database/     lol.db (non versionnée)
+```
+
+`web/` n'importe jamais `etl/` : l'interface fonctionne sans le fichier `.env` et sans le token de l'API.

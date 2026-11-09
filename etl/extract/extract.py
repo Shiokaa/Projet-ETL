@@ -6,7 +6,8 @@ import time
 
 import requests
 
-from config import RAW_DIR, START_DATE, headers, url
+from etl.config import START_DATE, headers, url
+from settings import RAW_DIR
 
 PER_PAGE = 100
 DATE_FILTER = {"range[begin_at]": f"{START_DATE},2100-01-01T00:00:00Z"}

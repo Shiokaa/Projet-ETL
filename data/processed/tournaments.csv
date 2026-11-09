@@ -1296,7 +1296,7 @@ id,series_id,league_id,name,type,country,region,tier,has_bracket,begin_at,end_at
 17773,9128,5375,Last Chance Qualifier,online,CN,ASIA,d,False,2025-10-09 06:00:00+00:00,2025-10-09 13:25:00+00:00,,league-of-legends-asia-masters-2025-last-chance-qualifier,2026-06-08 07:32:58+00:00,,
 17795,9674,5433,Playoffs,online/offline,FR,WEU,d,True,2025-10-13 16:00:00+00:00,2025-10-31 15:50:00+00:00,137376,league-of-legends-lgc-rising-2025-playoffs,2025-11-02 16:14:41+00:00,10000,EUR
 17909,9825,4483,Playoffs,online/offline,ES,WEU,d,True,2025-11-04 17:00:00+00:00,2025-11-22 22:00:00+00:00,134303,league-of-legends-iberian-cup-2025-playoffs,2025-11-24 08:07:34+00:00,,
-18057,9884,5452,Group Stage,offline,VN,ASIA,d,False,2025-11-20 08:00:00+00:00,2025-11-21 12:47:00+00:00,,league-of-legends-esports-championships-asia-2025-group-stage,2025-11-23 09:24:53+00:00,,
+18057,9884,5452,Group Stage,offline,VN,ASIA,d,False,2025-11-20 08:00:00+00:00,2025-11-21 12:47:00+00:00,,league-of-legends-esports-championships-asia-2025-group-stage,2026-10-20 10:10:26+00:00,,
 18058,9884,5452,Playoffs,offline,VN,ASIA,d,False,2025-11-22 09:00:00+00:00,2025-11-22 11:34:00+00:00,133694,league-of-legends-esports-championships-asia-2025-playoffs,2025-11-23 09:24:53+00:00,9000,USD
 18094,9898,2711,Group A,online/offline,KR,ASIA,c,False,2025-12-06 06:00:00+00:00,2025-12-08 09:15:00+00:00,,league-of-legends-kespa-cup-2025-group-a,2025-12-15 07:57:44+00:00,,
 18095,9898,2711,Group B,online/offline,KR,ASIA,c,False,2025-12-06 06:45:00+00:00,2025-12-08 12:15:00+00:00,,league-of-legends-kespa-cup-2025-group-b,2025-12-15 07:57:44+00:00,,
@@ -1576,22 +1576,23 @@ id,series_id,league_id,name,type,country,region,tier,has_bracket,begin_at,end_at
 21978,10932,5558,Group C,offline,KR,ASIA,c,False,2026-09-21 06:00:00+00:00,2026-09-25 10:40:00+00:00,,league-of-legends-world-star-challengers-invitational-2026-group-c,2026-10-03 16:26:49+00:00,,
 21979,10932,5558,Group D,offline,KR,ASIA,c,False,2026-09-21 08:00:00+00:00,2026-09-25 11:31:00+00:00,,league-of-legends-world-star-challengers-invitational-2026-group-d,2026-10-03 16:26:49+00:00,,
 21980,10932,5558,Playoffs,offline,KR,ASIA,b,True,2026-09-27 06:00:00+00:00,2026-10-02 12:38:00+00:00,131040,league-of-legends-world-star-challengers-invitational-2026-playoffs,2026-10-03 16:26:49+00:00,48000,USD
-21982,10993,4996,Group A,online,,EEU,c,True,2026-09-21 15:00:00+00:00,2026-09-23 18:21:00+00:00,132497,league-of-legends-emea-masters-summer-2026-group-a,2026-10-14 14:33:30+00:00,,
-21983,10993,4996,Group B,online,,EEU,c,True,2026-09-21 15:00:00+00:00,2026-09-23 19:24:00+00:00,126832,league-of-legends-emea-masters-summer-2026-group-b,2026-10-14 14:33:30+00:00,,
-21984,10993,4996,Group C,online,,EEU,c,True,2026-09-21 15:00:00+00:00,2026-09-23 19:19:00+00:00,126737,league-of-legends-emea-masters-summer-2026-group-c,2026-10-14 14:33:30+00:00,,
-21985,10993,4996,Group D,online,,EEU,c,True,2026-09-21 15:00:00+00:00,2026-09-23 18:24:00+00:00,130103,league-of-legends-emea-masters-summer-2026-group-d,2026-10-14 14:33:30+00:00,,
-21986,10993,4996,Swiss Stage,online,,EEU,c,False,2026-09-26 16:00:00+00:00,2026-10-02 18:53:00+00:00,,league-of-legends-emea-masters-summer-2026-swiss-stage,2026-10-14 14:33:30+00:00,,
-21987,10993,4996,Knockout Stage,online,,EEU,c,False,2026-10-04 16:00:00+00:00,2026-10-04 19:56:00+00:00,,league-of-legends-emea-masters-summer-2026-knockout-stage,2026-10-14 14:33:30+00:00,,
-21988,10993,4996,Playoffs,online,,EEU,b,True,2026-10-06 16:00:00+00:00,2026-10-22 17:00:00+00:00,,league-of-legends-emea-masters-summer-2026-playoffs,2026-10-14 21:51:10+00:00,,
+21982,10993,4996,Group A,online,,EEU,c,True,2026-09-21 15:00:00+00:00,2026-09-23 18:21:00+00:00,132497,league-of-legends-emea-masters-summer-2026-group-a,2026-10-22 20:02:39+00:00,,
+21983,10993,4996,Group B,online,,EEU,c,True,2026-09-21 15:00:00+00:00,2026-09-23 19:24:00+00:00,126832,league-of-legends-emea-masters-summer-2026-group-b,2026-10-22 20:02:39+00:00,,
+21984,10993,4996,Group C,online,,EEU,c,True,2026-09-21 15:00:00+00:00,2026-09-23 19:19:00+00:00,126737,league-of-legends-emea-masters-summer-2026-group-c,2026-10-22 20:02:39+00:00,,
+21985,10993,4996,Group D,online,,EEU,c,True,2026-09-21 15:00:00+00:00,2026-09-23 18:24:00+00:00,130103,league-of-legends-emea-masters-summer-2026-group-d,2026-10-22 20:02:39+00:00,,
+21986,10993,4996,Swiss Stage,online,,EEU,c,False,2026-09-26 16:00:00+00:00,2026-10-02 18:53:00+00:00,,league-of-legends-emea-masters-summer-2026-swiss-stage,2026-10-22 20:02:39+00:00,,
+21987,10993,4996,Knockout Stage,online,,EEU,c,False,2026-10-04 16:00:00+00:00,2026-10-04 19:56:00+00:00,,league-of-legends-emea-masters-summer-2026-knockout-stage,2026-10-22 20:02:39+00:00,,
+21988,10993,4996,Playoffs,online,,EEU,b,True,2026-10-06 16:00:00+00:00,2026-10-22 16:40:00+00:00,136019,league-of-legends-emea-masters-summer-2026-playoffs,2026-10-22 20:02:39+00:00,,
 21993,10995,5012,Group A,offline,JP,ASIA,d,False,2026-09-29 00:00:00+00:00,2026-09-29 05:55:00+00:00,,league-of-legends-asian-games-2026-group-a,2026-10-02 07:47:32+00:00,,
 21994,10995,5012,Group B,offline,JP,ASIA,d,False,2026-09-29 08:00:00+00:00,2026-09-30 05:40:00+00:00,,league-of-legends-asian-games-2026-group-b,2026-10-02 07:47:32+00:00,,
 21995,10995,5012,Playoffs,offline,JP,ASIA,d,True,2026-10-01 00:00:00+00:00,2026-10-02 06:26:00+00:00,133694,league-of-legends-asian-games-2026-playoffs,2026-10-02 07:47:32+00:00,,
 22020,11006,5496,Playoffs,online,ES,WEU,d,True,2026-09-23 15:00:00+00:00,2026-09-25 19:09:00+00:00,,league-of-legends-les-promotion-2027-playoffs,2026-09-26 17:39:10+00:00,,
 22046,11014,297,Play-In,offline,,NA,s,True,2026-10-15 18:00:00+00:00,2026-10-18 20:16:00+00:00,134078,league-of-legends-world-championship-2026-play-in,2026-10-18 20:31:15+00:00,,
-22047,11014,297,Group Stage,offline,,NA,s,False,2026-10-23 17:00:00+00:00,2026-11-01 04:00:00+00:00,,league-of-legends-world-championship-2026-group-stage,2026-10-18 20:31:39+00:00,,
-22048,11014,297,Playoffs,offline,,NA,s,True,2026-11-03 22:00:00+00:00,2026-11-15 01:00:00+00:00,,league-of-legends-world-championship-2026-playoffs,2026-09-25 09:27:42+00:00,,
-22154,11081,5351,Playoffs,offline,,ASIA,d,True,2026-10-10 08:00:00+00:00,2026-10-13 15:58:00+00:00,139359,league-of-legends-lcp-promotion-wild-card-2027-playoffs,2026-10-14 07:39:37+00:00,5000,USD
-22176,11095,5433,Playoffs,online,,WEU,d,True,2026-10-11 16:00:00+00:00,2026-10-27 21:00:00+00:00,,league-of-legends-lgc-rising-2026-playoffs,2026-10-19 13:55:41+00:00,3000,EUR
+22047,11014,297,Group Stage,offline,,NA,s,False,2026-10-23 17:00:00+00:00,2026-10-31 23:41:00+00:00,,league-of-legends-world-championship-2026-group-stage,2026-11-02 08:09:27+00:00,5000000,USD
+22048,11014,297,Playoffs,offline,,NA,s,True,2026-11-03 22:00:00+00:00,2026-11-15 01:00:00+00:00,,league-of-legends-world-championship-2026-playoffs,2026-11-01 01:31:49+00:00,5000000,USD
+22154,11081,5351,Playoffs,offline,,ASIA,d,True,2026-10-10 08:00:00+00:00,2026-10-13 15:58:00+00:00,139359,league-of-legends-lcp-promotion-wild-card-2027-playoffs,2026-10-20 10:12:58+00:00,5000,USD
+22176,11095,5433,Playoffs,online,,WEU,d,True,2026-10-11 16:00:00+00:00,2026-10-27 19:19:00+00:00,137371,league-of-legends-lgc-rising-2026-playoffs,2026-10-27 19:23:30+00:00,3000,EUR
+22293,11144,5351,Playoffs,offline,VN,ASIA,d,True,2026-11-10 05:00:00+00:00,2026-11-13 14:00:00+00:00,,league-of-legends-lcp-promotion-2027-playoffs,2026-11-08 10:32:31+00:00,,
 3452,2337,2711,Playoffs,,,,,True,2019-12-22 23:00:00+00:00,2020-01-05 22:00:00+00:00,120,league-of-legends-kespa-cup-2019-playoffs,2020-01-05 18:54:21+00:00,,
 3472,1838,302,Regular Season,,,,a,False,2019-09-20 22:00:00+00:00,2020-04-12 20:00:00+00:00,157,league-of-legends-cblol-brazil-summer-2020-regular-season,2022-08-08 14:15:28+00:00,,
 3510,2306,4142,Regular season,,,,,False,2019-12-17 23:00:00+00:00,2020-04-16 22:00:00+00:00,126860,league-of-legends-challenger-korea-spring-2020-regular-season,2020-12-18 06:21:01+00:00,,

@@ -142,7 +142,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 177,Alfie,Alfie,Loera,US,adc,False,,alfie,2024-11-29 19:31:36+00:00
 178,Virus,Robert,White,US,adc,False,,virus,2022-12-27 17:54:48+00:00
 179,Tip,Jordan,Kussman,US,sup,False,,tip,2024-11-29 19:29:03+00:00
-181,Armao,Jonathan,Armao,US,jun,True,,grigne,2026-07-24 20:54:47+00:00
+181,Armao,Jonathan,Armao,US,jun,True,132156,grigne,2026-10-26 09:32:09+00:00
 182,Youngbin,Jung,Young-bin,US,adc,True,,youngbin,2021-05-17 16:59:56+00:00
 184,MoJo,Matthew,He,,sup,False,,mojo,2023-09-06 23:13:36+00:00
 185,RF Legendary,Oleksii,Kuziuta,,top,False,,rf-legendary,2023-02-15 15:08:22+00:00
@@ -315,7 +315,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 367,Ella,Na-hoon,Kwak,,sup,False,2889,ella,2019-03-20 15:09:24+00:00
 368,Zz1tai,Zhihao,Liu,CN,mid,False,,zz1tai,2024-12-21 09:36:21+00:00
 370,Kid,Yan,Ge,CN,adc,False,,kid,2024-11-24 07:10:34+00:00
-371,Flandre,Xuanjun,Li,CN,top,True,1566,flandre,2026-08-23 13:04:22+00:00
+371,Flandre,Xuanjun,Li,CN,top,True,1566,flandre,2026-11-01 00:02:42+00:00
 372,Kitties,Hong-Jun,Liu,,jun,False,,kitties,2019-11-26 12:14:58+00:00
 373,Beast,Joo-hyun,Kim,,jun,True,,beast,2015-06-14 07:59:45+00:00
 374,KaKAO,Lee,Byung-kwon,KR,jun,True,,kakao,2024-12-13 16:53:02+00:00
@@ -330,7 +330,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 383,xr,Sun,Yan,,top,True,,xr,2015-06-14 08:00:13+00:00
 388,Mlxg,Shi-Yu,Liu,CN,jun,True,,mlxg,2024-11-14 10:31:49+00:00
 389,Skye,Qi-Fang,Fan,CN,top,False,,skye,2024-12-30 12:11:44+00:00
-390,Rookie,Song,Eui-jin,KR,mid,True,411,rookie,2026-10-06 11:03:05+00:00
+390,Rookie,Song,Eui-jin,KR,mid,True,411,rookie,2026-11-01 00:02:53+00:00
 393,Eimy,Dan,Xie,CN,jun,False,,eimy,2024-11-14 10:44:46+00:00
 394,Jiaoyang,Xin,Chen,CN,mid,False,,jiaoyang,2023-01-01 17:29:27+00:00
 395,001122,Ka-Chun,Lam,,top,False,1642,lofs,2024-12-18 09:32:34+00:00
@@ -385,7 +385,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 455,Energy,Isak,Pettersen Fjell,NO,mid,True,125878,energy,2022-10-05 16:53:22+00:00
 456,Nardeus,Tomáš,Maršálek,,adc,False,,nardeus,2024-12-02 22:55:26+00:00
 457,Dumbledoge,Mustafa Kemal,Gökseloğlu,TR,sup,True,,dumbledoge,2020-02-22 08:57:29+00:00
-458,Dardoch,Joshua,Hartnett,US,jun,True,136708,dardoch,2026-10-08 13:42:13+00:00
+458,Dardoch,Joshua,Hartnett,US,jun,True,,dardoch,2026-11-06 20:46:07+00:00
 460,Edge,Lee,Ho-seong,KR,mid,False,,edge,2021-04-09 21:10:43+00:00
 461,Stitch,Lee,Seung-ju,KR,adc,True,,stitch,2019-12-12 14:07:35+00:00
 463,Apex,Chiawei,Hsieh,TW,mid,True,,apex,2022-08-19 11:45:21+00:00
@@ -479,7 +479,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 578,QaiZer,Nuttapong,Dechtanon,,top,False,91,qaizer,2024-11-29 22:53:38+00:00
 581,Chawy,Xing-Lei,Wong,SG,mid,False,,chawy-xing-lei-wong,2023-08-20 19:40:42+00:00
 584,RD,Tengli,Liang,TW,sup,False,,rd-teng-li-liang,2024-11-29 20:07:16+00:00
-585,Faker,Lee,Sang-hyeok,KR,mid,True,126061,faker,2026-10-06 11:02:56+00:00
+585,Faker,Lee,Sang-hyeok,KR,mid,True,126061,faker,2026-11-01 00:02:46+00:00
 590,Blank,Kang,Sun-gu,KR,jun,True,,blank,2023-07-21 11:06:08+00:00
 591,Xiyang,Bin,Hu,CN,top,False,,xiyang-hu-bin,2024-12-13 16:59:06+00:00
 592,Cool,Jia-Jun,Yu,CN,mid,True,,cool-jia-jun-yu,2024-11-14 10:30:57+00:00
@@ -518,7 +518,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 676,Hustlin,Morgan,Granberg,SE,sup,True,,hustlin,2025-04-12 01:43:17+00:00
 678,Eika,Jérémy,Valdenaire,FR,mid,True,,eika,2025-11-05 10:04:22+00:00
 679,Sola,Nico,Linke,DE,adc,True,,sola,2021-04-29 16:48:28+00:00
-680,Zven,Jesper,Svenningsen,DK,adc,True,1097,zven,2026-07-23 21:32:46+00:00
+680,Zven,Jesper,Svenningsen,DK,adc,True,,zven,2026-10-21 12:22:05+00:00
 681,Imbanar,Andreas,Kristiansen,,top,True,,imbanar,2016-01-21 15:15:29+00:00
 683,Relinquished,Joel,Fjellstrom,SE,adc,True,,relinquished,2021-06-29 15:33:13+00:00
 684,Tornell,Christoffer,Tornell,SE,top,False,,tornell,2021-01-15 13:42:00+00:00
@@ -563,7 +563,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 735,Wulala,Sheng-Wei,Liu,TW,mid,True,,wulala,2022-04-19 15:40:38+00:00
 736,SkuLL,Kwokman,Ng,HK,sup,True,,skull,2021-02-09 20:34:25+00:00
 737,Payne,Hao-Chuan,Tai,,adc,False,,payne,2024-12-12 10:34:47+00:00
-738,Kaiwing,Kai Wing,Ling,HK,sup,True,132568,kaiwing,2026-09-30 08:22:57+00:00
+738,Kaiwing,Kai Wing,Ling,HK,sup,True,132568,kaiwing,2026-10-23 11:56:10+00:00
 739,Ninuo,Jinlong,Huang,TW,top,True,124409,ninuo,2021-02-09 20:52:56+00:00
 740,Taizan,Chingchia,Lin,TW,jun,True,,taizan,2021-02-09 20:35:00+00:00
 741,Rins,Po-ju,Shen,,top,False,,rins,2024-11-30 23:32:30+00:00
@@ -915,7 +915,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 1118,Lost,Lawrence,Sze Yuy Hui,NZ,adc,False,,lost,2026-01-02 18:43:00+00:00
 1119,tgun,Bradley,Seymour,,sup,False,,tgun,2023-09-11 19:38:31+00:00
 1120,Haru,Kang,Min-seung,KR,jun,False,,haru,2026-01-02 20:09:01+00:00
-1121,Ruler,Park,Jae-hyuk,KR,adc,True,2882,ruler,2026-10-06 11:02:36+00:00
+1121,Ruler,Park,Jae-hyuk,KR,adc,True,2882,ruler,2026-11-01 00:02:48+00:00
 1125,PapaChau,John,Le,US,sup,True,,papa-chau,2021-02-21 20:17:00+00:00
 1126,Treasey,Christopher,Trease,,mid,True,632,chrismistrees,2019-03-15 09:12:00+00:00
 1127,Monkey,Corey,Ehmer,,jun,True,,monkey,2016-06-03 12:10:37+00:00
@@ -956,7 +956,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 1167,Deftly,Matthew,Chen,US,adc,True,,deftly,2021-05-17 16:18:42+00:00
 1168,Upset,Elias,Lipp,DE,adc,True,394,upset,2026-07-21 06:09:55+00:00
 1169,DDD,Zhenhon,Luo,,top,False,,ddd,2023-09-05 18:48:32+00:00
-1170,Praedyth,Mark,Lewis,AU,adc,True,139117,praedyth,2026-08-26 07:45:44+00:00
+1170,Praedyth,Mark,Lewis,AU,adc,True,139117,praedyth,2026-10-23 11:59:24+00:00
 1172,Wunder,Martin,Hansen,DK,top,True,395,wunder,2026-07-21 06:09:55+00:00
 1174,Gos,Gerardo,Morales,,top,False,,gos,2024-12-02 18:58:44+00:00
 1175,Baltica,Bastián Osvaldo,Segura Zambrano,CL,jun,True,,baltica,2020-11-02 12:05:28+00:00
@@ -1111,7 +1111,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 1374,Phones,Christian,Sieg,DE,top,True,,phones,2021-10-04 17:29:34+00:00
 1376,MagiFelix,Felix,Boström,SE,mid,True,,magifelix,2021-09-22 16:02:31+00:00
 1378,Sedrion,Tarik,Holz,DE,sup,True,,sedrion-tarik-holz,2020-12-05 12:09:46+00:00
-1381,Abbedagge,Felix,Braun,DE,mid,True,132014,abbedagge,2026-10-04 22:19:31+00:00
+1381,Abbedagge,Felix,Braun,DE,mid,True,,abbedagge,2026-11-06 13:30:34+00:00
 1382,xani,Nikola,Zrinjski,HR,jun,False,,xani,2020-12-11 13:18:12+00:00
 1384,Phaxi,Ambroz,Hren,SK,top,True,,phaxi,2026-04-16 17:09:20+00:00
 1385,Arphan,Arphan,Omar,DE,sup,True,,arphan,2020-11-17 13:36:52+00:00
@@ -1158,7 +1158,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 1467,Xerxe,Andrei,Dragomir,RO,jun,True,,xerxe,2025-11-05 10:08:33+00:00
 1468,Wadid,Kim,Bae-in,KR,sup,True,,wadid,2021-07-09 13:31:50+00:00
 1470,Shynon,Vincente,Vu,,adc,False,314,shynon,2022-12-28 23:33:07+00:00
-1472,Strompest,Lee,Seung-min,US,mid,True,,strompest,2024-07-10 21:28:31+00:00
+1472,Strompest,Lee,Seung-min,US,mid,True,132156,strompest,2026-10-26 09:32:09+00:00
 1473,Vex,Bradley,Miller,US,adc,True,,vex,2022-03-22 18:11:09+00:00
 1474,Vincent,Vincent,Nguyen,,sup,False,,vincent,2024-12-03 17:12:22+00:00
 1475,Hatrixx,Jørgen,Elgåen,NO,mid,True,,hatrixx,2025-01-23 21:10:17+00:00
@@ -1217,7 +1217,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 1587,Chen,Zhe,Chen,,top,True,,chen,2018-08-29 12:11:44+00:00
 1589,wind,Chap-Yin,Lai,,jun,True,,wind,2020-03-08 02:51:39+00:00
 1591,PaSa,Hongshen,Lo,HK,adc,True,124409,pasa,2021-02-09 22:53:27+00:00
-1592,Betty,Yuhung,Lu,TW,adc,True,132568,betty,2026-07-22 11:22:01+00:00
+1592,Betty,Yuhung,Lu,TW,adc,True,132568,betty,2026-10-23 11:56:10+00:00
 1593,Pony,Ka-Wah,Mo,,jun,False,,pony,2024-12-10 14:14:03+00:00
 1595,Envy,Bruno,Farias,BR,mid,True,128363,envy,2026-09-15 07:49:34+00:00
 1597,Croc,Park,Jong-hoon,KR,jun,False,,bokkenbap,2025-12-30 15:09:33+00:00
@@ -1261,7 +1261,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 1644,Sou,Guillermo,Velasco,AF,adc,False,,sou,2024-11-30 22:28:07+00:00
 1645,Blup,Alexis,Jonshon,,mid,True,,blup,2017-02-22 13:01:55+00:00
 1646,Hobbler,Felipe,Tobón,CO,mid,True,187,hobbler,2024-06-23 13:41:30+00:00
-1647,Leza,Francisco,Rubén Jara Barragán,MX,mid,True,135069,lezaford,2026-08-14 05:30:51+00:00
+1647,Leza,Francisco,Rubén Jara Barragán,MX,mid,True,,lezaford,2026-11-06 18:12:46+00:00
 1648,Julaxe,Julián,Escobar,,jun,False,,julaxe,2023-09-06 22:59:20+00:00
 1649,jer0m,Jerónimo,Pujades Tárraga,,top,True,,jer0m,2018-12-10 10:43:10+00:00
 1650,Fénec,César,Bautista García,ES,jun,True,,fenec,2021-01-15 13:08:32+00:00
@@ -1369,7 +1369,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 1768,Rapid,Jeff,Macolonie,CW,mid,False,,rapid,2023-01-02 06:39:13+00:00
 1769,Muzgash7420,Berke,Öztürk,TR,mid,True,,muzgash7420,2022-03-29 13:17:45+00:00
 1770,Sorres,Alican,Eyüpoğlu,,adc,True,,sorres,2018-11-28 11:11:59+00:00
-1771,Only35,Mehmet,Emin Aydın,TR,sup,True,135069,only35,2026-08-14 05:30:51+00:00
+1771,Only35,Mehmet,Emin Aydın,TR,sup,True,,only35,2026-11-06 20:46:33+00:00
 1772,kazze,Ekin,Tire,,sup,False,,kazze,2021-04-09 11:09:26+00:00
 1773,BigiBang,Serdar,Kılıçarslan,TR,adc,True,,bigibang,2022-04-21 19:29:34+00:00
 1774,Ping,Ping,Chang,CN,jun,False,,xinyi,2024-11-24 07:10:32+00:00
@@ -1381,7 +1381,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 1783,Snow,Haoshun,Wu,CN,adc,True,,snow,2021-12-05 16:06:52+00:00
 1784,Kitty,Sanders,Jeroen Everink,NL,adc,True,,kitty,2020-12-25 14:47:36+00:00
 1785,Panky,Uğur,Taş,TR,top,False,,panky,2025-12-02 07:58:58+00:00
-1786,VirusFx,Guillermo,Navarrete Uxul,MX,adc,True,,virusfx,2026-09-01 09:08:10+00:00
+1786,VirusFx,Guillermo,Navarrete Uxul,MX,adc,True,135069,virusfx,2026-11-06 18:12:41+00:00
 1787,Realen,Utku Can,Zorlu,,top,True,,realen,2019-02-04 15:43:38+00:00
 1788,Gralou,Emanuel,Trasande,AR,sup,True,,gralou,2023-01-27 13:25:33+00:00
 1789,RafaelVQ,Mats,Carrera,,adc,True,2720,rafaelvasquez,2018-11-28 11:11:53+00:00
@@ -1493,7 +1493,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 2167,Wolf,Jae-wan,Lee,KR,sup,False,,wolf,2019-12-12 14:10:35+00:00
 2168,PawN,Heo,Won-seok,KR,mid,False,,pawn,2020-12-16 21:30:22+00:00
 2169,Deft,Kim,Hyuk-kyu,KR,adc,True,,deft,2024-10-29 18:44:18+00:00
-2170,Meiko,Ye,Tian,CN,sup,True,411,meiko,2026-10-06 11:03:06+00:00
+2170,Meiko,Ye,Tian,CN,sup,True,411,meiko,2026-11-01 01:31:48+00:00
 2172,Imp,Seung-bin,Gu,KR,adc,False,,imp,2024-11-24 07:10:32+00:00
 2173,Mo,Bo,Cai,CN,sup,True,,mo,2021-02-10 21:01:04+00:00
 2174,Mystic,Jin,Seong-jun,KR,adc,True,,mystic,2021-10-02 14:28:37+00:00
@@ -1714,14 +1714,14 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 2497,DiuxitPrime,,,,,True,,diuxitprime,2019-03-21 09:52:03+00:00
 2507,Clowz,Jun-seok,Moon,KR,top,False,,clowz,2024-12-28 20:08:58+00:00
 2508,Ning,Zhenning,Gao,CN,jun,True,,ning,2026-01-02 20:17:09+00:00
-2509,knight,Ding,Zhuo,CN,mid,True,1566,sg-knight,2026-10-06 11:02:52+00:00
+2509,knight,Ding,Zhuo,CN,mid,True,1566,sg-knight,2026-11-01 00:02:42+00:00
 2510,Bvoy,Ju,Yeong-hoon,KR,adc,True,134001,bvoy,2026-09-28 14:17:38+00:00
 2511,Killua,Danyang,Liu,CN,sup,True,,killua,2021-02-10 20:29:25+00:00
 2512,Lies,Haotian,Guo,CN,top,True,,lies,2025-05-05 12:53:00+00:00
 2513,Karin,Soo-jong,Jeong,,mid,True,,karin,2019-01-30 20:13:00+00:00
 2514,QiuQiu,Ming,Zhang,CN,sup,True,,qiuqiu,2026-01-02 07:11:54+00:00
 2515,Jjun,Jun-seok,Kwon,KR,jun,False,,jjun,2025-01-02 22:07:49+00:00
-2517,Holo,Dek Lam,Tsang,HK,jun,True,130352,hologram,2026-09-30 08:22:49+00:00
+2517,Holo,Dek Lam,Tsang,HK,jun,True,130352,hologram,2026-10-23 11:56:08+00:00
 2518,Coool,Hoi Hin,Choi,HK,sup,True,585,coool,2022-12-29 22:44:47+00:00
 2519,PK,Yuting,Hsieh,TW,top,True,,pk,2021-11-19 14:59:51+00:00
 2520,Laba,Zhenyang,Huang,TW,jun,True,,laba,2021-02-09 21:27:05+00:00
@@ -1820,7 +1820,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 3226,Atchoumeuuh,,,,,True,,atchoumeuuh,2017-05-05 14:23:51+00:00
 3227,SOn1c,,,,,True,,son1c,2019-12-12 10:55:01+00:00
 3228,Loyd,,,,,True,,loyd,2019-12-12 10:55:01+00:00
-3263,Woody,Yu-En,Lin,TW,sup,True,89,woody,2026-07-25 14:02:50+00:00
+3263,Woody,Yu-En,Lin,TW,sup,True,89,woody,2026-10-23 11:56:07+00:00
 3352,slt mwa c kutsi,,,,,True,,slt-mwa-c-kutsi,2017-05-05 14:28:01+00:00
 3353,capuch,,,,,True,,capuch,2017-05-05 14:28:02+00:00
 3354,CraShLoL,,,,,True,,crashlol,2017-05-05 14:28:02+00:00
@@ -1886,7 +1886,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 3438,MarioMe,Mario,Reyes,MX,adc,True,,mariome,2021-01-15 15:35:28+00:00
 3439,EvanRL,Evan,Lawson,US,adc,True,131034,evanrl,2022-12-29 23:30:09+00:00
 3441,Rafa,Eduardo,Moreira,PT,sup,True,,rafal0l,2021-01-20 16:19:37+00:00
-3442,Zelt,Jairo,Urbina Orozco,CO,mid,True,136730,zelt,2026-09-15 07:39:08+00:00
+3442,Zelt,Jairo,Urbina Orozco,CO,mid,True,138891,zelt,2026-11-06 20:45:20+00:00
 3443,Froststrike,Lucas Antonio,Espindola,CL,jun,True,,froststrike,2025-08-27 09:13:03+00:00
 3444,Alex,Yu-Ming,Chen,TW,jun,True,,alex,2023-03-17 08:08:10+00:00
 3445,Ran,Kuan-yu,Chen,HK,adc,False,,ran,2024-12-04 16:40:22+00:00
@@ -1911,7 +1911,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 3465,Betatwinz,Dario,Betancourt,MX,sup,True,,betatwinz,2026-04-19 20:41:25+00:00
 3466,Devil deGrey,Victor Daniel,Diaz Silva,,jun,True,,devil-degrey,2022-12-29 17:23:29+00:00
 3467,Flacoyo,Dante Alejandro,Diaz Rosales,,mid,True,,flacoyo,2023-04-03 18:16:02+00:00
-3468,Dhokla,Niship,Doshi,US,top,True,136066,dhokla,2026-10-06 11:02:52+00:00
+3468,Dhokla,Niship,Doshi,US,top,True,136066,dhokla,2026-11-01 00:02:49+00:00
 3469,Tekker,William,Marinic,,top,True,,tekker,2019-12-12 10:55:01+00:00
 3471,Shok,Ari,Greene-Young,NZ,mid,True,,shok,2022-01-11 13:40:24+00:00
 3472,Low,Omar,Aboulkheir,,adc,False,,low,2024-12-11 22:44:40+00:00
@@ -1922,7 +1922,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 3477,Aodi,Ao-Di,Zhao,CN,top,True,,audi,2021-08-23 10:50:46+00:00
 3478,HanXuan,Hao,Hong,CN,mid,True,,hanxuan,2020-05-31 20:21:58+00:00
 3479,West,Long,Chen,CN,adc,True,,west,2020-05-31 19:48:33+00:00
-3480,TheShy,Seung-Lok,Kang,KR,top,True,411,theshy,2026-10-06 11:03:03+00:00
+3480,TheShy,Seung-Lok,Kang,KR,top,True,411,theshy,2026-11-01 00:02:51+00:00
 3481,Rio,Fu-Hua,Wen,,jun,True,,rio,2018-10-23 11:49:31+00:00
 3482,1220,Zhi,Ke,CN,mid,True,,zbb,2021-05-11 09:47:23+00:00
 3483,Laozhou,Chao,Zhou,,top,True,,laozhou,2022-12-30 15:38:26+00:00
@@ -1964,7 +1964,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 3521,Hoang,Michael Tuan,Hoang,,jun,True,,hoang,2018-12-22 12:26:18+00:00
 3522,1deag,Tony,Yuan,CN,mid,True,,1deag,2022-05-03 17:39:10+00:00
 3523,Lava,Kim,Tae-hoon,KR,mid,True,,lava,2024-11-29 17:15:20+00:00
-3524,Kiin,Kim,Gi-in,KR,top,True,2882,kiin,2026-10-06 11:02:33+00:00
+3524,Kiin,Kim,Gi-in,KR,top,True,2882,kiin,2026-11-01 00:02:46+00:00
 3525,All IN,Kim,Tae-yang,KR,mid,True,,ssun,2020-11-17 14:38:05+00:00
 3526,Carrot,Kim,Byeong-jun,KR,top,False,,carrot,2023-09-14 15:55:24+00:00
 3527,Tristesse,Kirill,Nazarov,RU,sup,True,,bonjour,2022-03-02 13:05:04+00:00
@@ -2050,7 +2050,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 7666,Gengar,Zhonje,Lee,TW,jun,True,,omen-zhon-je-lee,2021-02-09 20:56:05+00:00
 7667,Eason,Yishen,Yin,TW,sup,True,,eason,2024-01-15 21:46:15+00:00
 7668,Tuna,Yu-Wei,Hsiao,,sup,True,,tuna,2018-11-19 11:10:28+00:00
-7669,Uniboy,Changchu,Chen,TW,mid,True,132568,uniboy,2026-07-25 10:20:01+00:00
+7669,Uniboy,Changchu,Chen,TW,mid,True,132568,uniboy,2026-10-23 11:56:09+00:00
 7670,Nalan,Chen Yu,Chu,,mid,True,,nalan,2017-08-30 02:55:11+00:00
 7671,Mimer,Mimer,Ahlström,,top,False,,mimer,2023-07-09 11:57:25+00:00
 7672,Brobin,Robin,Synnefors,,mid,True,,brobin,2017-09-06 05:15:07+00:00
@@ -2310,25 +2310,25 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 8153,Arcane,Hyeok Jin,Choi,KR,sup,False,,arcane,2023-09-14 16:33:25+00:00
 8155,As,Kim,Hyeon-jun,KR,jun,False,,as-799b0db4-8fe9-4951-9b47-981fc96ae666,2023-09-16 13:00:44+00:00
 8157,Tear,Nguyễn,Chiến Thắng,VN,sup,True,,tear,2024-12-31 12:20:44+00:00
-8158,Keria,Ryu,Min-seok,KR,sup,True,126061,keria,2026-10-06 11:02:57+00:00
+8158,Keria,Ryu,Min-seok,KR,sup,True,126061,keria,2026-11-01 00:02:46+00:00
 8159,Cheolmin,,,,top,True,,cheolmin,2018-12-22 12:30:02+00:00
 8160,Ji Won,,,,jun,True,,ji-won,2018-12-22 12:30:02+00:00
 8161,Young Do,Yeong-do,Choi,KR,adc,True,,young-do,2023-09-22 13:37:30+00:00
 8162,Seung Min,Han,Seung-min,KR,sup,True,,seung-min,2023-09-22 13:35:08+00:00
-8166,ShowMaker,Heo,Su,KR,mid,True,132531,showmaker,2026-10-06 11:03:02+00:00
+8166,ShowMaker,Heo,Su,KR,mid,True,132531,showmaker,2026-11-01 00:02:39+00:00
 8170,Ruby,Lee,Sol-min,KR,mid,True,,ruby,2026-06-09 19:58:27+00:00
 8171,Aiming,Kim,Ha-ram,KR,adc,True,128344,aiming,2026-08-05 02:56:17+00:00
 8172,Kingen,Hwang,Seong-hoon,KR,top,True,128217,kingen,2026-08-20 18:45:05+00:00
 8173,Speed,Dong-hoon,Jeong,KR,adc,False,,speed-cca66b4e-7a4a-44bb-9497-7c5354cf9c38,2023-09-16 13:30:58+00:00
 8174,Medic,Kim,Ji-Ho,KR,sup,True,,medic,2022-12-31 13:09:13+00:00
-8176,Viper,Park,Do-hyeon,KR,adc,True,1566,viper-309f5be7-0007-492a-8d90-854914e5563d,2026-10-06 11:02:52+00:00
+8176,Viper,Park,Do-hyeon,KR,adc,True,1566,viper-309f5be7-0007-492a-8d90-854914e5563d,2026-11-01 00:02:42+00:00
 8177,Ryan,Lee,Jun-seok,KR,jun,True,,ryan-c150e891-c263-415f-9778-d3bfa6e16d9b,2021-12-10 13:06:35+00:00
 8179,BroCColi,Kim,Yoon-jae,KR,jun,True,,broccoli,2022-06-07 17:32:35+00:00
 8181,Kuri,Wonyoung,Choi,KR,sup,True,,doran,2026-06-07 17:22:53+00:00
 8270,Summit,Park,Woo-tae,KR,top,True,,summit,2025-12-30 10:31:03+00:00
 8271,Effort,Lee,Sang-ho,KR,sup,True,63,effort,2026-10-08 13:37:00+00:00
 8272,NoahMost,Noah,Mostacero,,adc,True,,noahmost,2020-12-19 16:31:57+00:00
-8273,Spica,Mingyi,Lu,CN,sup,True,111,spica,2026-08-15 03:39:28+00:00
+8273,Spica,Mingyi,Lu,CN,sup,True,132156,spica,2026-10-26 09:30:08+00:00
 8274,TeeSum,Christopher,Fong,US,sup,True,,teesum,2022-03-31 15:41:22+00:00
 8275,Julien,Julien,Gelinas,US,mid,True,,julien,2021-03-02 00:13:33+00:00
 8276,Rodov,Tom,Rodov,CA,top,True,,rodov,2020-01-09 13:23:46+00:00
@@ -2610,8 +2610,8 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 8947,Yuuki,Haoming,Hu,CN,mid,True,,yuuki,2021-02-10 20:31:25+00:00
 8948,Nanzhu,Jiarong,Luo,CN,mid,True,,nanzhu,2021-02-09 22:10:08+00:00
 8949,Fdy,Dingyuan,Fu,CN,adc,True,,fdy,2021-02-10 20:55:55+00:00
-8951,JackeyLove,Wenbo,Yu,CN,adc,True,126059,jackeylove,2026-10-06 11:02:59+00:00
-8953,Tian,Tianliang,Gao,CN,jun,True,126059,tian,2026-10-06 11:02:59+00:00
+8951,JackeyLove,Wenbo,Yu,CN,adc,True,126059,jackeylove,2026-11-01 00:02:51+00:00
+8953,Tian,Tianliang,Gao,CN,jun,True,126059,tian,2026-11-01 00:02:51+00:00
 8954,Mole,Hao-Yan,Li,CN,mid,True,,mole,2024-12-13 16:59:06+00:00
 8956,Chieftain,Lee,Jae-yub,KR,jun,False,,chieftain,2026-01-02 07:22:18+00:00
 8957,Xx,Yulong,Xiong,CN,jun,True,,xx-yu-long-xiong,2021-02-10 19:04:59+00:00
@@ -2694,7 +2694,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 9196,Ichiik46,Arturo,Llanas,,top,False,,ichiik46,2024-12-17 15:36:55+00:00
 9197,Sandroxx,Alonso,Reyes Morales,CR,jun,True,,sandroxx,2021-02-02 06:40:10+00:00
 9198,Bucket,Ángel Luis,Ossio Venegas,PE,sup,True,,bucket,2020-12-21 23:10:04+00:00
-9199,Grell,Jesús  Alberto,Loya Trujillo,MX,jun,True,1636,grell,2026-09-18 08:25:57+00:00
+9199,Grell,Jesús  Alberto,Loya Trujillo,MX,jun,True,,grell,2026-11-06 18:14:02+00:00
 9200,JeiiZe,Juan  Carlos,Rojas  Coffey,MX,sup,True,,jeiize,2022-12-28 17:43:13+00:00
 9201,Siegman,Eduardo,Solis,MX,mid,True,,siegman,2021-01-15 15:01:08+00:00
 9202,Losan,Alejandro,Lopez,,mid,False,,losan,2023-09-11 10:43:45+00:00
@@ -2832,7 +2832,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 14986,Nemesis,Tim,Lipovšek,SI,mid,True,138243,nemesis-tim-lipovsek,2026-03-09 23:52:00+00:00
 14987,Falco,Jesus Perez,Rubio,ES,sup,True,,falco,2019-12-12 14:16:33+00:00
 14989,NoWay,Frederik,Hinteregger,DE,mid,True,,noway4u,2026-01-10 16:28:44+00:00
-14990,Lurox,Lukas,Thoma,DE,jun,True,132212,lurox,2026-10-04 22:19:14+00:00
+14990,Lurox,Lukas,Thoma,DE,jun,True,,lurox,2026-10-29 17:56:55+00:00
 14991,Taxer,Christian,Vendelbo Bylling Jensen,DK,jun,True,,taxer,2023-07-20 13:08:26+00:00
 14992,Venzer,Alexander,Kostadinov,BG,sup,True,,venzer,2024-12-31 11:57:12+00:00
 14993,DuaLL,Ángel,Fernández,ES,sup,True,,duall,2024-10-10 21:40:24+00:00
@@ -2840,7 +2840,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 14996,WooFe,Jeong,Woo-cheol,KR,top,True,,woofe,2020-07-17 23:50:44+00:00
 14997,Kuma,Park,Hyeon-gyu,KR,jun,True,,kuma,2020-11-17 15:20:23+00:00
 14998,Newt,Kim,Jin,KR,sup,True,,newt,2021-04-09 14:39:10+00:00
-15000,Chovy,Jeong,Ji-hoon,KR,mid,True,2882,chovy,2026-10-06 11:02:36+00:00
+15000,Chovy,Jeong,Ji-hoon,KR,mid,True,2882,chovy,2026-11-01 00:02:48+00:00
 15022,Fish,Yang,Yu-Sheng,,mid,False,,fish-yang-yu-sheng,2023-09-02 18:10:05+00:00
 15023,CoolG,Tin,Chi Chung,HK,top,False,,coolg,2023-09-08 20:34:57+00:00
 15024,Sky,Wong,Chun Him,,sup,True,,skywalk,2021-11-10 21:37:01+00:00
@@ -3043,7 +3043,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 15347,Blazes,Đình Sanh,Đỗ,VN,mid,True,136944,blazes,2025-05-25 10:50:33+00:00
 15348,Zin,Nguyễn,Tuấn Thọ,VN,sup,True,137750,zin,2026-09-21 20:46:18+00:00
 15349,CBL,Nguyễn,Võ Thành Luân,VN,sup,False,136944,cbl,2025-05-25 10:50:33+00:00
-15351,Wiz,Na,Yoo-joon,KR,jun,True,,lubu,2025-08-13 07:39:06+00:00
+15351,Wiz,Na,Yoo-joon,KR,jun,True,138122,lubu,2026-11-02 14:01:58+00:00
 15353,Slayder,Nguyễn,Linh Vương,VN,adc,True,137185,ftv-slayder,2026-05-07 18:29:17+00:00
 15354,Kit,Tuấn Vĩ,Phạm,VN,sup,True,,cr-kidz,2021-04-15 13:05:59+00:00
 15355,Clever,Moon,Won-hee,KR,adc,True,,clever-wonhui-moon,2020-02-05 12:35:37+00:00
@@ -3234,7 +3234,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 18026,Eyla,Bill,Nguyen,AU,sup,True,185,eyla,2026-08-21 15:09:36+00:00
 18027,Pluto,Mitchell,King,NZ,adc,False,,pluto,2023-09-08 20:40:33+00:00
 18035,Kackos,Krzysztof,Kubziakowski,PL,top,True,,kackos,2025-01-23 15:44:45+00:00
-18036,Inspired,Kacper,Sloma,PL,jun,True,136066,inspired,2026-10-06 11:02:53+00:00
+18036,Inspired,Kacper,Sloma,PL,jun,True,136066,inspired,2026-11-01 00:02:49+00:00
 18037,Kaiser,Norman,Kaiser,DE,sup,True,125905,gistick,2026-10-04 22:19:31+00:00
 18038,Raqo,Max,Temminck,NL,mid,True,,raqo,2024-10-18 19:14:00+00:00
 18039,Denyk,Petr,Haramach,CZ,sup,True,136087,petr,2026-09-24 06:48:04+00:00
@@ -3260,9 +3260,9 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 18060,Ventair,Simon,Tschammer,DE,top,True,,ventair,2023-06-28 12:42:16+00:00
 18061,Agurin,Muhammed,Kocak,DE,jun,True,136848,agurin,2026-09-07 13:25:06+00:00
 18062,Broeki,Daniel,Broekmann,DE,adc,True,,broeki,2026-01-10 16:28:44+00:00
-18063,Shlatan,Lucjan Daniel,Ahmad,PL,jun,True,125875,shlatan,2026-09-04 22:20:44+00:00
+18063,Shlatan,Lucjan Daniel,Ahmad,PL,jun,True,,shlatan,2026-10-20 15:34:52+00:00
 18064,xGenesis,Pablo,Jiménez Calderón,ES,top,True,,xgenesis,2025-05-29 06:36:10+00:00
-18065,Koldo,Luis,Pérez,ES,jun,True,130103,koldo,2026-10-02 19:45:06+00:00
+18065,Koldo,Luis,Pérez,ES,jun,True,,koldo,2026-10-19 21:53:26+00:00
 18066,Simpy,Sergi,Ruiz Boloix,ES,sup,True,,simpy,2026-02-20 14:12:31+00:00
 18068,Sharp,Anders,Lilleengen,NO,jun,True,,sharp-anders-lilleengen,2021-12-14 13:33:08+00:00
 18069,Alois,Alois,Nelissen,NL,top,False,,alois,2023-03-02 16:25:32+00:00
@@ -3303,7 +3303,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 18108,Lago,,,KR,sup,True,3350,lago,2022-04-09 18:49:39+00:00
 18109,Raina,Shin,Okubo,JP,sup,True,,raina,2025-07-19 09:46:38+00:00
 18111,Delitto,Alexandros,Karalis,GR,top,True,,delitto,2021-10-03 12:44:25+00:00
-18112,Canyon,Kim,Geon-bu,KR,jun,True,2882,canyon,2026-10-06 11:02:36+00:00
+18112,Canyon,Kim,Geon-bu,KR,jun,True,2882,canyon,2026-11-01 00:02:48+00:00
 18113,MapSSi,Kim,Do-yeong,KR,sup,False,,doraon,2026-01-02 20:07:28+00:00
 18137,Khantos,Cosmin,Florin Leontin Dănilă,RO,adc,True,,khantos,2024-01-12 16:41:12+00:00
 18139,SunSunSun,Ronnakrit,Jaideecharoen,,mid,True,,sunsunsun,2019-03-15 15:57:00+00:00
@@ -3327,7 +3327,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 18450,Dudu,,,CN,adc,False,,dudu-2c911619-e0bf-4727-a66b-a527ab9cb300,2023-09-13 15:31:05+00:00
 18451,Bafang,Yichen,Hao,CN,sup,True,,bafang,2022-08-12 10:16:40+00:00
 18457,Kane,Hao,Chen,CN,adc,True,,kane,2021-12-14 13:12:26+00:00
-18472,369,Jiahao,Bai,CN,top,True,126059,player-369,2026-08-23 13:04:25+00:00
+18472,369,Jiahao,Bai,CN,top,True,126059,player-369,2026-11-01 01:30:05+00:00
 18473,Autumn,Jeong,Soo-hwan,KR,sup,False,,autumn,2024-12-03 17:16:59+00:00
 18474,chen9,Yibing,Chen,CN,mid,True,,chen9,2021-02-10 18:59:09+00:00
 18475,Rough,Run-Hao,Huo,CN,mid,False,,rough,2023-09-16 13:28:48+00:00
@@ -3416,8 +3416,8 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 19279,Malice,Sebastian,Edholm,SE,jun,True,,malice,2025-07-20 08:26:01+00:00
 19280,HeoKong,Heo,Seong-joo,KR,top,False,,heokong,2023-09-13 20:53:07+00:00
 19281,Min,Byeon,Min-seong,,top,True,,min,2022-12-28 23:17:04+00:00
-19282,Doran,Choi,Hyeon-joon,KR,top,True,126061,doran-2686e2c9-bd34-47fb-9d17-87debb7be1b6,2026-10-06 11:02:55+00:00
-19283,Ellim,Choi,El-lim,KR,jun,True,132655,ellim,2026-09-18 08:39:03+00:00
+19282,Doran,Choi,Hyeon-joon,KR,top,True,126061,doran-2686e2c9-bd34-47fb-9d17-87debb7be1b6,2026-11-01 00:02:44+00:00
+19283,Ellim,Choi,El-lim,KR,jun,True,132655,ellim,2026-10-23 11:59:21+00:00
 19285,Gumayusi,Lee,Min-hyeon,KR,adc,True,2883,gumayusi,2026-10-06 11:02:49+00:00
 19286,Pop,Ha,Min-wook,KR,sup,True,,pop,2022-08-21 12:01:47+00:00
 19299,TaNa,Lee,Sang-wook,KR,top,True,,tana,2024-07-19 18:36:41+00:00
@@ -3463,7 +3463,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 19385,Chelizi,Hanxi,Xia,CN,top,True,,chelizi,2026-01-02 16:12:54+00:00
 19387,Aix,Yang,Li,CN,jun,True,,aix,2024-05-20 09:25:11+00:00
 19388,beishang,Zhipeng,Jiang,CN,jun,True,,beishang,2025-05-02 09:18:42+00:00
-19390,Zhuo,Xuzhuo,Wang,CN,sup,True,126059,sun-f5131463-e506-49cd-bf14-e55624945ed0,2026-10-06 11:02:59+00:00
+19390,Zhuo,Xuzhuo,Wang,CN,sup,True,126059,sun-f5131463-e506-49cd-bf14-e55624945ed0,2026-11-01 00:02:51+00:00
 19391,Coten,Hao,Shen,CN,top,True,,coten,2024-12-05 17:50:01+00:00
 19556,Duclou,Francisco,Duclou Rito,BR,top,True,156,duclou,2019-12-12 14:14:50+00:00
 19557,Aslan,Eduardo,Nunes,BR,mid,True,,aslan,2021-05-28 14:08:38+00:00
@@ -3480,7 +3480,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 19580,wumian,Boyong,Gong,CN,mid,True,,xiaobo,2021-02-09 20:51:05+00:00
 19581,Do1u1u,Chiencheng,Tsai,TW,sup,True,,do1u1u,2021-02-09 20:24:19+00:00
 19582,Bruce,Chihchun,Chiu,TW,adc,True,,bruce,2026-04-30 12:03:57+00:00
-19583,MnM,Wong,Ka Chun,HK,sup,True,130352,mnm,2025-08-25 10:41:14+00:00
+19583,MnM,Wong,Ka Chun,HK,adc,True,130352,mnm,2026-11-02 13:16:14+00:00
 19584,Hawk,Gabriel,Gomes de Araujo,BR,sup,True,129054,gabriel-hawk-gomes,2022-06-06 17:57:15+00:00
 19585,MagerDanger,Jason,Magerkurth,US,jun,False,,magerdanger,2022-10-07 10:29:32+00:00
 19587,Neo,Toàn,Trần,US,adc,True,,asta,2026-01-02 07:05:58+00:00
@@ -3493,7 +3493,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 19596,Eagle,Trần,Thanh Lâm,VN,jun,False,,meocon,2024-12-31 12:12:50+00:00
 19597,Kuroko,Trần,Tuấn Anh,VN,jun,True,,kuroko,2020-09-12 03:29:09+00:00
 19598,Yin,Văn,Phúc An Khang,VN,sup,True,,yin-van-phuc-an-khang,2021-05-18 16:20:42+00:00
-19599,Aomine,Huỳnh,Thiếc Tuấn,VN,adc,True,138127,police-hu-nh-thi-c-tu-n,2026-09-21 20:42:25+00:00
+19599,Aomine,Huỳnh,Thiếc Tuấn,VN,adc,True,138127,police-hu-nh-thi-c-tu-n,2026-10-23 11:59:23+00:00
 19601,Darrys,Trương,Tuấn Kiệt,VN,top,True,,darrys,2020-01-05 20:18:15+00:00
 19602,Kaiz,Trương,Bửu,,jun,True,43238,kaiz,2020-04-29 11:42:08+00:00
 19603,Artemis,Trần,Quốc Hưng,VN,adc,True,124414,artemis-tr-n-qu-c-h-ng,2026-09-16 13:02:52+00:00
@@ -3596,7 +3596,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 20779,Bun,,,VN,jun,True,124413,bun,2022-04-19 15:38:35+00:00
 20780,Zdz,Dezhang,Zhu,CN,top,True,405,zdz,2026-08-23 10:51:05+00:00
 20781,Kati,Đặng,Thanh Phê,VN,mid,True,,puppyk,2026-01-22 14:45:16+00:00
-20827,Doss,Mads,Schwartz,DK,sup,True,132014,doss,2026-10-04 22:19:32+00:00
+20827,Doss,Mads,Schwartz,DK,sup,True,,doss,2026-11-06 13:30:28+00:00
 20828,Bravado,Love,Rapp,SE,sup,True,,bravado,2023-02-13 14:40:41+00:00
 20830,Sertuss,Daniel,Gamani,DE,mid,True,,sertuss,2025-11-05 10:06:45+00:00
 20831,LIDER,Adam,Ilyasov,NO,mid,True,395,lider,2026-04-27 17:07:55+00:00
@@ -3737,7 +3737,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 21975,CJJ,Jiajun,Chen,CN,top,True,,cjj,2021-02-10 19:07:02+00:00
 21976,Fishhunter,Shang-Wu,Yin,CN,top,True,,fishhunter,2021-08-01 11:42:08+00:00
 21977,Yizhiyu,Zepeng,Chen,CN,jun,False,,yizhiyu,2023-09-22 14:44:16+00:00
-21978,Wei,Yangwei,Yan,CN,jun,True,411,wei,2026-10-06 11:03:04+00:00
+21978,Wei,Yangwei,Yan,CN,jun,True,411,wei,2026-11-01 00:02:53+00:00
 21979,XLB,Xiaolong,Li,CN,jun,False,,xiaolongbao,2026-01-02 20:06:35+00:00
 21980,Puzzle,Yuanxi,Li,CN,mid,True,,puzzle,2021-02-10 18:13:56+00:00
 21981,Zhuang,Zhuangzhuang,Zhang,CN,mid,True,,zhuang,2021-02-09 21:28:44+00:00
@@ -3814,7 +3814,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 22989,HaeSeong,Hae,Seong-ho,KR,mid,True,,haeseong,2021-04-13 21:39:33+00:00
 22990,Witty,Jae hong,Hwang,KR,top,True,,witty,2021-04-08 14:31:09+00:00
 22991,Juhan,Lee,Ju-han,KR,jun,True,404,salix,2026-04-16 15:37:05+00:00
-22992,Isles,Jonah,Rosario,AU,sup,True,136066,isles,2026-10-06 11:02:53+00:00
+22992,Isles,Jonah,Rosario,AU,sup,True,136066,isles,2026-11-01 01:30:06+00:00
 22993,Black,Murat,Ulukan Ayaz,TR,adc,True,,black,2024-09-07 11:43:50+00:00
 23010,Elk,Jiahao,Zhao,CN,adc,True,129972,jiumeng,2026-07-13 07:23:15+00:00
 23012,Blue,Ersin,Gören,BE,mid,True,,blue-ersin-goren,2025-12-30 20:02:02+00:00
@@ -3864,7 +3864,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 23325,Dragku,Dragon,Guo,AU,sup,True,134200,dragku,2024-11-29 16:56:05+00:00
 23327,Pun,Nguyễn,Đăng Khoa,VN,top,True,136073,kaido,2026-10-06 11:02:46+00:00
 23328,Bush,Pingkun,Yu,TW,top,True,,bush,2021-02-10 18:58:20+00:00
-23329,HuSha,Ziwei,Huang,TW,jun,True,132568,husha,2026-07-25 10:20:00+00:00
+23329,HuSha,Ziwei,Huang,TW,jun,True,132568,husha,2026-10-23 11:56:09+00:00
 23337,Angles,Yunchao,Li,CN,top,True,,angles,2021-02-09 22:13:16+00:00
 23338,chenlun17,Pengyuan,Zhou,CN,top,True,,lngachenlun17,2021-02-10 19:05:16+00:00
 23339,Ke,Ke,Zhang,CN,sup,True,132787,lngakeke,2024-11-27 19:12:47+00:00
@@ -3928,12 +3928,12 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 23412,bans,Jiamin,Yan,CN,jun,True,,ice-yan-jia-min,2021-06-08 11:25:19+00:00
 23413,Duye,Weijin,Luo,CN,mid,True,,duye,2021-05-11 09:47:55+00:00
 23414,L1n,Chen,Shi-Lin,CN,sup,True,,l1n,2021-05-11 09:47:59+00:00
-23415,Bin,Zebin,Chen,CN,top,True,1566,bin,2026-10-06 11:02:50+00:00
+23415,Bin,Zebin,Chen,CN,top,True,1566,bin,2026-11-01 00:02:39+00:00
 23416,Maggie,Yu,Zhao,CN,jun,True,,maggie-zhao-yu,2024-11-27 19:09:40+00:00
 23417,View,Yuming,Chen,CN,jun,True,,view,2023-11-26 15:21:55+00:00
 23418,Shark,Yuqi,Zhang,CN,adc,True,,shark,2022-07-10 15:40:14+00:00
 23420,Cruel,Jialin,Ye,CN,sup,True,,cruel,2022-01-24 22:16:54+00:00
-23421,ON,Wenjun,Luo,CN,sup,True,1566,owo,2026-10-06 11:02:52+00:00
+23421,ON,Wenjun,Luo,CN,sup,True,1566,owo,2026-11-01 01:30:04+00:00
 23422,Naruto,Hao,Nie,CN,jun,True,,naruto,2022-04-12 06:55:26+00:00
 23423,tanghulu,Chaolin,Chen,CN,mid,True,,tanghulu,2021-02-09 23:19:23+00:00
 23424,Kay,Jinzhou,Li,CN,mid,True,,kay,2021-02-09 20:40:28+00:00
@@ -4070,7 +4070,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 24805,WeiXiao,Gao,Xue-Cheng,CN,adc,False,,weixiao,2024-11-15 09:12:56+00:00
 24806,PDD,Liu,Mou,,top,False,,pdd,2019-11-26 12:14:58+00:00
 24807,XiaoXiao,Sun,Ya-Long,,sup,False,,xiaoxiao-sun-ya-long,2023-11-29 10:43:11+00:00
-24808,Canna,Kim,Chang-dong,KR,top,True,134078,canna,2026-10-18 20:31:37+00:00
+24808,Canna,Kim,Chang-dong,KR,top,True,134078,canna,2026-11-01 00:02:43+00:00
 24853,Jauny,Jauny,Vargas Altamirano,CR,top,True,1636,jauny,2026-09-18 08:25:57+00:00
 24854,MadBlade,Steven Josue,Araya Méndez,CR,sup,True,,madblade,2026-04-19 20:43:58+00:00
 24908,Vsta,Oh,Hyo-seong,KR,sup,True,126707,vsta,2026-07-25 12:25:52+00:00
@@ -4081,7 +4081,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 24997,Evolved,Jackson,Dohan,CA,mid,True,,evolved,2025-09-25 12:24:53+00:00
 24998,Eclipse,Yujie,Wu,CN,top,True,,nite-yujie-wu,2026-08-05 03:04:28+00:00
 24999,Dragonminkim,Kim,Yong-min,US,jun,True,,dragonminkim,2020-11-20 16:24:53+00:00
-25000,Breezy,Brindon,Keesey,US,sup,True,138937,breezyyy,2026-09-25 15:47:23+00:00
+25000,Breezy,Brindon,Keesey,US,sup,True,,breezyyy,2026-11-07 22:46:56+00:00
 25001,Maximillion,Hamza,Kandemir,TR,mid,True,,maximillion,2024-07-23 16:52:43+00:00
 25033,Qingwa,He,Zong-Xiang,,mid,False,,qingwa,2019-12-06 00:27:05+00:00
 25034,Jovirone,João Victor,Rodrigues,BR,jun,True,,jovi,2022-12-29 23:45:24+00:00
@@ -4132,7 +4132,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 25367,Magong,Park,Min-soo,KR,jun,False,,8df5771b-0147-49ab-b45d-034c041fc7cd,2024-12-27 09:38:09+00:00
 25368,Rex,Kim,Tae-yeon,KR,mid,False,,6643e560-6dab-44ae-9745-d0e43134c3dc,2025-03-25 19:23:53+00:00
 25369,Enjoy,Bae,Kyung-min,KR,adc,False,,b263e4a9-2a82-4bed-85d7-39a9586a5594,2024-12-27 09:37:29+00:00
-25371,Assum,Wei,Zou,CN,adc,True,411,assum,2026-08-29 07:45:27+00:00
+25371,Assum,Wei,Zou,CN,adc,True,411,assum,2026-11-01 00:02:53+00:00
 25372,Kartis,Kalok,Wong,HK,top,True,,kartis,2022-09-16 11:09:40+00:00
 25373,Xiaoxiang,Xiang,Huang,CN,top,True,,xiaoxiang,2026-05-16 10:09:21+00:00
 25389,Lapis,Shin,Moo-gyeong,KR,top,False,,lapis,2024-12-27 09:21:35+00:00
@@ -4155,8 +4155,8 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 25416,Honey,Park,Bo-heon,KR,adc,True,,honey,2023-12-06 14:35:23+00:00
 25417,Pooh,Norimitsu,Hosogai,JP,sup,True,,pooh-norimitsu-hosogai,2020-11-17 13:51:04+00:00
 25418,Garou,Hwang,Jae-hoon,KR,jun,False,,garou,2022-12-29 22:35:09+00:00
-25419,Jool,Kang,Dong-soo,KR,mid,True,1449,nasub,2026-10-04 22:19:11+00:00
-25420,Citrus,Byeon,Ji-woong,KR,jun,True,89,citrus,2026-07-25 14:02:49+00:00
+25419,Jool,Kang,Dong-soo,KR,mid,True,,nasub,2026-11-07 22:45:45+00:00
+25420,Citrus,Byeon,Ji-woong,KR,jun,True,89,citrus,2026-10-23 11:56:06+00:00
 25421,Gangboong,Bae,Si-hyeon,KR,mid,False,,gangboong,2023-09-11 19:39:06+00:00
 25422,DLC,Diego,Queiróz,BR,adc,False,,dlc,2024-12-27 09:32:17+00:00
 25423,M1kasa,Nan,An,CN,top,True,,m1kasa,2021-02-10 19:38:39+00:00
@@ -4187,7 +4187,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 25557,Nyx,Óscar,Ruiz Vargas,ES,jun,True,,nyx,2026-01-03 13:35:26+00:00
 25558,Barcode,Sander,Laidre,EE,adc,False,,barcode,2024-12-30 14:02:28+00:00
 25560,Viketox,Victor,Navarro Ramos,ES,sup,True,130104,viketox,2023-06-28 14:37:05+00:00
-25590,Serin,Tolga,Ölmez,TR,mid,True,130105,serin,2026-07-20 18:24:56+00:00
+25590,Serin,Tolga,Ölmez,TR,mid,True,,serin,2026-10-26 22:14:36+00:00
 25591,Lpc,Hao,Huang,CN,adc,True,,lpc-e8e7b8d6-9e4b-40fc-9470-a6faee203629,2026-01-02 13:57:02+00:00
 25592,Hook,Xiongzhi,Cai,CN,jun,True,,yueyue,2024-08-17 14:49:07+00:00
 25593,Nicktron,Farouk,Hama,FR,jun,True,,nicktron,2020-03-04 18:23:23+00:00
@@ -4216,7 +4216,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 25759,KKT,Karim,Aubineau,FR,jun,True,130387,karimkt,2026-08-26 19:31:29+00:00
 25760,Seelame,Manuel,Guillou Delair,FR,adc,True,,seelame,2025-06-14 20:36:36+00:00
 25761,Enjawve,Solal,Accary,FR,sup,True,,enjawve,2025-07-23 07:51:04+00:00
-25825,UNF0RGIVEN,William,Nieminen,SE,adc,True,132014,unforgiven-william-nieminen,2026-10-04 22:19:32+00:00
+25825,UNF0RGIVEN,William,Nieminen,SE,adc,True,,unforgiven-william-nieminen,2026-11-06 13:30:31+00:00
 25826,LeQu,Kamil,Rosik,PL,top,False,,lequ,2026-04-08 16:11:10+00:00
 25827,Warszi,Marcin,Surala,PL,mid,True,,warszi,2024-07-31 09:14:01+00:00
 25828,Syrpy,Kamil,Pękacki,PL,sup,True,,kms,2026-05-05 19:06:15+00:00
@@ -4390,7 +4390,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 27670,Shroudii,Gus,Vermeulen,BE,top,True,,shroudii,2021-01-13 08:16:47+00:00
 27671,IceBreaker,Dimitris,Chatzitsobanis,GR,top,False,,icebreaker,2026-01-25 11:36:09+00:00
 27675,Keorb,Mingyu,Liao,TW,mid,True,,jt-keorb,2022-12-28 18:16:13+00:00
-27705,DICE,Do-hyeon,Hong,KR,mid,True,132655,dice,2026-09-18 08:39:03+00:00
+27705,DICE,Do-hyeon,Hong,KR,mid,True,132655,dice,2026-10-23 11:59:21+00:00
 27801,Violet,Vincent,Wong,HK,adc,True,185,violet-vincent-wong,2026-08-21 15:09:36+00:00
 27809,Gabbo,Gabriel,Olivieri,IT,top,False,,gabbo,2024-12-30 14:22:47+00:00
 27810,Occlumats,Alessandro,Di Bartolo,IT,top,True,125913,occlumats,2020-07-13 15:51:10+00:00
@@ -4413,7 +4413,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 27832,0909,Zhihong,Chi,CN,mid,True,129933,player-0909,2026-06-08 14:48:32+00:00
 27834,XingYU,Xingyu,Hu,CN,adc,True,,xingyu,2021-02-10 19:51:06+00:00
 27835,VV,Qi,Zhang,CN,jun,False,,vv-zhang-qi,2026-01-02 17:49:52+00:00
-27836,XUN,Lixun,Peng,CN,jun,True,1566,xun,2026-10-06 11:02:51+00:00
+27836,XUN,Lixun,Peng,CN,jun,True,1566,xun,2026-11-01 00:02:42+00:00
 27837,Zinco,Shaofeng,Lin,CN,sup,True,,ugly,2023-04-16 11:49:09+00:00
 27838,August,Guo,Yuan,CN,top,True,125989,august-guo-yuan,2020-06-10 00:23:02+00:00
 27839,X1LAN,Haitao,Zheng,CN,top,True,,x1lan,2021-03-02 10:35:41+00:00
@@ -4426,7 +4426,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 27846,seaking9,Jiasheng,Xiong,CN,mid,True,,seaking9,2021-02-09 22:22:46+00:00
 27847,Picachu,Xiangtian,Gu,CN,adc,True,,picachu,2021-02-09 20:38:16+00:00
 27848,Munian,Ming-Yang,Ma,CN,top,True,,aphasiac,2026-01-02 07:17:55+00:00
-27849,Creme,Jian,Lin,CN,mid,True,126059,crime,2026-10-06 11:02:59+00:00
+27849,Creme,Jian,Lin,CN,mid,True,126059,crime,2026-11-01 00:02:51+00:00
 27850,zzm,Ziming,Zhang,CN,jun,True,132282,cassiel,2022-12-12 22:01:18+00:00
 27851,xifeng,Huan,Yin,CN,mid,False,,xunhuan,2024-12-14 17:26:56+00:00
 27852,kelin,Bolin,Huang,CN,adc,True,,luxun,2026-01-02 20:19:49+00:00
@@ -4462,7 +4462,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 27970,haonan,Jiang,Dong-Ming,CN,jun,True,,gabi-a66d7f8a-0581-4f08-b66e-fb0b75f9e970,2022-12-12 21:06:31+00:00
 28037,Aithusa,Lucas,Mantese,BR,mid,False,,aithusa,2026-06-26 19:29:01+00:00
 28165,Shine,Tôn,Nguyễn Phi Long,VN,adc,False,,shine,2024-12-31 12:19:15+00:00
-28166,Elio,Phạm,Thạch Nhân Băng,VN,sup,True,138127,lisa,2026-09-21 20:42:26+00:00
+28166,Elio,Phạm,Thạch Nhân Băng,VN,sup,True,138127,lisa,2026-10-23 11:59:23+00:00
 28167,Simon,Dương,Thanh Hoà,VN,top,True,,simon,2022-02-10 22:46:40+00:00
 28168,Jerry,Nguyễn,Tiến Duy,VN,mid,True,,jerry-nguy-n-ti-n-duy,2022-04-12 08:58:50+00:00
 28214,Hype,Nguyễn,Trọng Nhân,VN,sup,True,43238,hype,2020-05-02 20:43:14+00:00
@@ -4474,7 +4474,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 28341,DuDu,Lee,Dong-ju,KR,top,True,136063,dudu-lee-dong-ju,2026-08-10 13:59:12+00:00
 28342,Draktharr,Lê,Ngọc Toàn,VN,jun,True,,jahseh,2026-09-14 13:12:17+00:00
 28343,Forest,Lee,Hyeon-seo,KR,jun,True,,forest,2025-07-19 09:46:38+00:00
-28356,Odi11,Adrian,Kruk,PL,adc,True,138056,odi11,2026-09-24 06:48:01+00:00
+28356,Odi11,Adrian,Kruk,PL,adc,True,,odi11,2026-10-29 11:44:24+00:00
 28357,Czypsy,Kacper,Zaparucha,PL,sup,True,132925,czypsy,2026-08-28 07:03:46+00:00
 28362,Gregio,Lucas,Gregio Verner,BR,mid,False,,gregio,2023-09-03 20:36:03+00:00
 28363,Kadaki,Reinaldo,Morales,BR,adc,True,,kadaki,2020-05-17 10:07:27+00:00
@@ -4782,7 +4782,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 29281,Oscar,Park,Sang-joon,KR,top,True,,brb-oscar,2022-12-28 22:22:45+00:00
 29287,Skar,Alessandro,Torresi,IT,top,True,136722,dd-skar,2026-09-24 06:47:59+00:00
 29288,de sideré,Antonio,Dostinov,MK,jun,True,,dd-desidere,2024-09-15 21:30:00+00:00
-29291,Halo,James,Giacoumakis,AU,mid,True,139117,lgc-halo-5e8b78c7-bc16-4b2f-bd92-e27444bb4d6d,2026-08-26 07:45:27+00:00
+29291,Halo,James,Giacoumakis,AU,mid,True,139117,lgc-halo-5e8b78c7-bc16-4b2f-bd92-e27444bb4d6d,2026-10-23 12:33:45+00:00
 29292,Asteroid,Yunus,Emre Özdemir,TR,top,True,,aur-asteroid,2021-11-21 10:03:59+00:00
 29293,Urban,Marcus,Urban Christensen,DK,sup,True,137166,aur-urban,2026-02-10 04:00:26+00:00
 29294,Aryze,Rafael,Bruno,BR,top,True,,aryze,2020-12-11 13:59:53+00:00
@@ -4901,7 +4901,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 31144,Corobizar,,,FR,adc,False,,corobizar,2023-09-08 20:38:15+00:00
 31145,SivHD,Robbert,van Ejindhoven,NL,top,False,,sivhd,2023-09-30 17:54:12+00:00
 31212,Trap,Shin,Seung-min,KR,top,True,,trap,2022-06-06 17:57:18+00:00
-31213,Castle,Cho,Hyeon-seong,KR,top,True,136066,castle,2026-09-09 12:52:51+00:00
+31213,Castle,Cho,Hyeon-seong,KR,top,True,136066,castle,2026-11-01 00:02:48+00:00
 31214,Gideon,Kim,Min-seong,KR,jun,True,128218,gideon,2026-10-08 13:37:10+00:00
 31215,VicLa,Lee,Dae-kwang,KR,mid,True,134115,vicla,2026-10-08 13:36:51+00:00
 31217,Ophelia,Baek,Jin-seong,KR,mid,True,136343,ophelia,2026-09-20 16:01:26+00:00
@@ -4909,7 +4909,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 31220,Delight,Yoo,Hwan-joong,KR,sup,True,2883,crescent,2026-10-06 11:02:49+00:00
 31221,Kael,Kim,Jin-hong,KR,sup,True,129971,khael-kim-jin-hong,2026-10-06 11:02:39+00:00
 31223,Noah,Oh,Hyeon-taek,KR,adc,True,,noah-oh-hyeon-taek,2026-07-21 20:30:16+00:00
-31224,Berserker,Kim,Min-cheol,KR,adc,True,136066,berserker,2026-10-06 11:02:53+00:00
+31224,Berserker,Kim,Min-cheol,KR,adc,True,136066,berserker,2026-11-01 00:02:49+00:00
 31272,Zika,Huayu,Tang,CN,top,True,129972,zaza,2026-07-13 07:23:14+00:00
 31273,xiaocaobao,Jian,Liang,CN,mid,True,,xiaocaobao,2024-12-13 16:53:02+00:00
 31287,Thh,Zhaowei,Liu,CN,top,True,,thh,2022-02-15 15:43:36+00:00
@@ -4941,7 +4941,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 31319,Qingtian,Zihan,Yu,CN,top,True,,qingtian,2025-12-30 19:10:16+00:00
 31322,Heng,Yang,Cuiheng,CN,jun,True,408,heng-yang-cui-heng,2026-10-08 13:37:12+00:00
 31391,Zeus,Choi,Woo-je,KR,top,True,2883,zeus-choi-woo-je,2026-10-06 11:02:47+00:00
-31392,Oner,Moon,Hyeon-joon,KR,jun,True,126061,oner,2026-10-06 11:02:56+00:00
+31392,Oner,Moon,Hyeon-joon,KR,jun,True,126061,oner,2026-11-01 00:02:46+00:00
 31474,Skeeto,Javier Eugenio,Manuel Fuentes Nicoletti,CL,top,True,,skeeto,2025-03-30 13:52:31+00:00
 31475,Beenie,Pedro Lucas,Rodrigues,BR,adc,True,,beenie,2026-06-21 08:44:43+00:00
 31476,Aegis,Gabriel,Vinicius Saes de Lemos,BR,jun,True,161,aegis-gabriel-vinicius-saes-de-lemos,2026-10-02 09:12:26+00:00
@@ -5029,7 +5029,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 31759,Eliya,Junhan,Tong,CN,top,True,,eliya,2021-06-17 15:03:56+00:00
 31760,Daisy,Ye,Liu,CN,jun,True,,doraemon,2024-06-18 17:45:28+00:00
 31761,0404,Tianzai,Lyu,CN,mid,True,126168,player-0404,2021-12-17 13:13:39+00:00
-31762,JiaQi,Jiaqi,Zi,CN,adc,True,411,jiaqi,2026-10-06 11:03:05+00:00
+31762,JiaQi,Jiaqi,Zi,CN,adc,True,411,jiaqi,2026-11-01 00:02:54+00:00
 31763,Niket,Xinyuan,Ying,CN,sup,True,,niket,2025-12-30 21:52:40+00:00
 31764,Fantasy,Zeyu,Liu,CN,adc,False,,fantasy-ze-yu-liu,2024-12-03 19:55:45+00:00
 31765,AYS,Li,Jin-Chang,CN,top,True,,ays,2021-05-11 09:47:21+00:00
@@ -5081,8 +5081,8 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 31919,FIESTA,Hyeon-seo,An,KR,mid,True,115,fiesta,2026-10-08 13:37:06+00:00
 31920,Bull,Seon-gyu,Song,KR,adc,True,,bull-seon-gyu-song,2026-06-02 11:59:48+00:00
 31921,Howling,Ho-bin,Jeon,KR,top,True,,howling,2025-11-05 10:06:00+00:00
-31922,Ice,Sang-hoon,Yoon,KR,adc,True,,pump,2026-04-27 17:08:17+00:00
-31994,Yike,Martin,Sundelin,SE,jun,True,134078,yike,2026-10-18 20:31:38+00:00
+31922,Ice,Sang-hoon,Yoon,KR,adc,False,,pump,2026-11-07 13:27:34+00:00
+31994,Yike,Martin,Sundelin,SE,jun,True,134078,yike,2026-11-01 00:02:43+00:00
 31995,Kibah,Batuhan,Kibar,DK,sup,True,,kibah,2024-03-23 13:01:28+00:00
 31996,Bung,Jakob,Gramm,AT,adc,True,,d3rk1ng155,2024-04-14 12:21:34+00:00
 31997,Counter,Giacomo,Manconi,IT,adc,False,,counter,2024-12-30 14:16:17+00:00
@@ -5101,7 +5101,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 32044,Darkchri99,Christian,Devo,IT,sup,True,136252,darkchri99,2026-08-29 07:04:02+00:00
 32056,Yunbee,Jong-yun,Choi,CA,mid,True,,yunbee,2022-12-31 18:35:50+00:00
 32057,RoseThorn,Tae-ho,Kim,KR,jun,True,,rosethorn,2025-12-30 17:04:57+00:00
-32058,Spawn,Trevor,Kerr-Taylor,CA,adc,True,135069,spawn,2026-08-14 05:30:51+00:00
+32058,Spawn,Trevor,Kerr-Taylor,CA,adc,True,,spawn,2026-11-06 18:11:43+00:00
 32059,Sword,Rico,Chen,TW,mid,True,130637,swordd,2026-08-15 03:39:24+00:00
 32060,Tenacity,Milan,Oleksij,CA,adc,True,,tenacity,2026-01-07 18:02:13+00:00
 32061,Tony Top,Zheng,Fen,CA,top,True,,tony-top,2022-12-30 16:06:32+00:00
@@ -5197,7 +5197,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 32663,Netuno,Lucas,Flores Fensterseifer,BR,adc,True,158,netuno,2026-08-16 21:28:24+00:00
 32664,Disamis,Pedro,Gonçalves,BR,jun,True,132315,disamis,2026-08-31 02:21:14+00:00
 32665,RAV3N,Raphael,Sancio,BR,adc,True,,ravenzin,2025-08-12 01:23:03+00:00
-32666,scamber,Pedro,Lemos Soares Maximiniano,BR,sup,True,132315,scamber,2026-08-31 02:21:15+00:00
+32666,scamber,Pedro,Lemos Soares Maximiniano,BR,sup,True,,scamber,2026-11-05 07:03:24+00:00
 32667,Thunder,Nélio,Alves Pereira Junior,BR,mid,True,,thunder,2022-08-15 13:33:40+00:00
 32668,Cavalo,Alexandre,Fernandes,BR,sup,True,,cavalo,2026-04-23 02:08:44+00:00
 32669,Gragolandia,Leonardo,Dias Brito,BR,jun,True,,gragolandia,2025-03-27 09:15:53+00:00
@@ -5324,7 +5324,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 33616,Sirinox,Michal,Veit,CZ,adc,True,,sirinox,2025-07-16 10:32:57+00:00
 33617,Kinn,Alexandru,Dumitrescu,RO,sup,False,,kinn,2022-01-27 04:55:26+00:00
 33619,Divider,Aleksas,Bogdevičius,LT,jun,True,,divider,2022-08-04 14:37:37+00:00
-33620,Poltron,Kim,Nicholls,AU,jun,True,139117,poltron,2026-08-26 07:48:20+00:00
+33620,Poltron,Kim,Nicholls,AU,jun,True,139117,poltron,2026-10-23 12:33:54+00:00
 33621,Floppy,Joe,Tado,AU,sup,True,,floppy,2022-07-13 13:49:17+00:00
 33622,Conse,David,Schreiner,AT,top,True,132447,consequent,2023-07-07 23:50:08+00:00
 33645,RBM,Peyton,Demarest,US,jun,True,132484,rbm,2024-08-19 11:37:33+00:00
@@ -5338,8 +5338,8 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 33654,Qwacker,Michael,Zou,US,top,True,,qwacker,2025-09-15 11:52:10+00:00
 33655,Panda,James Ding,,AU,jun,True,,panda-7fb98196-adc3-4ec9-a5c0-bc8c2fe14957,2021-11-24 21:51:23+00:00
 33656,Xeno,Joshua,Kim,US,mid,False,,xeno,2021-04-19 16:12:46+00:00
-33657,Daption,Sam,Parsa Zarriz,CA,adc,True,138938,daption,2026-08-19 08:15:28+00:00
-33658,APA,Eain,Stearns,US,mid,True,1097,apa,2026-07-19 15:51:47+00:00
+33657,Daption,Sam,Parsa Zarriz,CA,adc,True,,daption,2026-11-06 20:48:28+00:00
+33658,APA,Eain,Stearns,US,mid,True,,apa,2026-10-21 12:22:14+00:00
 33659,DNA,Cédric,Beaulieu,CA,mid,True,,dragoon,2021-11-06 15:12:41+00:00
 33660,Hyami,Clement,Wittner,FR,jun,False,,hyami,2021-05-03 16:55:34+00:00
 33661,Meech,Brandon,Choi,CA,adc,True,,meech,2026-03-26 07:47:54+00:00
@@ -5431,7 +5431,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 35006,SickN1ck,Miguel,Carvalho,PT,adc,True,,sickn1ck,2024-01-05 15:57:30+00:00
 35007,Postkassen,Johannes Moeller,Thuesen,DK,sup,True,,postkassen,2023-07-21 06:13:47+00:00
 35008,Blackout,Bernardo,Fonseca,PT,mid,True,,blackout,2025-08-05 15:40:01+00:00
-35009,PapiTeero,Antero,Baldaia,PT,top,True,132212,papiteero,2026-10-04 22:19:13+00:00
+35009,PapiTeero,Antero,Baldaia,PT,top,True,,papiteero,2026-10-29 17:56:47+00:00
 35010,Pelo,Pierre,Adjamidis,FR,jun,False,,pelo,2021-10-30 19:40:32+00:00
 35011,Matias,Matias,Manchin-Opheltes,FR,adc,True,,matiaslaclasse,2025-11-05 09:49:09+00:00
 35012,Gloomy,Tomás,Arroyo,ES,adc,True,,gloomy,2021-10-30 19:36:04+00:00
@@ -5444,7 +5444,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 35019,zééé,José,Almeida,PT,sup,True,,zeee,2021-10-27 14:23:54+00:00
 35021,illlima,Ma,Tae-seok,KR,top,True,137931,illlima,2026-09-24 06:52:51+00:00
 35022,BuLLDoG,Lee,Tae-yeong,KR,mid,True,405,bulldog,2026-08-23 10:51:07+00:00
-35023,Lucid,Choi,Yong-hyeok,KR,jun,True,132531,lucid,2026-10-06 11:03:02+00:00
+35023,Lucid,Choi,Yong-hyeok,KR,jun,True,132531,lucid,2026-11-01 00:02:38+00:00
 35024,Rahel,Cho,Min-seong,KR,adc,True,137683,rahel,2026-08-31 06:31:13+00:00
 35025,Willer,Kim,Jeong-hyeon,KR,jun,True,126370,willer,2026-07-27 14:42:44+00:00
 35085,Dandom,Dániel,Domonkos,HU,jun,True,,dandom,2025-04-17 16:08:19+00:00
@@ -5551,7 +5551,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 35773,haoye,He,Wen-Hao,CN,jun,True,,fpbphos,2024-12-13 16:59:06+00:00
 35779,Felia,Lim,Alvin Ming Sang,MY,sup,True,,felia,2026-10-08 09:28:55+00:00
 35785,Noregret,Qiu,Chen-Xu,CN,jun,True,,sdxnoregret,2022-12-12 18:30:04+00:00
-35847,Densi,Denis,Aljic,DE,jun,True,132014,densi,2026-10-04 22:19:31+00:00
+35847,Densi,Denis,Aljic,DE,jun,True,,densi,2026-11-06 13:30:36+00:00
 35848,Chryssey,Christian,Rublack,DE,adc,True,,chryssey,2025-07-13 15:46:41+00:00
 35857,Uni,Min-je,Cho,KR,jun,True,,spguni,2022-01-03 15:35:39+00:00
 35858,Leon,Na-gyeong,kim,KR,mid,True,,spgnino,2022-03-18 13:43:46+00:00
@@ -5570,7 +5570,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 35879,PYoChul,Kim,Sang-hoon,KR,jun,True,,bmxpyochul,2022-05-27 09:29:44+00:00
 35880,SeTab,Song,Kyeong-jin,KR,mid,True,128350,bmxsetab,2026-08-26 03:09:25+00:00
 35881,HaKaM,Kim,Hye-gang,KR,adc,True,,bmxhakam,2021-12-12 12:18:17+00:00
-35882,Piero,Kim,Jeong-hoon,KR,sup,True,1449,bmxpiero,2026-10-04 22:19:12+00:00
+35882,Piero,Kim,Jeong-hoon,KR,sup,True,,bmxpiero,2026-11-06 13:32:02+00:00
 35883,Philip,Philip,Zeng,CA,top,True,135158,philip,2026-08-13 13:27:26+00:00
 35894,Medzz,Li,Jia-Yuan,HK,mid,True,,maxmedzz,2024-11-08 10:10:19+00:00
 35896,Sober,Zhang,Zi-Xuan,CN,adc,True,,sober-zhang-zi-xuan,2022-04-12 06:55:43+00:00
@@ -5588,7 +5588,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 36213,nymph,Ahmet Ömer,Mutlu,TR,mid,False,,nymph,2023-09-06 20:48:36+00:00
 36284,Xyster,Michael,Adamcewicz,AU,mid,True,,xyster,2022-01-17 16:45:40+00:00
 36290,xiangqian,Long,Chen-Yang,CN,sup,True,,xiangqian,2022-12-29 17:50:58+00:00
-36291,YSKM,Chau,Shu-Tak,HK,top,True,130352,yskm,2026-09-30 08:22:37+00:00
+36291,YSKM,Chau,Shu-Tak,HK,top,True,130352,yskm,2026-10-23 11:56:08+00:00
 36308,Smart,Rotislav,Sarnatsky,UA,top,True,,smart,2026-04-01 14:27:25+00:00
 36309,IceDeath,Maksim,Malkov,RU,jun,True,,icedeath,2021-08-08 09:15:42+00:00
 36336,zybo,Zhang,Yu-Bo,CN,adc,True,,zybo,2024-01-03 22:44:50+00:00
@@ -5650,7 +5650,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 38244,Dinka,John,Dinka,CA,top,False,129901,dinka,2023-09-13 21:18:33+00:00
 38245,Instinct,Tony,Ng,US,adc,True,,instinct-c7995810-db17-4966-84f1-bb24350c811b,2025-08-09 09:59:46+00:00
 38246,Gweiss,Garrett,Weiss,US,sup,True,,gweiss,2022-02-01 13:44:31+00:00
-38247,Bradley,Bradley,Benneyworth,US,mid,True,138936,bradley,2026-08-15 03:39:26+00:00
+38247,Bradley,Bradley,Benneyworth,US,mid,True,,bradley,2026-11-06 20:46:02+00:00
 38248,Array,Jackson,Moldenhauer,US,adc,True,138936,array-a980ceb6-d820-42f1-8bfa-0c61f14f1ba5,2026-08-15 03:39:27+00:00
 38249,Matty,Mathieu,Breton,CA,jun,True,,matty-mathieu-breton,2021-12-30 16:24:11+00:00
 38250,rovex,David,Sin-Keo,CA,sup,True,,rovex,2026-06-26 19:29:33+00:00
@@ -5661,7 +5661,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 38319,Jarvis,Lê,Văn Tuấn Tú,VN,top,True,,jarvis-063c032d-3614-44b0-8ec0-0cfeb0068943,2025-02-27 23:18:15+00:00
 38326,2T,Nguyễn,Trọng Trí,VN,top,False,,2t,2024-11-29 19:06:11+00:00
 38339,Pullbae,Jeong,Ji-hoon,KR,mid,True,,pullbae,2024-09-13 14:26:46+00:00
-38340,Saint,Kang,Sung-in,KR,mid,True,136066,saint,2026-10-06 11:02:53+00:00
+38340,Saint,Kang,Sung-in,KR,mid,True,136066,saint,2026-11-01 00:02:49+00:00
 38341,Paduck,Park,Seok-hyeon,KR,adc,True,137726,paduck,2026-07-21 06:09:59+00:00
 38342,Soboro,Lim,Seong-min,KR,top,True,394,soboro,2026-07-20 18:24:54+00:00
 38343,Raptor,Jeon,Eo-jin,KR,jun,True,134115,raptor,2026-10-08 13:36:51+00:00
@@ -5672,15 +5672,15 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 38348,Quid,Lim,Hyeon-seung,KR,mid,True,390,quid,2026-10-06 11:02:41+00:00
 38349,ZEST,Kim,Dong-min,KR,top,True,133796,zest-kim-dong-min,2026-10-10 21:25:36+00:00
 38350,Winner,Woo,Joo-sung,KR,jun,True,128344,winner,2026-08-26 03:09:23+00:00
-38351,Peyz,Kim,Su-hwan,KR,adc,True,126061,peyz,2026-10-06 11:02:57+00:00
+38351,Peyz,Kim,Su-hwan,KR,adc,True,126061,peyz,2026-11-01 00:02:46+00:00
 38352,Semin,Yu,Se-min,KR,top,True,131037,toison,2022-05-27 09:29:44+00:00
-38353,Lure,Shin,Jae-yoon,KR,adc,True,132212,lure,2026-10-04 22:19:15+00:00
+38353,Lure,Shin,Jae-yoon,KR,adc,True,,lure,2026-10-29 17:57:15+00:00
 38354,Guwon,Koo,Gwan-mo,KR,jun,True,641,seonbi,2026-08-29 07:45:25+00:00
 38355,AD,Yang,Ji-hyeok,KR,adc,False,,adc,2026-01-07 17:17:58+00:00
 38356,Like 1999,Jeon,Jun-hyeok,KR,jun,True,,jgl,2026-01-07 17:19:53+00:00
 38357,PerfecT,Lee,Seung-min,KR,top,True,63,perfect-lee-seung-min,2026-10-08 13:36:57+00:00
-38358,Way,Han,Gil,KR,sup,True,130105,way-han-gil,2026-07-20 18:24:55+00:00
-38359,Duro,Joo,Min-kyu,KR,sup,True,2882,duro,2026-10-06 11:02:37+00:00
+38358,Way,Han,Gil,KR,sup,True,,way-han-gil,2026-11-06 21:37:51+00:00
+38359,Duro,Joo,Min-kyu,KR,sup,True,2882,duro,2026-11-01 00:02:48+00:00
 38360,HamBak,Ham,Yoo-jin,KR,jun,True,137683,hambak,2026-08-31 06:31:13+00:00
 38361,Ten10,Kang,Joon,KR,jun,False,,ten10,2026-01-02 20:24:15+00:00
 38362,dispel,Lee,Jang-won,KR,sup,True,,blessing,2026-01-02 08:13:32+00:00
@@ -5759,7 +5759,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 38997,PolskiFok,Patryk,Langer,PL,top,True,134152,polskifok,2024-01-07 07:17:13+00:00
 38998,Taewang,Georg,Kinzel,DE,sup,True,,taewang,2022-10-30 18:48:23+00:00
 38999,Badlyyga,Tomasz,Bałdyga,PL,jun,True,,badlyyga,2023-09-08 13:46:26+00:00
-39000,Mercy9,Cengizhan,Teker,TR,mid,True,132212,merciless,2026-10-04 22:19:14+00:00
+39000,Mercy9,Cengizhan,Teker,TR,mid,True,,merciless,2026-10-29 17:57:10+00:00
 39001,Adison,Adrian,Głuszczenko,PL,adc,True,,adison,2023-11-14 21:10:41+00:00
 39002,lee sang,Patryk,Kozłowski,PL,mid,True,,leesang,2026-03-28 09:01:18+00:00
 39003,Tracyn,Sebastian,Wojtoń,PL,top,True,130105,tracyn,2026-07-20 18:24:56+00:00
@@ -5794,7 +5794,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 39214,Ghastly,Bartosz,Szczesiak,PL,mid,True,130173,ghastly,2022-12-31 19:18:09+00:00
 39215,Avarice,Aleksandar,Dimitrov,BG,adc,True,132470,avarice,2026-09-10 16:22:47+00:00
 39216,Enoch,Dilan,Krnjak,HR,sup,True,136547,enoch,2026-10-02 19:45:03+00:00
-39217,Caltys,Maya,Henckel,SE,mid,True,137372,caltys,2026-10-12 20:49:08+00:00
+39217,Caltys,Maya,Henckel,SE,mid,True,,caltys,2026-10-30 21:27:24+00:00
 39254,Trungi,Martin,Trungel,CZ,top,True,,trungi,2022-12-28 21:59:00+00:00
 39255,Demro,Peter,Jirovský,CZ,jun,True,,demro,2022-01-15 15:13:54+00:00
 39256,Sheja,Karol,Bieszczad,PL,adc,True,,sheja,2024-10-10 21:14:40+00:00
@@ -5816,7 +5816,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 39315,Smarty,Matyáš,Rozvoral,CZ,sup,True,137229,smarty,2026-09-24 06:52:51+00:00
 39316,Benda,Benedikt,Chmelík,CZ,mid,True,,benda,2025-02-09 14:36:00+00:00
 39317,R0bbed,Manh,Ha Duc,VN,top,True,134988,r0bbed,2024-10-07 12:03:03+00:00
-39318,Strode,Šimon,Povýšil,CZ,adc,True,136087,strode,2026-09-24 06:48:04+00:00
+39318,Strode,Šimon,Povýšil,CZ,adc,True,,strode,2026-10-20 15:31:41+00:00
 39320,Petis,Petr,Červenka,CZ,sup,True,,petis,2022-06-05 19:00:41+00:00
 39321,Dejvos,David,Válek,CZ,sup,False,,dejvos,2025-01-03 14:38:27+00:00
 39323,Inferiorities,Jorgo,Dhimojani,GR,top,True,,infe,2022-05-25 13:36:11+00:00
@@ -5866,8 +5866,8 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 39460,Luka,Yusuf,Oktay Gülbak,TR,mid,True,,luka,2023-04-13 15:50:39+00:00
 39461,Sloth,Bae,Jung-sub,KR,sup,True,133978,sloth-bae-jung-sub,2024-07-31 09:13:57+00:00
 39462,Padelius,Pantelis,Chatzitheodorou,GR,adc,True,,padelius,2022-05-19 15:08:42+00:00
-39482,zorenous,Cameron,Abbott,AU,top,True,139117,zorenous,2026-08-26 07:48:15+00:00
-39483,Bulldawg,Drekani,Akuhata,NZ,sup,True,,bulldawg,2023-06-30 13:18:16+00:00
+39482,zorenous,Cameron,Abbott,AU,top,True,139117,zorenous,2026-10-23 12:34:04+00:00
+39483,Bulldawg,Drekani,Akuhata,NZ,sup,True,,bulldawg,2026-10-23 12:34:15+00:00
 39484,Tyran,Robert,wells,AU,top,True,,tyran,2022-06-06 08:06:28+00:00
 39485,foreigner,Jeremy,Lim,AU,jun,True,137464,foreigner,2025-10-03 07:36:33+00:00
 39486,DaJeung,Jeung,Da Woon,KR,mid,True,,dajeung,2024-02-05 12:00:03+00:00
@@ -5893,7 +5893,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 39690,kPr,Maksim,Grebonos,MD,top,True,138853,koprtop,2026-10-04 22:19:12+00:00
 39691,The Cemen,Yuri,Blyzniuk,UA,mid,True,,the-cemen,2022-02-02 21:45:47+00:00
 39692,Laatch,Felix,Melin,SE,adc,True,,laatch-felix-melin,2022-10-14 12:53:31+00:00
-39702,Busio,Alan,Cwalina,US,sup,True,134078,busio,2026-10-18 20:31:39+00:00
+39702,Busio,Alan,Cwalina,US,sup,True,134078,busio,2026-11-01 00:02:44+00:00
 39742,FIare,Franco Matias Pombo,Castillo,UY,mid,True,,fiare,2022-12-27 18:57:47+00:00
 39746,YellowYoshi,Yoshiki,Fujimoto,JP,top,True,,yellowyoshi,2026-06-12 07:34:11+00:00
 39747,Swamp,Hwang,Hyeon-sik,KR,jun,True,,swamp,2022-12-29 17:21:33+00:00
@@ -5903,7 +5903,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 39752,Hetel,Shuya,Koyama,JP,sup,True,,hetel,2026-03-06 08:33:23+00:00
 39769,Marble,Rei,Shimaya,JP,adc,True,126707,marble,2026-07-25 12:25:52+00:00
 39770,Khema,Emanuele,Conti,IT,jun,True,,khema,2022-06-01 16:56:50+00:00
-39771,Pretender,Cheuk Lun Jason,Ng,HK,mid,True,130352,kanna-jason-cheuk-lun-ng,2026-09-30 08:22:27+00:00
+39771,Pretender,Cheuk Lun Jason,Ng,HK,mid,True,130352,kanna-jason-cheuk-lun-ng,2026-10-23 11:56:08+00:00
 39772,Weizhe,Lin,Wei-Zhe,TW,top,True,,quiet-wei-zhe-lin,2025-08-25 10:41:15+00:00
 39773,tako,Mu-Siang,Huang,TW,jun,True,,tako,2024-02-06 10:15:40+00:00
 39774,Faith,Chong Fai,Sit,MO,mid,True,,faith-chong-fai-sit,2023-09-26 06:53:41+00:00
@@ -5929,7 +5929,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 39874,Draptix,Corentin,Colin,FR,top,True,,draptix,2022-03-30 16:01:49+00:00
 39875,JuJuTw0,Julien,Izzo,FR,adc,True,,jujutw0,2024-08-31 11:28:48+00:00
 39876,Veignorem,Đai-vinh,Lussiez,FR,sup,True,,veignorem,2025-11-05 11:03:33+00:00
-39877,Zicssi,Lanzo,Ciajolo,FR,jun,True,1449,zicssiflay,2026-10-04 22:19:11+00:00
+39877,Zicssi,Lanzo,Ciajolo,FR,jun,True,,zicssiflay,2026-11-08 21:50:03+00:00
 39878,Moutarde,Louis,Ramond,FR,mid,True,,moutarde,2023-09-26 14:54:49+00:00
 39879,Honor,Théo,Magania,FR,sup,True,,honor,2025-11-05 09:49:32+00:00
 39880,Amiral,Allan,El Bahhari,FR,jun,True,,amiral,2022-12-31 12:59:36+00:00
@@ -6195,7 +6195,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 42139,InvincibleSyndra,Hamzeh,Alnazer,JO,mid,True,131056,invinciblesyndra,2022-07-09 16:06:12+00:00
 42140,Magic,Faris,Almazroouei,AE,mid,True,,magic-faris-almazroouei,2026-09-29 07:38:54+00:00
 42141,Kudy,Safwan,Esleem,PS,jun,True,132652,kudy,2023-06-14 18:30:15+00:00
-42142,Boda,Mohamed,Yahia,EG,top,True,132014,boda,2026-10-04 22:19:31+00:00
+42142,Boda,Mohamed,Yahia,EG,top,True,,boda,2026-11-06 13:30:38+00:00
 42145,Chainz,Omar,Kamal,AE,top,True,,chainz,2022-05-24 13:37:35+00:00
 42146,BartonaR,Eisa,Aldhaheri,AE,top,True,131057,bartonar,2025-05-08 23:44:21+00:00
 42147,JunDat,Jawdat,Khanji,JO,jun,True,,jundat,2023-06-15 17:48:34+00:00
@@ -6266,7 +6266,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 42269,Lody,Kim,Sang-woo,KR,jun,True,,test-jg1,2022-11-07 14:45:22+00:00
 42270,Van,Kim,Seung-Hoo,KR,jun,True,126707,test-jg2,2026-07-25 12:25:51+00:00
 42272,Test MID1,Kwon,Sung-bum,KR,mid,True,,test-mid1,2022-05-27 09:29:46+00:00
-42273,Smash,Sin,Geum-jae,KR,adc,True,132531,smash-sin-geum-jae,2026-10-06 11:03:03+00:00
+42273,Smash,Sin,Geum-jae,KR,adc,True,132531,smash-sin-geum-jae,2026-11-01 00:02:39+00:00
 42274,Minous,Kang,Min-woo,KR,sup,True,128344,minous,2026-08-26 03:09:24+00:00
 42331,Mikru,Michael,Kim,AU,mid,True,,mikru,2022-07-13 13:46:08+00:00
 42332,Llenia,Albert,Luu,AU,jun,True,,llenia,2022-07-13 13:48:46+00:00
@@ -6471,7 +6471,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 42984,Darn Arne,Arne,Verschoor,NL,jun,True,,darn-arne,2022-07-22 10:32:22+00:00
 42985,Jakoule,Maxence,Déchamps,FR,top,True,,jakoule,2022-12-30 20:44:10+00:00
 42986,Iska,Sadhu  Isaac,Cavero Egusquiza Huilca,PE,sup,True,138173,player-224,2026-04-07 13:52:26+00:00
-42993,Fisher,Lee,Jeong-tae,KR,mid,True,89,fisher-db65f935-3a36-44e2-b3ba-c9935f64304e,2026-07-25 14:02:49+00:00
+42993,Fisher,Lee,Jeong-tae,KR,mid,True,89,fisher-db65f935-3a36-44e2-b3ba-c9935f64304e,2026-10-23 11:56:07+00:00
 42998,L0SER,Hiroki,Yanagawa,JP,sup,True,,l0ser,2024-01-20 10:27:44+00:00
 42999,Diodris,Diogo,Ruão,PT,sup,True,,diodris,2022-11-07 08:50:42+00:00
 43000,MG,Lee,Ji-hoon,KR,mid,True,134155,igymg,2026-08-20 14:36:37+00:00
@@ -6537,7 +6537,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 43473,ziyou,Wei,Zhen-Jie,CN,sup,False,,ziyou,2026-01-02 20:21:35+00:00
 43544,danny1018,Fong,Chun-Hei,HK,top,True,,weadanny1018,2024-09-10 08:41:33+00:00
 43562,AzizYildirm,Aziz Yıldırım,Oruç,TR,jun,True,,azizyildirm,2026-01-21 20:31:44+00:00
-43594,Kakkun,Kamon,Nomoto,JP,adc,True,89,kakkun,2026-07-25 14:02:49+00:00
+43594,Kakkun,Kamon,Nomoto,JP,adc,True,89,kakkun,2026-10-23 11:56:07+00:00
 43595,Primo,Shion,Tsunasawa,JP,sup,True,,primo,2023-12-06 14:35:04+00:00
 43605,Benvi,Ben,Moore,AU,sup,True,,benvi,2024-11-29 17:21:32+00:00
 43609,Scripter,Emil,Nordström,SE,adc,True,,scripter,2023-01-09 09:21:07+00:00
@@ -6582,9 +6582,9 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 44124,Winnie,Winston,Herald,CA,jun,True,,winnie-20f7ce6d-4fec-4017-9371-1e3f1c7d630e,2024-08-16 17:50:18+00:00
 44125,MooseHater,Austin,Murray,US,top,True,,moosehater,2024-08-19 11:55:07+00:00
 44126,Porsche,Shane,Higginbotham,US,top,True,,porsche,2025-12-14 11:53:11+00:00
-44127,Kim Down,Ethan,Song,KR,sup,True,130637,kim-down,2026-08-15 03:39:24+00:00
+44127,Kim Down,Ethan,Song,KR,sup,True,,kim-down,2026-11-07 22:45:50+00:00
 44128,Plux,Thomas Ryan,Thompson,US,sup,True,134252,plux,2024-01-16 12:36:34+00:00
-44129,Lxwrencee,Lawrence Harvey,Yap,US,top,True,130636,lawrencee,2022-12-29 18:12:15+00:00
+44129,Lxwrencee,Lawrence Harvey,Yap,US,top,True,,lawrencee,2026-11-06 18:11:04+00:00
 44214,Bunzz,Nguyễn,Trọng Nghĩa,VN,adc,True,129019,bunzz,2022-08-18 10:11:13+00:00
 44367,Elite Joint,Bastian,Ahrens,DE,sup,True,,elite-joint,2022-08-30 16:35:07+00:00
 44473,Pon,Hayato,Yamada,JP,top,True,,pon,2022-12-28 17:41:49+00:00
@@ -6592,7 +6592,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 44475,rre,Kodai,Tamura,JP,adc,True,138122,rre,2026-07-18 06:50:23+00:00
 44476,ezman,Hayato,Kawai,JP,adc,True,,ezman,2026-01-28 16:09:29+00:00
 44477,Laxy,Daichi,Tanaka,JP,sup,True,,laxy,2022-12-28 18:33:07+00:00
-44478,Momo,Sora,Tobita,JP,top,True,89,momo-sora-tobita,2026-07-25 14:02:46+00:00
+44478,Momo,Sora,Tobita,JP,top,True,89,momo-sora-tobita,2026-10-23 11:56:02+00:00
 44479,Funahwi,Shou,Oomura,JP,jun,True,131726,funahwi,2023-06-22 14:50:58+00:00
 44480,Puyu,Shang-Hong,Wu,TW,top,True,,topred,2022-09-16 11:09:43+00:00
 44481,RenYe,Yang,Yu-Jen,TW,jun,True,,renye,2025-07-23 08:15:09+00:00
@@ -6636,7 +6636,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 44578,Smurfe,Felix,Hylleseth,NO,top,True,,smurfe,2026-08-07 01:40:21+00:00
 44579,noname,Will,Jones,GB,jun,True,,noname-will-jones,2026-06-08 22:38:21+00:00
 44580,Hydra,Raúl Moreno,Valero,ES,mid,True,134303,hydra-raul-moreno-valero,2026-07-12 15:40:07+00:00
-44581,Legolas,Sergio Vicente,Gispert,ES,adc,True,130103,legolas-sergio-vicente-gispert,2026-10-02 19:45:07+00:00
+44581,Legolas,Sergio Vicente,Gispert,ES,adc,True,,legolas-sergio-vicente-gispert,2026-10-19 21:53:17+00:00
 44583,Flamer,Julien,Berschuck,DE,top,True,133761,flamer,2026-09-07 13:25:06+00:00
 44584,Nio,Nick,Kartamyschew,DE,sup,True,130113,nio-4d88888d-a0ac-499c-a3b7-cb9f164405dc,2026-09-24 06:48:03+00:00
 44585,Karni,Lukas,Steininger,DE,sup,True,,karni,2025-11-26 20:46:34+00:00
@@ -6661,7 +6661,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 45313,Duck,Romain,Petit,FR,adc,True,,duck-romain-petit,2023-01-11 08:08:38+00:00
 45315,Reus,Alexis,Desseaux,FR,mid,True,130109,reus-alexis-desseaux,2022-10-18 15:34:23+00:00
 45316,Dopaminw,Valentin,Bart,FR,jun,True,136436,dopaminw,2026-02-21 09:29:32+00:00
-45317,Caliste,Caliste,Henry-Hennebert,FR,adc,True,134078,caliste,2026-10-18 20:31:39+00:00
+45317,Caliste,Caliste,Henry-Hennebert,FR,adc,True,134078,caliste,2026-11-01 00:02:44+00:00
 45318,Herazor,Gauthier,Peuvion,FR,mid,True,130014,herazor,2022-10-18 15:34:24+00:00
 45319,Sotsy,John,Sicre,FR,top,True,,sotsy,2026-05-07 12:44:11+00:00
 45320,eaRyz,Julian,Wehinger,FR,jun,True,,earyz,2025-08-13 09:26:20+00:00
@@ -6678,8 +6678,8 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 45336,Soul,Victor,Ganga Martinez,ES,jun,True,,soul-victor-ganga-martinez,2023-03-25 07:04:02+00:00
 45338,Kurilius,Carlos,Garcia,ES,adc,True,,kurilius,2024-04-19 19:07:02+00:00
 45339,Manster,Manuel,Corral,ES,sup,True,,manster,2023-07-26 09:46:22+00:00
-45340,selenex,Eric,Lozano,ES,top,True,130103,selenex,2026-10-02 19:45:04+00:00
-45342,Macaquiño,Sergio Bouzende,Rodrigues,ES,mid,True,130103,macaquino,2026-10-02 19:45:06+00:00
+45340,selenex,Eric,Lozano,ES,top,True,,selenex,2026-10-19 21:53:13+00:00
+45342,Macaquiño,Sergio Bouzende,Rodrigues,ES,mid,True,,macaquino,2026-10-19 21:53:27+00:00
 45343,Kaii,Jorge,Saiz,ES,adc,True,134303,kaii,2026-07-12 15:35:30+00:00
 45344,Thream,Eder,Mohedas Plaza,ES,sup,True,129969,thream,2023-01-30 11:19:45+00:00
 45345,Aleykxar,Po Hsiang,Chen,ES,adc,True,,aleykxar,2023-10-03 16:41:43+00:00
@@ -6796,9 +6796,9 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 45850,Cabee,Juan Bautista,Fontela,AR,jun,True,,cabee,2022-11-17 19:47:38+00:00
 45854,Frog,Lee,Min-hoi,KR,top,True,128344,frog,2026-08-26 03:09:22+00:00
 45855,Gyeom,Kim,Min-gyeom,KR,jun,True,132099,gyeom,2022-11-20 00:43:28+00:00
-45856,Kyeahoo,Kang,Ye-hoo,KR,mid,True,134078,kyeahoo,2026-10-18 20:31:38+00:00
-45858,Career,Oh,Hyeong-seok,KR,sup,True,132531,career,2026-10-06 11:03:03+00:00
-45859,Siwoo,Jeon,Si-woo,KR,top,True,132531,siwoo,2026-10-06 11:03:02+00:00
+45856,Kyeahoo,Kang,Ye-hoo,KR,mid,True,134078,kyeahoo,2026-11-01 00:02:43+00:00
+45858,Career,Oh,Hyeong-seok,KR,sup,True,132531,career,2026-11-01 00:02:39+00:00
+45859,Siwoo,Jeon,Si-woo,KR,top,True,132531,siwoo,2026-11-01 00:02:37+00:00
 45860,Sharvel,Kim,Dan-Woo,KR,jun,True,136063,sharvel,2026-08-10 13:59:13+00:00
 45861,Celina,Kim,Yul-hwan,KR,adc,True,132101,celina,2022-11-18 12:42:44+00:00
 45862,Thumb,Noh,Hyeong-jun,KR,sup,True,,thumb,2025-06-23 14:59:57+00:00
@@ -6890,7 +6890,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 46503,Nuclex,José Andres,Garzón Izquierdo,EC,mid,True,,nuclex,2022-12-15 12:51:32+00:00
 46504,Zaetoz,Santiago Alexis,Coral Pazmiño,EC,adc,True,132318,zaetoz,2023-01-01 19:38:07+00:00
 46505,Sofia,Paolo Alexander,Falconi Cachimuel,EC,sup,True,132318,sofia-paolo-alexander-falconi-cachimuel,2023-01-01 17:22:02+00:00
-46506,Keii,Víctor Leandro,Durango García,CO,top,True,136730,keii,2026-09-15 07:39:08+00:00
+46506,Keii,Víctor Leandro,Durango García,CO,top,True,,keii,2026-11-06 20:46:10+00:00
 46507,Dya,Andrés Felipe,Neira Quiroga,CO,adc,True,,dya,2025-05-10 11:44:24+00:00
 46508,Melocotón,Daniel Felipe,Vargas Cifuentes,CO,sup,True,,melocoton,2023-01-01 19:17:29+00:00
 46510,Mitten,,,BO,top,True,132321,mitten,2022-12-15 12:51:34+00:00
@@ -7025,7 +7025,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 47306,Paul227,Paul,Gurisch,DE,mid,True,132492,paul227,2023-06-27 18:45:47+00:00
 47307,lunacia,Harry,Cao,US,top,True,,lunacia,2025-01-10 13:05:30+00:00
 47308,Goo,Bryan,Yi,US,jun,True,,goo,2023-02-07 15:09:51+00:00
-47309,Minui,Mingshui,Zhang,US,sup,True,135158,minui,2026-08-13 13:27:26+00:00
+47309,Minui,Mingshui,Zhang,US,sup,True,132156,minui,2026-10-26 09:32:09+00:00
 47340,rocks908,Brian,Chetwynd,US,sup,True,132611,rocks908,2023-01-18 17:52:05+00:00
 47343,Scaryride,Damir,Jasminović,RS,sup,True,132625,scaryride,2024-05-23 06:38:46+00:00
 47344,Boras,Domagoj,Boras,HR,top,True,,boras,2023-06-07 10:32:46+00:00
@@ -7038,7 +7038,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 47351,Gorilla,Igor,Maksimović,BA,sup,True,,gorilla-igor-maksimovic,2023-06-03 13:30:02+00:00
 47352,Jelu,Krasimi,Zhelyazkov,BG,jun,True,,jelu,2023-01-18 18:32:26+00:00
 47379,Rhilech,Enes,Uçan,TR,jun,True,137057,rhilech,2026-09-18 19:30:31+00:00
-47380,Aetinoth,Berat,Tıknazoğlu,TR,adc,True,1449,aetinoth,2026-10-04 22:19:12+00:00
+47380,Aetinoth,Berat,Tıknazoğlu,TR,adc,True,,aetinoth,2026-11-06 20:45:31+00:00
 47381,Flowing,Hugo,Lundell,SE,jun,True,,flowing,2023-01-19 12:34:59+00:00
 47382,Shaolin,Sondre,Myrmel,NO,mid,True,,shaolin,2023-01-19 12:35:00+00:00
 47383,Lari,Lari,Katainen,FI,adc,True,,lari,2023-01-19 12:35:00+00:00
@@ -7260,7 +7260,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 49137,WAN,Mathis,Bourgoin,FR,mid,True,,wan-mathis-bourgoin,2023-09-26 14:47:14+00:00
 49158,Renewal,Tom,Carvalho,FR,jun,True,139110,renewal,2026-09-21 19:33:42+00:00
 49159,Yen,Fadi,Behnam,CH,adc,True,134336,yen,2026-09-11 06:46:50+00:00
-49160,Syzyfek,Jakub,Bareła,PL,adc,True,130113,syzyfek,2026-09-24 06:48:03+00:00
+49160,Syzyfek,Jakub,Bareła,PL,adc,True,,syzyfek,2026-10-26 13:20:42+00:00
 49161,Matixx,Mateusz,Dworakowski,PL,top,True,,matixx,2026-03-27 17:42:14+00:00
 49162,frosty,José Eduardo,Leal Pacheco,BR,sup,True,161,frosty-jose-eduardo-leal,2026-09-28 14:17:43+00:00
 49165,Ephekles,Marc,Küchler,DE,sup,True,,ephekles,2025-07-13 12:43:32+00:00
@@ -7506,7 +7506,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 50240,Kerry,Jui-Wen,Chung,TW,sup,True,126704,cfoakerry,2026-04-09 20:51:06+00:00
 50242,Xin,Shang-Hsin,Ye,TW,jun,True,,psgaxin,2025-08-25 10:41:16+00:00
 50243,ChiCh1,Chi-Hsuan,Wu,TW,adc,True,,psgachich1,2026-01-28 13:05:20+00:00
-50255,Brucee,Bruce,Scott Torres Nano,PE,sup,True,132655,v3abrucee,2026-09-18 08:39:03+00:00
+50255,Bruce,Bruce,Scott Torres Nano,JP,sup,True,132655,v3abrucee,2026-11-08 10:31:32+00:00
 50256,enapon,Ryosuke,Noguchi,JP,mid,True,138121,v3aenapon,2026-07-18 11:45:05+00:00
 50259,Darkrai,Nguyễn,Hoàng Lam,VN,sup,True,133603,darkrai,2024-01-08 12:17:08+00:00
 50331,Kiru,Hồ Hữu,Hải,VN,mid,True,,bwkiru,2025-02-27 23:14:57+00:00
@@ -7578,7 +7578,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 50758,Ruben,Ruben,De Sousa,FR,jun,True,,ruben-01d23781-0989-4520-bf93-c95ef81b60bb,2024-01-17 13:10:08+00:00
 50759,Booshi,Théo,Mouchiroud,FR,adc,True,137901,booshi,2026-08-05 02:50:14+00:00
 50760,Wrongo,Matéo,Magat,FR,sup,True,,wrongo,2025-02-13 12:18:52+00:00
-50761,Theocacs,Theo,Sauda,FR,jun,True,131053,theocacs,2026-10-04 22:19:20+00:00
+50761,Theocacs,Theo,Sauda,FR,jun,True,,theocacs,2026-10-20 15:35:33+00:00
 50762,Goldenpenny,Hugo,Pilström,SE,adc,True,,goldenpenny,2026-05-26 10:31:50+00:00
 50763,Raito,Thomas,Kissel,FR,sup,True,,raito,2024-09-20 08:08:41+00:00
 50764,Soldier,Thomas,Haudecoeur,FR,adc,True,,soldier-199e0d27-2396-467f-9626-a82649cda17f,2026-10-07 18:41:37+00:00
@@ -7715,7 +7715,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 52083,zynts,Matheus,Emanuel,BR,top,True,161,zynts,2026-09-28 14:17:41+00:00
 52084,Cirilo,Gabriel,Araújo,BR,adc,True,,cirilo,2024-10-02 11:05:39+00:00
 52085,curty,Pedro,Curty,BR,top,True,128313,curty,2026-07-12 07:21:27+00:00
-52098,1Jiang,Chen,Yi-Chin,TW,top,True,132568,jiang,2026-09-30 08:21:20+00:00
+52098,1Jiang,Chen,Yi-Chin,TW,top,True,132568,jiang,2026-10-23 11:56:09+00:00
 52099,Cheng9,Pan,Yang-Cheng,TW,adc,True,,cheng9,2025-07-18 21:24:42+00:00
 52174,Tahahy,Trần,Hoàng Huy,VN,sup,True,136549,tahahy,2026-09-09 11:55:28+00:00
 52175,K1ller,Vũ,Quốc Hưng,VN,adc,False,,killer-vu-qu-c-h-ng,2024-11-29 16:42:35+00:00
@@ -7730,7 +7730,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 52190,Sasi,Siyuan,Chen,AU,jun,True,,sasi,2024-01-14 16:05:13+00:00
 52191,eHopp,Ethan,Hopley,,mid,True,,ehopp,2024-01-18 09:16:21+00:00
 52192,Styx,Samuel,Blanchard,AU,adc,True,,styx-samuel-blanchard,2024-07-15 10:42:30+00:00
-52193,Asta,Hakim,Mahsoomi,AU,sup,True,139117,asta-hakim-mahsoomi,2026-08-26 07:48:09+00:00
+52193,Asta,Hakim,Mahsoomi,AU,sup,True,139117,asta-hakim-mahsoomi,2026-11-08 10:32:39+00:00
 52329,kylin,Wen,Zheng,CN,jun,True,,kylin-8adb41da-b91d-479e-bf55-a6bc348fad9f,2024-03-23 12:37:00+00:00
 52330,Odin,Shuai,Wang,CN,mid,True,,odin,2024-03-23 12:34:47+00:00
 52331,DesoLinee,Adrian,Kaube,DE,top,True,,desolinee,2024-01-19 18:22:01+00:00
@@ -7743,7 +7743,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 52351,Kisno,James,Woo,US,jun,True,111,kisno,2026-08-15 03:39:27+00:00
 52352,ROCKBOOM,Rocco,Mazzo,US,adc,True,,rockboom,2024-08-11 04:58:50+00:00
 52353,Messages,Christopher,Martinez,US,mid,True,134252,messages,2024-01-16 22:40:24+00:00
-52354,Batuuu,Batu,Kaygusuz,TR,sup,True,132212,batuuu,2026-10-04 22:19:15+00:00
+52354,Batuuu,Batu,Kaygusuz,TR,sup,True,,batuuu,2026-10-29 17:57:20+00:00
 52365,Pallet,Angelos,Visvikis,GR,jun,True,126215,pallet,2026-08-12 07:18:15+00:00
 52366,MrPhant0m,Markos,Katsikas,GR,adc,True,,mrphant0m,2025-07-16 11:00:59+00:00
 52367,Nicolo,Nicolas,Verna,FR,jun,True,,nicolo,2024-01-18 10:52:42+00:00
@@ -7858,7 +7858,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 52773,Shadow,Abderrahmen,Smati,TN,top,True,,shadow-abderrahmen-smati,2026-04-29 12:48:23+00:00
 52782,MetaCaptive,João,Perdigão,PT,jun,True,,metacaptive,2024-02-10 15:45:36+00:00
 52785,Reason1,Tu,Hui-Jie,CN,mid,True,,reason1,2024-11-29 15:39:04+00:00
-52786,ZUIAN,Cheng,Zi-Hao,CN,top,True,126059,zuian,2026-10-06 11:02:57+00:00
+52786,ZUIAN,Cheng,Zi-Hao,CN,top,True,126059,zuian,2026-11-01 00:02:49+00:00
 52787,Ninefog,Ni,Hao-Jie,CN,mid,True,,ninefog,2025-06-23 14:49:25+00:00
 52792,untitled,Xuan-Zhi,Wang,CN,adc,True,,untitled,2024-11-29 15:43:11+00:00
 52796,Stalken,İbrahim,Batu Gölcü,TR,jun,True,137929,stalken,2026-09-24 06:47:51+00:00
@@ -8045,7 +8045,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 54557,evewin,,,,jun,True,,evewin,2024-07-29 02:03:53+00:00
 54561,Rabelo,Guilherme,Muniz,BR,adc,True,128313,rabelo,2026-08-31 02:21:23+00:00
 54571,Centu,Spyridon,Pantelopoulos,GR,sup,True,129409,centu,2026-09-24 06:47:58+00:00
-54576,Alaric,Erwin,Cader,SE,sup,True,136080,alaric,2026-08-23 07:38:51+00:00
+54576,Alaric,Erwin,Cader,SE,sup,True,,alaric,2026-10-21 12:21:57+00:00
 54577,Dimeh,Mehdi,Karouay,BE,adc,True,,dimeh,2024-06-04 20:14:21+00:00
 54578,Rexat,Levin,Kaminski,DE,sup,True,137174,rexat,2026-02-08 21:31:54+00:00
 54579,VROUM BUS,Arnaud,Paris,BE,top,True,,vroum-bus,2024-06-04 20:18:06+00:00
@@ -8087,7 +8087,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 54894,Claws,Cao,Nhựt Vi,VN,mid,True,,claws,2024-08-06 13:37:04+00:00
 54895,Kazuto,Đỗ,Minh Thuận,VN,jun,True,,kazuto,2026-03-24 12:35:20+00:00
 54922,Reshiram1,Kevin,Durst,DE,jun,True,,reshiram1,2025-02-07 12:33:33+00:00
-54995,Samikin,Samrith,Loeung,KH,mid,True,130637,samikin,2026-08-18 13:34:14+00:00
+54995,Samikin,Samrith,Loeung,KH,mid,True,,samikin,2026-11-06 20:46:37+00:00
 54996,Levitate,Ha-Lim,Hong,US,adc,True,135158,levitate-28d2fd51-e649-417d-9bed-7a5062ef6986,2026-08-21 06:58:13+00:00
 55001,prey,,,,top,True,,prey,2024-07-09 09:50:42+00:00
 55004,Lucy,Hyun,Soo-hoon,KR,adc,True,128350,lucy,2026-08-26 03:09:25+00:00
@@ -8095,7 +8095,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 55016,Krempita,,,RS,top,True,,krempita,2024-06-29 08:45:20+00:00
 55050,HotPot,Yi-Chieh,Shih,TW,jun,True,,hotpot,2025-07-18 21:18:38+00:00
 55063,ive,Iva,Matković,HR,mid,True,,ive,2025-10-05 06:09:59+00:00
-55066,Berik,Erik,Kim,US,top,True,130637,berik,2026-08-15 03:39:23+00:00
+55066,Berik,Erik,Kim,US,top,True,,berik,2026-11-06 20:46:40+00:00
 55124,Stergios,Stelios,Sofikitis,GR,jun,True,,stergios,2024-07-31 09:25:56+00:00
 55125,Araignee,Charly,Vue,FR,adc,True,,araignee,2024-11-06 00:37:13+00:00
 55131,Quest,,,,jun,True,,quest,2024-07-05 21:22:13+00:00
@@ -8108,7 +8108,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 55182,C7N,Trần Văn,Cường,VN,mid,True,131264,c7n,2024-08-06 13:36:55+00:00
 55183,Dec0y,Noah,D'Addario,CA,top,True,137158,decoy1,2026-08-15 03:39:23+00:00
 55190,Letter,Rayan,Silva,BR,jun,False,135002,letter-634767d8-a279-4e56-968e-979807f44608,2024-12-10 13:39:26+00:00
-55196,Kita,Luca,Henriques Andrade,BR,sup,True,136730,kita-luca-henriques-andrade,2026-09-15 07:39:09+00:00
+55196,Kita,Luca,Henriques Andrade,BR,sup,True,,kita-luca-henriques-andrade,2026-11-06 18:10:58+00:00
 55370,HongQ,Tsai,Ming-Hong,TW,mid,True,318,hongq,2026-09-30 08:21:05+00:00
 55377,Wilson,William,Benoit,CA,jun,True,130637,wilson-fcc94284-490b-4f02-b3d9-ff74d43b493e,2026-08-19 08:15:23+00:00
 55380,KryRa,Christian,Rahaian,CA,jun,True,133267,kryra,2026-09-15 07:48:34+00:00
@@ -8322,7 +8322,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 56562,Emprez,Ida,Pedersen,DK,jun,True,137381,emprez,2026-10-12 20:48:03+00:00
 56563,Apollonia,Dafni,Gkerveni,GR,mid,True,137170,apollonia,2026-10-12 20:48:04+00:00
 56564,Zavee,Luna,Lochmann,DE,adc,True,,zavee,2024-10-11 08:32:40+00:00
-56565,Lumi,Gina,Kircher,DE,sup,True,137372,lumi-gina-kircher,2026-10-12 20:49:09+00:00
+56565,Lumi,Gina,Kircher,DE,sup,True,,lumi-gina-kircher,2026-10-30 21:27:19+00:00
 56566,Psychosis,,,DE,top,True,132015,psychosis,2024-10-11 08:32:41+00:00
 56567,Sunam,,,DE,jun,True,136958,sunam,2025-05-29 06:45:42+00:00
 56568,Lychee,Daniel,Arne,DE,mid,True,132015,lychee,2024-10-11 08:32:42+00:00
@@ -8537,13 +8537,13 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 58818,Fantasyleaf,,,JP,top,True,,fantasyleaf,2025-05-21 13:42:15+00:00
 58819,Fubuki,,,JP,jun,True,138120,fubuki,2026-04-11 09:29:49+00:00
 58820,uwaa,,,JP,mid,True,,uwaa,2025-02-01 10:27:50+00:00
-58821,MayR,Shunsuke,Kumagai,JP,adc,True,132655,mayr,2026-09-18 09:59:00+00:00
+58821,MayR,Shunsuke,Kumagai,JP,adc,True,132655,mayr,2026-10-23 12:34:42+00:00
 58822,GOODTRY,,,JP,sup,True,,goodtry,2025-02-01 10:27:30+00:00
 58823,L1mit,Ji-seong,Yang,KR,adc,True,,l1mit,2026-07-18 11:44:35+00:00
-58824,JustFocus,Yeon-kyu,Kim,KR,sup,True,138122,justfocus,2026-07-24 08:02:53+00:00
+58824,JustFocus,Yeon-kyu,Kim,KR,sup,True,,justfocus,2026-10-20 12:32:13+00:00
 58825,Yuu,Yusei,Suzuki,JP,top,True,136440,yuu-3c259252-3ade-4ebd-bf86-86f9c7b4a325,2025-04-16 10:41:56+00:00
 58826,Racon,Ryota,Kaneko,JP,jun,True,136440,racon,2025-04-16 10:42:10+00:00
-58827,Karaage,Koga,Kanno,JP,mid,True,138122,karaage,2026-05-05 10:29:43+00:00
+58827,Karaage,Koga,Kanno,JP,mid,True,136442,karaage,2026-11-02 14:01:52+00:00
 58828,OkerumoN,Nakahara,Hitoyoshi,,sup,True,136440,okerumon,2025-04-16 10:42:24+00:00
 58829,Perle,Seiji,Takasu,JP,top,True,136441,perle,2025-05-21 14:16:24+00:00
 58830,Sassappel,,,JP,jun,True,,sassappel,2025-04-16 11:02:49+00:00
@@ -8571,9 +8571,9 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 58852,Senmary,Shuntaro,Sekine,JP,top,True,136435,senmary,2025-02-01 10:33:42+00:00
 58853,Tatsu,Tomomitsu,Tanaka,,jun,True,136435,tatsu,2025-02-01 10:33:14+00:00
 58854,Wasteland,Taiki,Shimazaki,JP,mid,True,136435,wasteland,2025-02-01 10:31:51+00:00
-58855,chico,Hibiki,Yamane,JP,sup,True,138630,chico,2026-07-24 08:00:42+00:00
+58855,chico,Hibiki,Yamane,JP,sup,True,138122,chico,2026-11-02 14:01:54+00:00
 58856,besu,Takuya,Takeshima,JP,sup,True,136435,besu,2025-02-01 10:34:46+00:00
-58857,kkkkkkkkk,Kouki,Ohno,JP,top,True,132655,kkkkkkkkk,2026-09-18 08:39:03+00:00
+58857,kkkkkkkkk,Kouki,Ohno,JP,top,True,132655,kkkkkkkkk,2026-10-23 11:59:20+00:00
 58858,HALdesu,Haru,Yamashita,JP,jun,True,,haldesu,2025-06-14 08:06:53+00:00
 58859,Competitive,,,JP,mid,True,,competitive,2025-07-25 09:54:15+00:00
 58860,rakii,Shouto,Iwasaki,JP,adc,True,,rakii,2026-03-27 11:14:12+00:00
@@ -8762,7 +8762,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 59707,Sully,Saul,Mendoza,MX,adc,True,,sully,2025-03-25 15:54:56+00:00
 59708,Solorio,José Manuel Gutiérrez,Gutiérrez,MX,adc,True,,solorio,2025-10-08 11:34:43+00:00
 59709,Chomp,Carlos,Duarte,MX,mid,True,,chompy-carlos-duarte,2025-03-25 15:54:56+00:00
-59710,L1,Julián Eduardo,González Montoya,CO,sup,True,138891,l1-julian-eduardo-montoya-montoya,2026-07-23 09:27:57+00:00
+59710,L1,Julián Eduardo,González Montoya,CO,sup,True,,l1-julian-eduardo-montoya-montoya,2026-11-06 20:45:25+00:00
 59711,Intio,Andres Felipe Silva,Silva,CO,adc,True,136730,intio,2026-07-23 09:27:54+00:00
 59712,Shavo,,,MX,top,True,,shavo-53300969-a115-40d6-a81a-c4dbb72e18e6,2026-04-19 20:44:07+00:00
 59713,Gus,Gustavo,Jiménez,PE,mid,True,,gus-gustavo-jimenez,2026-04-07 23:54:52+00:00
@@ -8825,7 +8825,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 59917,Pika1,Chang,Yu-Chieh,TW,adc,True,,pika1,2025-07-18 21:18:38+00:00
 59920,Sweeho,Jose,Urrieche,VE,mid,True,136076,sweeho,2026-07-23 09:27:59+00:00
 59924,yukin0,Li,Zi-Chao,CN,adc,True,,yukin0,2025-07-18 21:19:26+00:00
-59925,Guli,Igor,Oblizajek,PL,jun,True,137195,guli-c4081234-ad09-4c84-ab7e-8fd865313497,2026-09-03 10:57:46+00:00
+59925,Guli,Igor,Oblizajek,PL,jun,True,,guli-c4081234-ad09-4c84-ab7e-8fd865313497,2026-10-23 11:00:43+00:00
 59926,iana,Ana Ioana,Popp,RO,sup,True,,iana,2026-07-28 08:00:57+00:00
 59928,Aeru,Oussema,Ben Amara,TN,adc,True,138473,aeru,2026-09-24 06:47:55+00:00
 59991,STEPZ,Eloy,Rodríguez,VE,jun,True,161,stepz-eloy-rodriguez,2026-09-28 14:17:43+00:00
@@ -8908,7 +8908,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 60322,Junichi,Nicolas,Alves Ribeiro,BR,jun,True,,junichi,2025-05-18 11:22:25+00:00
 60323,Maathe,Matheus,Silva,BR,mid,True,,maathe,2025-08-12 20:36:23+00:00
 60324,Chosen,Breno de Jesu,Ribeiro,BR,jun,True,,chosen-breno-de-jesu-ribeiro,2025-05-18 11:23:43+00:00
-60325,Aisyl,Nguyễn,Hoàng Phú,VN,mid,True,138127,aisyl,2026-09-21 20:42:25+00:00
+60325,Aisyl,Nguyễn,Hoàng Phú,VN,mid,True,138127,aisyl,2026-10-23 11:59:23+00:00
 60350,BrotherLuis,Luis,Busch,DE,sup,True,,brotherluis,2026-08-26 08:16:50+00:00
 60352,Tory,Lee,Ki-yeon,KR,top,True,,tory-8a8c1eac-f7e1-4e77-9d00-bf85ea30082e,2025-06-11 21:20:50+00:00
 60353,hachim1,,,JP,jun,True,,hachim1,2025-05-21 14:29:16+00:00
@@ -8960,7 +8960,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 61043,Bambi,Arseniy,Yaburov,RU,top,True,132470,bambi-arseniy-yaburov,2026-09-10 16:22:45+00:00
 61044,K1ng,Konstantinos Ilias,Georgantas,GR,adc,True,,k1ng-konstantinos-ilias-georgantas,2026-08-23 08:24:02+00:00
 61045,Zev,Mark,Villanueva,CA,adc,True,,zev-mark-villanueva,2025-07-13 11:10:38+00:00
-61046,Nukez,Tanner,Waiyanet,US,sup,True,136708,nukez,2026-10-08 13:41:45+00:00
+61046,Nukez,Tanner,Waiyanet,US,sup,True,,nukez,2026-11-06 20:46:14+00:00
 61051,Artanis,Julien,Poisson,FR,jun,True,137833,artanis,2026-10-04 22:19:25+00:00
 61052,Dream,Julien,Jasses,FR,adc,True,137902,dream-julien-jasses,2026-08-23 07:38:53+00:00
 61054,Mixtsure,Eric,Yin,US,sup,True,111,mixtsure,2026-08-18 13:34:14+00:00
@@ -9042,7 +9042,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 61236,H1tokiri,Dimitris,Tsavdaris,GR,top,True,,h1tokiri,2026-03-31 16:47:29+00:00
 61239,Nevid,Min-woo,Park,KR,top,True,132567,nevid,2026-07-22 11:19:23+00:00
 61240,Dinai,Chi-hyeon,Hwang,KR,jun,True,,dinai,2026-07-22 19:04:05+00:00
-61246,Peanut,Edwin José,Lizardo Delgado,VE,top,True,138891,pinut,2026-09-01 09:08:13+00:00
+61246,Peanut,Edwin José,Lizardo Delgado,VE,top,True,,pinut,2026-11-06 20:45:22+00:00
 61247,1Zeus,Felipe,Yelpi,CL,jun,True,,1zeus,2026-03-24 21:30:17+00:00
 61248,Ermoke,Juan Carlos,Camargo,VE,mid,True,,ermoke,2025-07-23 09:06:16+00:00
 61249,Trick5ht,Luis,Betancourt,VE,adc,True,,trick5ht,2025-07-23 09:05:42+00:00
@@ -9147,7 +9147,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 61776,Kyanna,Eva,Murn,SI,sup,True,,kyanna,2025-11-23 11:25:32+00:00
 61777,CrowMac,Madison,Coutelet,FR,top,True,,crowmac,2025-12-04 09:15:01+00:00
 61778,Yushia,Iulia,Boldor,RO,jun,True,137170,yushia,2026-10-12 20:48:04+00:00
-61779,Sha,Manon,Legaignoux,FR,mid,True,137577,sha-manon-legaignoux,2026-10-12 09:18:34+00:00
+61779,Sha,Manon,Legaignoux,FR,mid,False,,sha-manon-legaignoux,2026-11-06 18:12:53+00:00
 61780,Nenris,Alessandra,Schmalfuß,DE,adc,True,137170,nenris,2026-10-12 20:48:04+00:00
 61781,Aos Si,Sophia,,FR,sup,True,137170,aos-si,2026-07-23 10:43:12+00:00
 61782,Lilith,Luna,Benzerara-Arnoux,FR,mid,True,,lilith,2025-10-11 11:07:29+00:00
@@ -9160,10 +9160,10 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 61789,Karina,Agnė,Ivaškevičiūtė,LT,jun,True,137577,karina-agne-ivaskeviciute,2026-10-12 09:18:34+00:00
 61791,Cosmic,Charlotte,Tranquillin,FR,adc,True,137371,cosmic,2026-10-19 13:54:55+00:00
 61792,hao,Kamilla,Djamalov,BE,jun,True,,hao-kamilla-djamalov,2025-10-05 06:09:42+00:00
-61793,Wiosna,Alice,Mossé,FR,top,True,137372,wiosna,2026-10-12 20:49:08+00:00
+61793,Wiosna,Alice,Mossé,FR,top,True,,wiosna,2026-10-30 21:27:27+00:00
 61794,Starrie,Ivy,Starr,US,top,True,,starrie,2026-07-28 08:00:57+00:00
 61795,Delicate,Chara,Giannopoulou,GR,jun,True,137371,delicate-chara-giannopoulou,2026-10-11 15:22:49+00:00
-61796,Sashy,Sasha,Barrault,FR,mid,True,139017,sashy,2026-07-28 08:00:57+00:00
+61796,Sashy,Sasha,Barrault,FR,mid,True,,sashy,2026-11-03 21:20:31+00:00
 61797,Sea,Nova,Jenčáková,SK,sup,True,,sea-nova-jencakova,2026-07-28 08:00:57+00:00
 61798,Virtuosa,Skylar,Hew,US,sup,True,139018,virtuosa,2026-07-28 08:11:07+00:00
 61799,Lilly,,,DE,jun,True,137377,lilly,2025-10-13 13:56:42+00:00
@@ -9173,7 +9173,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 61803,Malo,Malorie,Lefebvre,FR,mid,True,138904,malo,2026-07-15 12:39:53+00:00
 61804,Colomblbl,Ève,Monvoisin,FR,sup,True,,colomblbl,2026-05-14 14:20:31+00:00
 61805,rym,Rym,Salloum,VE,mid,True,137371,rym-rym-salloum,2026-10-11 15:22:50+00:00
-61806,Shiina,Marta,Mesas Garrido,ES,jun,True,137372,shiina,2026-10-12 20:49:08+00:00
+61806,Shiina,Marta,Mesas Garrido,ES,jun,True,,shiina,2026-10-30 21:27:26+00:00
 61807,Zeniv,Mina,,DE,top,True,137577,zeniv,2026-10-12 09:18:33+00:00
 61812,wild,Jia-Le,Yang,CN,mid,True,3457,wild-jia-le-yang,2026-09-18 08:25:57+00:00
 61813,hui,Da,Xu,CN,top,True,3457,hui,2026-09-18 08:25:55+00:00
@@ -9191,7 +9191,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 62073,Demon,Zakaria,Nagbi,MA,adc,True,,demon-zakaria-nagbi,2025-10-03 10:56:45+00:00
 62082,Telch,Vildan,Soylu,TR,top,True,,telch,2026-10-11 20:04:18+00:00
 62154,Shintalx,Alejandro,Quintanilla,MX,mid,True,,shintalx,2025-10-09 10:25:07+00:00
-62156,Nern,Đồng,Nguyễn Tấn Lộc,VN,top,True,138127,nern,2026-09-21 20:42:25+00:00
+62156,Nern,Đồng,Nguyễn Tấn Lộc,VN,top,True,138127,nern,2026-10-23 11:59:22+00:00
 62157,NPC,Bùi,Phan Thành Nhân,VN,jun,True,138126,npc-bui-phan-thanh-nhan,2026-09-21 20:46:18+00:00
 62158,Seany,Hồ,Hữu Hải,VN,mid,True,138126,seany-h-h-u-h-i,2026-09-21 20:47:08+00:00
 62159,Nia,Guang-Lu,Zou,CN,mid,True,126058,nia-guang-lu-zou,2026-07-20 16:19:04+00:00
@@ -9211,16 +9211,15 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 62466,AKaJe,Choi,Soo-hyuk,KR,mid,True,128344,akaje,2026-08-26 03:09:23+00:00
 62467,Shaokang,Yang,Shao-Kang,CN,jun,True,128220,shaokang,2025-11-18 13:14:11+00:00
 62468,PNDX,,,TH,sup,True,,pndx,2025-11-19 12:33:14+00:00
-62469,Excellentless,,,TH,top,True,,excellentless,2026-10-08 09:25:08+00:00
-62470,Feww,Visava,Visramwan,TH,jun,True,,feww,2026-10-10 16:55:01+00:00
-62471,Itae,,,TH,mid,True,,itae,2026-10-08 09:25:08+00:00
-62472,Blondie,,,TH,adc,True,,blondie,2026-10-08 09:25:08+00:00
-62473,YuyuuUsaki,,,TH,sup,True,,yuyuuusaki,2026-10-08 09:25:08+00:00
+62469,Excellentless,,,TH,top,True,,excellentless,2026-10-23 12:00:43+00:00
+62470,Feww,Visava,Visramwan,TH,jun,True,,feww,2026-10-23 12:00:43+00:00
+62471,Itae,,,TH,mid,True,,itae,2026-10-23 12:00:43+00:00
+62472,Blondie,,,TH,adc,True,,blondie,2026-10-23 12:00:43+00:00
 62488,Excellent,Witchayut,Witheechai,TH,top,True,,excellent,2025-11-24 07:45:17+00:00
 62489,Feww1,Visava,Visramwan,TH,jun,True,,feww1,2025-11-24 07:44:48+00:00
-62490,YuyuuUsagi,Nut,Palanan,TH,sup,True,,yuyuuusagi,2025-11-24 07:44:18+00:00
+62490,YuyuuUsagi,Nut,Palanan,TH,sup,True,,yuyuuusagi,2026-10-23 12:00:43+00:00
 62519,Spelldance,,,DE,mid,True,137629,spelldance,2026-10-11 20:04:18+00:00
-62520,Izzeeri,Isabella,,GB,adc,True,137372,izzeeri,2026-10-12 20:49:09+00:00
+62520,Izzeeri,Isabella,,GB,adc,True,,izzeeri,2026-10-30 21:27:21+00:00
 62521,pepi,,,US,sup,True,137629,pepi,2025-11-23 11:31:09+00:00
 62702,Hwichan,Hwi-chan,Jeong,KR,mid,True,128348,hwichan,2026-09-25 15:47:25+00:00
 62703,FenRir,Kang-jun,Park,KR,adc,True,128348,fenrir-kang-jun-park,2026-09-25 15:47:25+00:00
@@ -9449,7 +9448,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 64255,Thunder Yordle,Roan,De Wilde,BE,top,True,,thunder-yordle,2026-02-20 13:48:07+00:00
 64256,ShizuOo,Younis,Mahmoud,EG,jun,True,136461,shizuoo,2026-09-03 10:25:13+00:00
 64263,Elative,An,Chi-wan,KR,jun,True,138119,elative,2026-07-18 21:56:38+00:00
-64264,Gimi,Kim,Min-gyu,KR,adc,True,138119,gimi,2026-07-18 21:56:39+00:00
+64264,Gimi,Kim,Min-gyu,KR,adc,True,138122,gimi,2026-11-02 14:01:55+00:00
 64265,PonG,Ryota,Kawaguchi,JP,top,True,138118,pong,2026-03-06 08:25:08+00:00
 64266,Cryo,Jang,Gun,KR,mid,True,138118,cryo-8801653f-2048-4b7c-845d-3cd5949d56ae,2026-03-06 08:25:07+00:00
 64267,Aquila,KIm,Bum-jun,KR,adc,True,138118,aquila,2026-03-06 08:25:07+00:00
@@ -9504,7 +9503,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 64487,Rokecs,Asaf,Reyes Contreras,MX,adc,True,138176,rokecs,2026-07-03 17:05:15+00:00
 64488,Luchiano,Luchiano,Hernostroza Flores,PE,top,True,138174,luchiano,2026-07-18 21:45:23+00:00
 64576,Luther,Nguyễn,Huỳnh Nhật Huy,VN,sup,True,,luther,2026-09-09 12:25:12+00:00
-64748,Raysito,Ramses,López,MX,adc,True,136730,raysito,2026-09-15 07:39:09+00:00
+64748,Raysito,Ramses,López,MX,adc,True,135069,raysito,2026-11-06 18:12:57+00:00
 64749,catan,Dylan Bravo,Polo,CO,adc,True,,catan,2026-04-19 20:41:27+00:00
 64750,Erk,Erick,Hidalgo,MX,sup,True,,erk,2026-07-03 17:03:15+00:00
 64751,CayoJulio,Carlos Delmas,Martin,ES,jun,True,,cayojulio,2026-04-20 16:23:54+00:00
@@ -9620,7 +9619,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 65788,yishen,He,Yi,CN,top,True,126749,yishen,2026-04-23 15:54:48+00:00
 65792,Dionrray,João Pedro,Barbosa,BR,sup,True,135158,dionrray,2026-04-27 14:45:19+00:00
 65797,Biostir,Carin,Dua,CA,adc,True,137158,biostir,2026-04-25 06:15:59+00:00
-65844,Challenq,Andrid,Gomez,VE,top,True,,challenq,2026-09-01 09:08:14+00:00
+65844,Challenq,Andrid,Gomez,VE,top,True,138891,challenq,2026-11-06 20:45:37+00:00
 65851,Glimpse,José,Gonçalves,PT,adc,True,136449,glimpse,2026-05-23 07:43:07+00:00
 65858,Mr Leona,,,GR,sup,True,,mr-leona,2026-04-28 18:08:58+00:00
 65859,Igloodan,Lovre,Bilić,HR,sup,True,,igloodan,2026-04-28 18:37:58+00:00
@@ -9662,7 +9661,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 65949,Dadou,,,FR,jun,True,,dadou,2026-05-07 14:32:37+00:00
 65953,Slavonac,Milan,Vujaklija,RS,top,True,138664,slavonac,2026-05-08 14:18:30+00:00
 65961,qianshi,Zheng,Hao,CN,adc,True,3457,qianshi-zheng-hao,2026-06-10 12:14:30+00:00
-65970,j1n5,Lê Đình,Tấn,VN,jun,True,138127,j1n5,2026-09-21 20:42:25+00:00
+65970,j1n5,Lê Đình,Tấn,VN,jun,True,138127,j1n5,2026-10-23 11:59:22+00:00
 65971,Clyde,Tô Hoàng,Đăng Phương,VN,mid,True,,clyde-to-hoang-dang-ph-ng,2026-05-14 07:09:01+00:00
 65972,Copper,Phùng,Khánh Đồng,VN,top,True,,copper,2026-08-01 08:57:18+00:00
 65973,Akashi,Nguyễn Trần,Anh Khoa,VN,adc,True,,akashi-nguy-n-tr-n-anh-khoa,2026-05-10 06:36:17+00:00
@@ -9682,7 +9681,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 66023,Barti,Bartek,Piasecki,PL,sup,True,138054,barti,2026-05-17 08:31:20+00:00
 66028,hani1,Nhat Hong,Phamová,CZ,sup,True,,hani1,2026-05-18 06:11:22+00:00
 66068,rena,Ana,Pegan,SI,sup,True,137577,rena-ana-pegan,2026-06-19 18:21:57+00:00
-66069,Meloncola,Abigail,Horst,DE,top,True,,meloncola,2026-07-15 12:39:52+00:00
+66069,Meloncola,Abigail,Horst,DE,top,True,137577,meloncola,2026-11-07 13:05:50+00:00
 66070,Cluelith,Lilly,Yucel,DE,jun,True,,cluelith,2026-07-15 12:39:52+00:00
 66071,Aibax,Ibai,Zaballos,ES,jun,True,136906,aibax,2026-05-20 14:24:50+00:00
 66081,Valiant,Han,Kang-hyun,KR,mid,True,128347,valiant,2026-08-17 12:14:00+00:00
@@ -9708,14 +9707,14 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 66700,Chomu,Yahve,Gloria,MX,jun,True,138176,chomu,2026-07-03 17:10:10+00:00
 66701,Shao,Hengyuan,Shao,US,mid,True,,shao-hengyuan-shao,2026-07-03 17:10:15+00:00
 66702,Zamacona,Federico Iván,Zamacona Aguilar,MX,sup,True,,zamacona,2026-07-03 17:10:20+00:00
-66725,iybc9o2q,Leo,Cheung,US,mid,True,138891,iybc9o2q,2026-07-23 09:27:57+00:00
+66725,iybc9o2q,Leo,Cheung,US,mid,True,,iybc9o2q,2026-11-06 20:45:35+00:00
 66739,LupiyoElPiy,Noe,Arreola,MX,top,True,138176,lupiyoelpiy,2026-07-13 06:09:27+00:00
-66740,Diaakc,Leonardo,Lalangui,PE,top,True,138891,diaakc,2026-07-28 14:20:52+00:00
-66747,Naoki,Emily,,DE,sup,True,137381,naoki,2026-10-12 20:48:03+00:00
+66740,Diaakc,Leonardo,Lalangui,PE,top,True,,diaakc,2026-11-06 20:45:27+00:00
+66747,Naoki,Emily,,DE,sup,True,,naoki,2026-11-07 22:45:35+00:00
 66748,Sahrii,Sarah,Lesch,DE,sup,True,137577,sahrii,2026-10-12 09:18:34+00:00
 66749,Mirali,Anastasiia,Yenina,UA,sup,True,137195,mirali,2026-10-12 09:18:33+00:00
 66750,Limka,Nina,,PL,adc,True,137195,limka,2026-10-12 09:18:33+00:00
-66751,khylee,Marceline,,PL,mid,True,137195,khylee,2026-10-12 09:18:33+00:00
+66751,khylee,Marceline,,PL,mid,True,137577,khylee,2026-11-07 13:05:48+00:00
 66752,aly,Alina,Müller,DE,jun,True,137195,aly-alina-muller,2026-10-12 09:18:32+00:00
 66753,Rikki,Naomi,,PL,top,True,137195,rikki-naomi,2026-10-12 09:20:20+00:00
 66754,Lexa,Lexa,Grellier,FR,jun,True,,lexa-lexa-grellier,2026-07-15 12:39:53+00:00
@@ -9732,7 +9731,7 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 66910,Strongside,Oscar,van Kesteren,NL,sup,True,132064,strongside,2026-09-25 11:06:29+00:00
 66911,Emperor,Matthias,Metzger,NL,top,True,132494,emperor-matthias-metzger,2026-08-31 08:26:15+00:00
 66915,InFlame,Yutthapichai,Yeangyutthapichai,TH,sup,True,137158,inflame-yutthapichai-yeangyutthapichai,2026-08-15 03:39:23+00:00
-66916,JRockets,Cole,Cwiklowski,US,top,True,138938,jrockets,2026-08-19 08:15:33+00:00
+66916,JRockets,Cole,Cwiklowski,US,top,True,,jrockets,2026-11-06 20:47:16+00:00
 66922,Schow,,,DK,adc,True,138943,schow-147ee1cc-2e2e-4aee-9d4a-49fa2a988793,2026-07-16 06:33:18+00:00
 66923,Gwen,,,FR,adc,True,136080,gwen,2026-08-23 07:57:23+00:00
 66924,Kross,,,FR,adc,True,138944,kross,2026-08-23 07:58:06+00:00
@@ -9897,18 +9896,22 @@ id,name,first_name,last_name,nationality,role,active,current_team_id,slug,modifi
 68028,Taheri,,,AE,top,True,,taheri,2026-09-19 08:45:09+00:00
 68029,Bob,Rahul,Bisht,IN,sup,True,,bob-rahul-bisht,2026-09-30 08:19:55+00:00
 68078,joeyscags,Joey,Cupp,NL,sup,True,131951,joeyscags-joey-cupp,2026-09-23 12:10:35+00:00
-68289,PS,,,TH,jun,True,,ps-league-of-legends,2026-10-08 09:25:08+00:00
+68289,PS,Seah,Pin Shien,SG,jun,True,139359,ps-league-of-legends,2026-11-08 10:32:41+00:00
 68290,Dust,Koh,Kai Jie,SG,top,True,,dust-koh-kai-jie,2026-10-08 09:28:55+00:00
 68291,NekoDesu,,,SG,mid,True,,nekodesu,2026-10-08 09:28:55+00:00
 68292,Kalina,,,PH,top,True,,kalina,2026-10-08 09:46:12+00:00
 68293,Maikehan,Mhike,Vizcayno,PH,mid,True,,maikehan,2026-10-08 09:46:12+00:00
 68294,Decorous,,,PH,sup,True,,decorous,2026-10-08 09:46:12+00:00
 68295,Mist,,,PH,adc,True,,mist-league-of-legends,2026-10-08 09:46:12+00:00
-68369,Excellents,,,,,True,139359,excellents,2026-10-10 16:54:01+00:00
-68370,Yuyuu,,,,,True,139359,yuyuu,2026-10-10 16:54:01+00:00
-68388,Yuni,,,,,True,139403,yuni,2026-10-11 20:04:18+00:00
-68426,Saritah,,,,,True,137170,saritah,2026-10-12 20:48:05+00:00
-68427,Poppetje,,,,,True,139017,poppetje,2026-10-12 20:49:09+00:00
-68428,Kalah,,,,,True,139017,kalah,2026-10-12 20:49:10+00:00
-68429,Lilium,,,,,True,139017,lilium,2026-10-12 20:49:10+00:00
-68430,Xayla,,,,,True,139017,xayla,2026-10-12 20:49:10+00:00
+68388,Yuni,Jenny,Freyer,DE,jun,True,139403,yuni,2026-10-30 07:43:49+00:00
+68426,Saritah,,,,sup,True,137170,saritah,2026-10-20 08:55:33+00:00
+68427,Poppetje,,,,top,True,139017,poppetje,2026-10-20 10:07:44+00:00
+68428,Kalah,,,ES,jun,True,139017,kalah,2026-10-30 07:42:46+00:00
+68429,Lilium,Lilly,Cintosun,DE,mid,True,139017,lilium,2026-10-30 07:43:26+00:00
+68430,Xayla,,,DE,adc,True,139017,xayla,2026-10-30 07:42:35+00:00
+68509,Nero,,,IN,,True,,nero-league-of-legends,2026-10-20 06:47:22+00:00
+68510,Kat Bot,,,IN,,True,,kat-bot,2026-10-20 06:47:55+00:00
+68539,kingpo54,Mak Chun,Pan,HK,sup,True,130352,kingpo54,2026-10-23 11:56:08+00:00
+68554,TymMio,,,US,sup,True,132156,tymmio,2026-10-26 09:28:37+00:00
+68555,Hugme,,,US,top,True,132156,hugme,2026-10-26 09:30:24+00:00
+68556,kurulean,Matthew,Nguyen,US,sup,True,132156,kurulean,2026-10-26 09:32:46+00:00

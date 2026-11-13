@@ -35,7 +35,19 @@ def upsert(conn, name, keys):
     updates = ", ".join(f'"{c}" = excluded."{c}"' for c in columns if c not in keys)
     sql = f'INSERT INTO "{name}" ({names}) VALUES ({marks}) ON CONFLICT({conflict}) DO UPDATE SET {updates}'
     conn.executemany(sql, rows)
-    return len(rows)
+    key_idx = [columns.index(k) for k in keys]
+    return [tuple(r[i] for i in key_idx) for r in rows]
+
+
+def purge(conn, name, keys, kept):
+    """Supprime les lignes que l'API ne renvoie plus (l'upsert seul ne supprime jamais)."""
+    cols = ", ".join(f'"{k}"' for k in keys)
+    typed = ", ".join(f'"{k}" INTEGER' for k in keys)  # sans type, SQLite ignore l'index
+    conn.execute(f"CREATE TEMP TABLE kept ({typed}, PRIMARY KEY ({cols}))")
+    conn.executemany(f"INSERT INTO kept VALUES ({', '.join('?' for _ in keys)})", kept)
+    same = " AND ".join(f'k."{c}" = "{name}"."{c}"' for c in keys)
+    conn.execute(f'DELETE FROM "{name}" WHERE NOT EXISTS (SELECT 1 FROM kept k WHERE {same})')
+    conn.execute("DROP TABLE kept")
 
 
 def check(conn, expected):
@@ -51,9 +63,11 @@ def check(conn, expected):
 def load():
     with get_connection() as conn:
         conn.executescript(SCHEMA_FILE.read_text(encoding="utf-8"))
-        expected = {}
+        kept = {}
         for name, keys in TABLES.items():
-            expected[name] = upsert(conn, name, keys)
-            print(f"{name} : {expected[name]} lignes")
-        check(conn, expected)
+            kept[name] = upsert(conn, name, keys)
+            print(f"{name} : {len(kept[name])} lignes")
+        for name, keys in reversed(TABLES.items()):
+            purge(conn, name, keys, kept[name])
+        check(conn, {name: len(rows) for name, rows in kept.items()})
     print(f"Base chargée : {DB_PATH}")

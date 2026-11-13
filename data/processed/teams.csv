@@ -56,7 +56,7 @@ id,name,acronym,location,slug,modified_at
 85,Team Coast,CST,,team-coast,2020-02-24 11:26:32+00:00
 86,Winterfox,WFX,,winterfox,2018-11-06 12:09:47+00:00
 87,Overclockers UK,OC,,overclockers-uk,2018-10-18 15:49:13+00:00
-88,G2 Esports,G2,DE,g2-esports,2026-10-06 11:02:46+00:00
+88,G2 Esports,G2,DE,g2-esports,2026-11-12 10:45:29+00:00
 89,DetonatioN FocusMe,DFM,JP,detonation-focusme,2026-10-23 11:56:07+00:00
 91,Bangkok Titans,BKT,,bangkok-titans,2018-10-25 12:22:21+00:00
 92,Chiefs Esports Club,CHF,AU,chiefs,2026-01-12 12:27:09+00:00
@@ -68,7 +68,7 @@ id,name,acronym,location,slug,modified_at
 112,Immortals,IMT,US,immortals,2024-06-10 13:35:48+00:00
 113,Echo Fox,FOX,US,echo-fox,2025-08-26 21:29:45+00:00
 114,Splyce,SPY,US,splyce,2019-10-18 15:36:17+00:00
-115,Team Vitality,VIT,FR,vitality,2026-10-08 13:37:06+00:00
+115,Team Vitality,VIT,FR,vitality,2026-11-12 08:27:32+00:00
 118,Longzhu Gaming,LZ,KR,longzhu-incredible-miracle,2026-07-14 13:52:06+00:00
 119,ROX Tigers,ROX,KR,koo-tigers,2024-09-21 20:04:20+00:00
 120,Afreeca Freecs,AF,KR,afreeca-freecs,2022-11-22 18:04:23+00:00
@@ -324,7 +324,7 @@ id,name,acronym,location,slug,modified_at
 1418,BPI Academy,BPI,,bpi-academy,2018-11-26 18:05:19+00:00
 1419,Dark Passage White,DPW,TR,dark-passage-white,2018-11-26 17:52:26+00:00
 1420,Secrets of Assassination,SOA,,secrets-of-assassination,2021-04-06 08:11:58+00:00
-1449,Solary,SLY,FR,solary,2026-11-08 21:50:03+00:00
+1449,Solary,SLY,FR,solary,2026-11-11 17:57:55+00:00
 1450,Gentside,GEC,FR,gentside,2018-12-06 10:18:22+00:00
 1451,Team BattleComics,BtC,KR,team-battlecomics,2019-01-15 22:58:31+00:00
 1452,Griffin,GRF,KR,griffin,2021-01-05 17:35:43+00:00
@@ -668,7 +668,7 @@ id,name,acronym,location,slug,modified_at
 126056,Dominus Esports,DMO,CN,dominus-esports,2020-12-17 15:35:16+00:00
 126058,LNG Esports,LNG,CN,lng-esports,2026-07-23 17:07:52+00:00
 126059,Top Esports,TES,CN,top-esports,2026-11-01 01:30:06+00:00
-126061,T1,T1,KR,t1,2026-11-01 00:02:46+00:00
+126061,T1,T1,KR,t1,2026-11-12 10:45:25+00:00
 126066,Istanbul Wildcats,IW,TR,istanbul-wildcats,2024-01-15 14:40:44+00:00
 126068,Team Dynamics,DYN,KR,team-dynamics,2020-12-18 06:17:43+00:00
 126069,Spear Gaming,SPG,,spear-gaming,2022-06-07 17:39:47+00:00
@@ -718,7 +718,7 @@ id,name,acronym,location,slug,modified_at
 126531,Team TheShy,THES,,team-theshy,2025-12-05 10:56:08+00:00
 126532,Team Uzi,UZI,,team-uzi,2024-12-21 09:36:22+00:00
 126535,Prodigy Esports,PRG,,prodigy-esports,2020-12-21 21:10:00+00:00
-126536,Movistar KOI,MKOI,ES,mad-lions-league-of-legends,2026-10-06 11:02:55+00:00
+126536,Movistar KOI,MKOI,ES,mad-lions-league-of-legends,2026-11-12 10:45:33+00:00
 126537,RunAway,RNW,,runaway-league-of-legends,2020-09-17 03:18:02+00:00
 126538,5 Ronin,5R,TR,5-ronin,2023-08-09 15:11:08+00:00
 126567,FC Schalke 04 Evolution,S04.E,DE,fc-schalke-04-evolution,2024-09-10 08:06:27+00:00
@@ -1482,8 +1482,8 @@ id,name,acronym,location,slug,modified_at
 134023,Legends Team B,,CN,legends-team-b,2023-12-08 12:49:01+00:00
 134031,All-Star Team A,TEAMA,CN,all-star-team-a,2023-12-11 13:29:12+00:00
 134032,All-Star Team B,TEAMB,CN,all-star-team-b,2023-12-11 13:29:12+00:00
-134068,GIANTX,GX,GB,giantx,2026-08-30 18:58:13+00:00
-134078,Karmine Corp,KC,FR,karmine-corp-academy,2026-11-01 00:02:44+00:00
+134068,GIANTX,GX,GB,giantx,2026-11-12 22:29:13+00:00
+134078,Karmine Corp,KC,FR,karmine-corp-academy,2026-11-12 10:45:31+00:00
 134093,WSG,WSG,CN,wsg,2023-12-25 12:45:33+00:00
 134094,Huya BUG,BUG,CN,huya-bug,2023-12-28 05:08:08+00:00
 134095,Huya RST,RST,CN,huya-rst,2024-01-02 15:13:58+00:00
@@ -1499,7 +1499,7 @@ id,name,acronym,location,slug,modified_at
 134139,Team BOT,BOT,KR,team-bot,2024-01-09 09:47:42+00:00
 134143,ZeroZone Gaming,ZZG,PT,zerozone-gaming,2026-08-20 22:46:22+00:00
 134152,Avatrade PixelPenny,PP,PL,pixelpenny,2026-04-14 07:58:46+00:00
-134155,BNK FearX Youth,FOX.Y,KR,fearx-youth,2026-08-20 14:36:37+00:00
+134155,BNK FearX Youth,FOX.Y,KR,fearx-youth,2026-11-12 22:30:23+00:00
 134156,DMG Esports,DMG,NO,dmg-esports,2026-08-18 07:36:27+00:00
 134157,Lionscreed,LC,GB,lionscreed,2024-05-29 20:18:21+00:00
 134158,Skillcamp Esport,SC,FR,skillcamp-esport,2026-10-04 22:19:19+00:00
@@ -1755,7 +1755,7 @@ id,name,acronym,location,slug,modified_at
 137064,VfB eSports,VFB,DE,vfb-esports,2026-09-07 13:25:08+00:00
 137111,The Gulls Esports,TGE,IT,the-gulls-esports,2026-07-18 09:52:08+00:00
 137157,Vancouver Impact,VI,US,jolly-rogers,2026-07-29 19:44:30+00:00
-137158,Dorado Gaming,DOG,US,dorado-gaming,2026-08-26 23:46:21+00:00
+137158,Dorado Gaming,DOG,US,dorado-gaming,2026-11-11 15:10:35+00:00
 137159,Citadel Gaming,CTG,US,citadel-gaming,2026-04-17 22:48:54+00:00
 137165,Metin2 Enjoyers,METI,,metin2-enjoyers,2026-04-09 20:51:40+00:00
 137166,A One Man Army Esports Prime,AOMA,NL,a-one-man-army-esports-prime,2026-09-10 12:26:27+00:00
@@ -1825,7 +1825,7 @@ id,name,acronym,location,slug,modified_at
 137880,MT1 Esports,MT1,DE,mt1-esports,2026-08-23 11:43:49+00:00
 137882,NextGeneration Esports,NGE,EG,nextgeneration-esports,2026-07-28 15:54:02+00:00
 137893,Nice Guys,NG,DE,nice-guys,2026-07-16 06:32:45+00:00
-137898,TLN Pirates,TLNP,,tln-pirates,2026-10-09 16:57:35+00:00
+137898,TLN Pirates,TLNP,,tln-pirates,2026-11-11 17:57:55+00:00
 137899,Yumeea,YUM,FR,yumeea,2026-05-14 20:46:36+00:00
 137900,Lausanne-Sport Esports,ELS,CH,lausanne-sport-esports-league-of-legends,2026-08-08 15:58:41+00:00
 137901,ZYB Esport,ZYB,FR,zyb-esport,2026-09-11 06:48:38+00:00

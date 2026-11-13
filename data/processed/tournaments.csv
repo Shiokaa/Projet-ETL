@@ -1592,7 +1592,8 @@ id,series_id,league_id,name,type,country,region,tier,has_bracket,begin_at,end_at
 22048,11014,297,Playoffs,offline,,NA,s,True,2026-11-03 22:00:00+00:00,2026-11-15 01:00:00+00:00,,league-of-legends-world-championship-2026-playoffs,2026-11-01 01:31:49+00:00,5000000,USD
 22154,11081,5351,Playoffs,offline,,ASIA,d,True,2026-10-10 08:00:00+00:00,2026-10-13 15:58:00+00:00,139359,league-of-legends-lcp-promotion-wild-card-2027-playoffs,2026-10-20 10:12:58+00:00,5000,USD
 22176,11095,5433,Playoffs,online,,WEU,d,True,2026-10-11 16:00:00+00:00,2026-10-27 19:19:00+00:00,137371,league-of-legends-lgc-rising-2026-playoffs,2026-10-27 19:23:30+00:00,3000,EUR
-22293,11144,5351,Playoffs,offline,VN,ASIA,d,True,2026-11-10 05:00:00+00:00,2026-11-13 14:00:00+00:00,,league-of-legends-lcp-promotion-2027-playoffs,2026-11-08 10:32:31+00:00,,
+22293,11144,5351,Playoffs,offline,VN,ASIA,d,True,2026-11-10 05:00:00+00:00,2026-11-13 14:00:00+00:00,138127,league-of-legends-lcp-promotion-2027-playoffs,2026-11-13 09:22:45+00:00,,
+22452,11205,5184,Group Stage,offline,ES,WEU,c,False,2026-12-05 13:00:00+00:00,2026-12-05 19:00:00+00:00,,league-of-legends-red-bull-league-of-its-own-2026-group-stage,2026-11-12 10:47:14+00:00,,
 3452,2337,2711,Playoffs,,,,,True,2019-12-22 23:00:00+00:00,2020-01-05 22:00:00+00:00,120,league-of-legends-kespa-cup-2019-playoffs,2020-01-05 18:54:21+00:00,,
 3472,1838,302,Regular Season,,,,a,False,2019-09-20 22:00:00+00:00,2020-04-12 20:00:00+00:00,157,league-of-legends-cblol-brazil-summer-2020-regular-season,2022-08-08 14:15:28+00:00,,
 3510,2306,4142,Regular season,,,,,False,2019-12-17 23:00:00+00:00,2020-04-16 22:00:00+00:00,126860,league-of-legends-challenger-korea-spring-2020-regular-season,2020-12-18 06:21:01+00:00,,

@@ -660,6 +660,7 @@ id,league_id,name,full_name,season,year,begin_at,end_at,winner_team_id,slug,modi
 11081,5351,Promotion: Wild Card,Promotion: Wild Card 2027,,2027,2026-10-10 08:00:00+00:00,2026-10-13 15:58:00+00:00,139359,league-of-legends-lcp-promotion-wild-card-2027,2026-10-14 07:39:37+00:00
 11095,5433,,2026,,2026,2026-10-11 16:00:00+00:00,2026-10-27 19:19:00+00:00,,league-of-legends-lgc-rising-2026,2026-10-27 19:23:30+00:00
 11144,5351,Promotion,Promotion 2027,,2027,2026-11-10 05:00:00+00:00,2026-11-13 14:00:00+00:00,,league-of-legends-lcp-promotion-2027,2026-10-23 11:44:59+00:00
+11205,5184,,2026,,2026,2026-12-05 13:00:00+00:00,2026-12-05 19:00:00+00:00,,league-of-legends-red-bull-league-of-its-own-2026,2026-11-12 10:47:14+00:00
 1837,293,,Spring 2020,Spring,2020,2019-09-08 22:00:00+00:00,2020-04-25 13:00:00+00:00,126061,league-of-legends-lck-champions-korea-spring-2020,2022-08-08 14:39:41+00:00
 1838,302,,Split 1 2020,Split 1,2020,2019-09-20 22:00:00+00:00,2020-05-09 21:00:00+00:00,33,league-of-legends-cblol-brazil-summer-2020,2022-08-08 14:15:28+00:00
 2306,4142,,Spring 2020,Spring,2020,2019-12-17 23:00:00+00:00,2020-04-23 13:00:00+00:00,,league-of-legends-challenger-korea-spring-2020,2020-04-30 20:47:57+00:00

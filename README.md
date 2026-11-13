@@ -148,7 +148,7 @@ Le pipeline tourne aussi comme un workflow [Airflow](https://airflow.apache.org/
 docker compose up -d --build
 ```
 
-L'interface est sur http://localhost:8080 (pas de connexion en local). Le DAG est en pause à la création : l'activer dans l'interface ou cliquer sur « Trigger » pour un lancement manuel. `docker compose down` arrête tout.
+La même commande lance aussi l'interface Streamlit sur http://localhost:8501. Airflow est sur http://localhost:8080 (pas de connexion en local). Le DAG est en pause à la création : l'activer dans l'interface ou cliquer sur « Trigger » pour un lancement manuel. `docker compose down` arrête tout.
 
 ```
 extract_<source> → validate_<source> ─┐   (6 sources en parallèle, sauf les extractions)

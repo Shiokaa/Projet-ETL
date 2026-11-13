@@ -35,5 +35,17 @@ services:
       AIRFLOW__API__SECRET_KEY: dev-only-secret-key
       AIRFLOW__CORE__SIMPLE_AUTH_MANAGER_ALL_ADMINS: "true"
 
+  streamlit:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.web
+    command: python -m streamlit run web/app.py --server.address=0.0.0.0 --server.port=8501
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/opt/project
+    environment:
+      PYTHONPATH: /opt/project
+
 volumes:
   airflow-db:
